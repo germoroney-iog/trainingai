@@ -19,6 +19,7 @@ separate from published learner ratings. Nothing is guessed: missing facts are m
 | Understand the scores and rating labels | [docs/SCORING.md](docs/SCORING.md) |
 | Understand the fields | [docs/SCHEMA.md](docs/SCHEMA.md) |
 | See what changed in a refresh and what is unverified | [docs/research/](docs/research/) |
+| See planned code improvements | [docs/REFACTORING.md](docs/REFACTORING.md) |
 
 ## Layout
 
