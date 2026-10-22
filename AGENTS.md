@@ -6,5 +6,6 @@
 - Ratings must be course-specific, with platform, scale, count, source URL and date. Apply the thresholds in `docs/SCORING.md`.
 - Keep the suitability score separate from learner ratings. Recompute it from the weighted components.
 - Before finishing, run `python scripts/validate.py --check-generated`. It must report 0 errors.
+- Use-case packs live in `data/packs/` and refer to records by id only. Never point a step at an unverified course; record a `gap` and a `research_queue` item instead (see `docs/PACKS.md`).
 - Record each refresh in `docs/research/YYYY-MM-DD.md`.
 - Full workflow: see README.md, "Maintaining and refreshing".

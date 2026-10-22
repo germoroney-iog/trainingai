@@ -6,7 +6,9 @@ Authoritative data lives in `data/`. Everything in `catalogue/` is generated fro
 |---|---|---|
 | `data/trainings.json` | The training database (all records, plus the FX table) | People and `scripts/upsert.py` / `scripts/apply_fx.py` |
 | `data/learning_path.json` | Suggested learning sequence (record IDs plus reasons) | People |
+| `data/packs/*.json` | Use-case training packs ([PACKS.md](PACKS.md)) | People |
 | `schema/training.schema.json` | JSON Schema (draft 2020-12) for `data/trainings.json` | People |
+| `schema/pack.schema.json` | JSON Schema for use-case packs | People |
 | `catalogue/*` | Markdown and CSV views | `scripts/build_catalogue.py` only |
 
 ## Missing values
@@ -60,7 +62,7 @@ Where a value cannot be confirmed, use one of these strings instead of guessing:
 - each `suitability.score` equals its weighted components;
 - each `eur_approx` matches the FX table;
 - dates are not in the future, and history is in date order;
-- learning-path steps point at existing records;
+- learning-path and pack steps point at existing records, pack ids match their file names, and milestones refer to existing capabilities;
 - with `--check-generated`, `catalogue/` is up to date.
 
 It warns, without failing, on records last verified more than 180 days ago.

@@ -19,7 +19,7 @@ from collections import defaultdict
 from jsonschema import Draft202012Validator
 
 from common import (
-    DB_PATH, MISSING, PATH_PATH, SCHEMA_PATH, eur_for, expected_rating_class,
+    DB_PATH, MISSING, PACK_SCHEMA_PATH, PACKS_DIR, PATH_PATH, SCHEMA_PATH, eur_for, expected_rating_class,
     load_json, norm, norm_url, weighted_score,
 )
 
@@ -117,6 +117,47 @@ def validate(db: dict, path: dict | None) -> tuple[list[str], list[str]]:
                     if not ok:
                         errors.append(f"learning_path: bad extra_costs entry on {step['id']}: {extra}")
 
+    errors_p, warnings_p = validate_packs(db)
+    return errors + errors_p, warnings + warnings_p
+
+
+def check_extra_costs(db, where, step, errors):
+    for extra in step.get("extra_costs", []):
+        if not (extra.get("currency") == "EUR" or extra.get("currency") in db["fx"]["rates"]):
+            errors.append(f"{where}: extra cost currency {extra.get('currency')} is not in the fx table")
+
+
+def validate_packs(db: dict) -> tuple[list[str], list[str]]:
+    errors: list[str] = []
+    warnings: list[str] = []
+    if not PACKS_DIR.exists():
+        return errors, warnings
+    validator = Draft202012Validator(load_json(PACK_SCHEMA_PATH))
+    status = {r["id"]: r["status"] for r in db["records"]}
+    for f in sorted(PACKS_DIR.glob("*.json")):
+        pack = load_json(f)
+        where = f"packs/{f.name}"
+        schema_errors = list(validator.iter_errors(pack))
+        for err in schema_errors:
+            errors.append(f"{where}: schema: {'/'.join(str(p) for p in err.path)}: {err.message}")
+        if schema_errors:
+            continue
+        if pack["id"] != f.stem:
+            errors.append(f"{where}: id {pack['id']} does not match the file name")
+        n_caps = len(pack["capabilities"])
+        for cap in pack["capabilities"]:
+            for step in cap["steps"]:
+                if step["id"] not in status:
+                    errors.append(f"{where}: unknown record id {step['id']}")
+                elif status[step["id"]] == "archived":
+                    warnings.append(f"{where}: {step['id']} is archived; replace it")
+                check_extra_costs(db, where, step, errors)
+        for m in pack.get("milestones", []):
+            if any(c > n_caps for c in m["after_capabilities"]):
+                errors.append(f"{where}: milestone '{m['name']}' refers to a capability number above {n_caps}")
+        dates = [h["date"] for h in pack["history"]]
+        if dates != sorted(dates) or pack["updated_on"] < dates[-1]:
+            errors.append(f"{where}: history out of order or updated_on older than the last history entry")
     return errors, warnings
 
 
