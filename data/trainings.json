@@ -6324,6 +6324,504 @@
         }
       ],
       "status": "active"
+    },
+    {
+      "id": "pmi-generative-ai-overview-for-project-managers",
+      "title": "Generative AI Overview for Project Managers",
+      "provider": "Project Management Institute (PMI)",
+      "platform": "PMI online learning",
+      "official_url": "https://www.pmi.org/shop/p-/elearning/generative-ai-overview-for-project-managers/el083",
+      "offering_type": "short-course",
+      "categories": [
+        "generative-ai-agents",
+        "strategy-operating-models"
+      ],
+      "audience": "Project managers and leaders who want to apply generative AI to project work",
+      "level": "introductory",
+      "prerequisites": [],
+      "learning_outcomes": [
+        "Understand what generative AI can and cannot do in project management",
+        "Identify uses of generative AI across project activities and ways of working",
+        "Recognise risks and responsible use considerations for generative AI on projects"
+      ],
+      "practical_work": [],
+      "assessment": {
+        "type": "auto-graded-quizzes",
+        "description": "End-of-course assessment; a third-party review reports a pass mark of 80/100 to earn the PDUs (not confirmed on the PMI page)."
+      },
+      "credential": {
+        "type": "assessed-completion-certificate",
+        "issuer": "PMI",
+        "academic_credit": "5 PDUs (1 Business Acumen, 4 Ways of Working) per PMI listing",
+        "renewal": "not applicable"
+      },
+      "delivery": {
+        "format": "self-paced-online",
+        "duration": "About 1 hour (PMI listing)",
+        "study_hours": {
+          "min": 1,
+          "max": 1,
+          "basis": "PMI listing: course duration 1 hour; a third-party guide estimates 2-4 hours"
+        },
+        "access_period": "not verified",
+        "start_dates": "On demand"
+      },
+      "ireland_access": {
+        "status": "available",
+        "notes": "Online PMI eLearning; a free PMI account is needed.",
+        "live_session_timezone": "not applicable"
+      },
+      "pricing": {
+        "model": "free",
+        "advertised": "Free (PMI listing; reviews describe it as free for now)",
+        "amount": 0,
+        "currency": "USD",
+        "eur_approx": 0,
+        "additional_costs": [],
+        "financial_aid": []
+      },
+      "learner_rating": {
+        "status": "not verified"
+      },
+      "rating_class": "credible-but-unrated",
+      "quality_evidence": [
+        "Issued by PMI, the main global project management professional body",
+        "Carries 5 pre-approved PDUs toward PMI certification maintenance"
+      ],
+      "limitations": [
+        "Very short awareness course; no hands-on building",
+        "Free pricing described by reviewers as temporary",
+        "No course-specific public rating found"
+      ],
+      "relevance": "Frames where generative AI fits into project scoping, planning and reporting from the project-management profession's own perspective; a quick first step for the AI project manager use case.",
+      "suitability": {
+        "score": 60,
+        "components": {
+          "relevance": 70,
+          "curriculum": 45,
+          "practical": 25,
+          "quality": 65,
+          "value": 100,
+          "accessibility": 95
+        },
+        "confidence": "medium",
+        "rationale": "Free, credible PMI framing of generative AI for project work, but shallow and non-technical."
+      },
+      "status": "active",
+      "sources": [
+        {
+          "url": "https://www.pmi.org/shop/p-/elearning/generative-ai-overview-for-project-managers/el083",
+          "supports": "Title, free price, 1-hour duration, 5 PDUs and their split",
+          "accessed": "2026-10-22"
+        },
+        {
+          "url": "https://medium.com/@laurabirdknight/an-overview-of-pmis-generative-ai-for-project-managers-micro-credential-f413ca6865bb",
+          "supports": "Third-party review: assessment pass mark",
+          "accessed": "2026-10-22"
+        }
+      ],
+      "verification": {
+        "last_verified": "2026-10-22",
+        "method": "web-search-of-official-pages",
+        "gaps": [
+          "Assessment pass mark confirmed only by a third-party review",
+          "Access period",
+          "Whether the course remains free"
+        ],
+        "conflicts": [
+          "Duration: 1 hour (PMI) vs 2-4 hours (third-party guide)"
+        ]
+      },
+      "user": {
+        "completion_status": "not-started",
+        "notes": ""
+      },
+      "history": [
+        {
+          "date": "2026-10-22",
+          "change": "Record created."
+        }
+      ]
+    },
+    {
+      "id": "pmi-cpmai",
+      "title": "PMI Certified Professional in Managing AI (PMI-CPMAI)",
+      "provider": "Project Management Institute (PMI)",
+      "platform": "PMI online learning; exam via Pearson VUE (online proctored or test centre)",
+      "official_url": "https://www.pmi.org/certifications/ai-project-management-cpmai",
+      "offering_type": "professional-certification",
+      "categories": [
+        "strategy-operating-models",
+        "governance-regulation-risk",
+        "rag-evals-llmops"
+      ],
+      "audience": "Project, programme and product leaders who run AI and data projects",
+      "level": "intermediate",
+      "prerequisites": [
+        "Completion of the 21-hour PMI-CPMAI Exam Prep Course (required to sit the exam)",
+        "No prior project management, technical or AI certification required (PMI exam content outline)"
+      ],
+      "learning_outcomes": [
+        "Run AI projects through the six CPMAI phases, from business understanding to operationalisation",
+        "Scope AI projects, assess data needs and feasibility, and define success measures",
+        "Manage AI model evaluation, deployment, monitoring and trustworthy AI considerations"
+      ],
+      "practical_work": [
+        "Scenario exercises and a downloadable workbook in the self-paced prep course"
+      ],
+      "assessment": {
+        "type": "proctored-exam",
+        "description": "PMI-CPMAI exam, proctored by Pearson VUE online or in a test centre; up to three attempts within a 365-day eligibility period (third-party guides)."
+      },
+      "credential": {
+        "type": "professional-certification",
+        "issuer": "PMI",
+        "academic_credit": "not applicable",
+        "renewal": "30 PDUs every 3 years"
+      },
+      "delivery": {
+        "format": "self-paced-online",
+        "duration": "21-hour self-paced prep course, then exam",
+        "study_hours": {
+          "min": 21,
+          "max": "not verified",
+          "basis": "PMI: 21-hour exam prep course; extra exam study time not published"
+        },
+        "access_period": "not verified",
+        "start_dates": "On demand"
+      },
+      "ireland_access": {
+        "status": "available",
+        "notes": "Online course and online-proctored exam; regional pricing applies.",
+        "live_session_timezone": "not applicable"
+      },
+      "pricing": {
+        "model": "one-off",
+        "advertised": "Exam plus prep-course bundle; PMI states regional and membership pricing. Third-party guides report USD 899 non-member / USD 699 member (US, UK, Canada, UAE)",
+        "amount": "not verified",
+        "currency": "USD",
+        "eur_approx": "not verified",
+        "additional_costs": [
+          "Official practice exam reported at USD 99 (third-party)",
+          "Retake fees for later attempts (amount not verified)",
+          "Optional PMI membership, reported at about USD 129 plus USD 10 application fee (third-party)"
+        ],
+        "financial_aid": []
+      },
+      "learner_rating": {
+        "status": "not published"
+      },
+      "rating_class": "credible-but-unrated",
+      "quality_evidence": [
+        "Issued by PMI with a published exam content outline (September 2025)",
+        "Proctored exam via Pearson VUE and formal renewal (30 PDUs every 3 years)",
+        "Built on the CPMAI methodology for AI and data projects"
+      ],
+      "limitations": [
+        "Methodology and management focus; you will not build AI systems",
+        "Price not confirmed on an official PMI page",
+        "No public course-specific rating"
+      ],
+      "relevance": "The closest recognised credential to the AI project manager use case: it covers how AI projects are scoped, run and monitored, and adds credibility when advising on AI delivery.",
+      "suitability": {
+        "score": 74,
+        "components": {
+          "relevance": 85,
+          "curriculum": 75,
+          "practical": 50,
+          "quality": 80,
+          "value": 65,
+          "accessibility": 90
+        },
+        "confidence": "medium",
+        "rationale": "Directly relevant, recognised, proctored credential for managing AI projects; price unverified and little hands-on building."
+      },
+      "status": "active",
+      "sources": [
+        {
+          "url": "https://www.pmi.org/certifications/ai-project-management-cpmai",
+          "supports": "Credential, 21-hour self-paced prep course, six CPMAI phases, member savings",
+          "accessed": "2026-10-22"
+        },
+        {
+          "url": "https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pmicpmai-exam-content-outline2025-updated.pdf?rev=a88ceeb705ca45e4abb89b26c3a3cb1d",
+          "supports": "Prep course required to sit exam, no prerequisites, regional/membership pricing, Pearson VUE, renewal",
+          "accessed": "2026-10-22"
+        },
+        {
+          "url": "https://www.spoclearn.com/blog/pmi-cpmai-certification-guide/",
+          "supports": "Third-party price figures and retake rules",
+          "accessed": "2026-10-22"
+        }
+      ],
+      "verification": {
+        "last_verified": "2026-10-22",
+        "method": "web-search-of-official-pages",
+        "gaps": [
+          "Official bundle price for Ireland",
+          "Exam length and question count",
+          "Practice exam and retake fees on PMI pages"
+        ],
+        "conflicts": [
+          "One third-party guide estimates a 30-hour prep course costing USD 500-1,500, against PMI's own 21-hour course"
+        ]
+      },
+      "user": {
+        "completion_status": "not-started",
+        "notes": ""
+      },
+      "history": [
+        {
+          "date": "2026-10-22",
+          "change": "Record created."
+        }
+      ]
+    },
+    {
+      "id": "anthropic-introduction-to-mcp",
+      "title": "Introduction to Model Context Protocol",
+      "provider": "Anthropic",
+      "platform": "Claude Academy",
+      "official_url": "https://academy.claude.com/courses/introduction-to-model-context-protocol",
+      "offering_type": "short-course",
+      "categories": [
+        "generative-ai-agents"
+      ],
+      "audience": "Developers connecting AI applications to tools and data",
+      "level": "intermediate",
+      "prerequisites": [
+        "Python (the course builds MCP servers and clients in Python, per third-party summaries)"
+      ],
+      "learning_outcomes": [
+        "Understand the Model Context Protocol client-server architecture",
+        "Build MCP servers and clients that expose tools and data to an AI application"
+      ],
+      "practical_work": [
+        "Build an MCP server and client (per third-party summaries)"
+      ],
+      "assessment": {
+        "type": "auto-graded-quizzes",
+        "description": "One quiz (Claude Academy listing)."
+      },
+      "credential": {
+        "type": "digital-badge",
+        "issuer": "Anthropic (Claude Academy completion badge)",
+        "academic_credit": "not applicable",
+        "renewal": "not applicable"
+      },
+      "delivery": {
+        "format": "self-paced-online",
+        "duration": "10 lessons, about 1 hour (Claude Academy listing)",
+        "study_hours": {
+          "min": 1,
+          "max": 1,
+          "basis": "Claude Academy listing; a third-party site estimates about 4 hours"
+        },
+        "access_period": "not verified",
+        "start_dates": "On demand"
+      },
+      "ireland_access": {
+        "status": "available",
+        "notes": "Free online course; needs a Claude Academy account.",
+        "live_session_timezone": "not applicable"
+      },
+      "pricing": {
+        "model": "free",
+        "advertised": "Free",
+        "amount": 0,
+        "currency": "USD",
+        "eur_approx": 0,
+        "additional_costs": [
+          "API usage if you run the examples against a paid model (not verified)"
+        ],
+        "financial_aid": []
+      },
+      "learner_rating": {
+        "status": "not published"
+      },
+      "rating_class": "credible-but-unrated",
+      "quality_evidence": [
+        "Taught by Anthropic, which created the Model Context Protocol",
+        "Part of Claude Academy's developer learning paths"
+      ],
+      "limitations": [
+        "Short; covers the protocol, not full agent design",
+        "Badge only, not a certification"
+      ],
+      "relevance": "MCP is a standard way to connect an AI agent to project tools such as trackers, documents and chat, which an AI project manager needs in order to read status and report.",
+      "suitability": {
+        "score": 71,
+        "components": {
+          "relevance": 70,
+          "curriculum": 70,
+          "practical": 60,
+          "quality": 60,
+          "value": 100,
+          "accessibility": 95
+        },
+        "confidence": "medium",
+        "rationale": "Free, current, from the protocol's author; short, so pair it with a deeper agents course."
+      },
+      "status": "active",
+      "sources": [
+        {
+          "url": "https://academy.claude.com/courses/introduction-to-model-context-protocol",
+          "supports": "Title, 10 lessons, 1 hour, 1 quiz, completion badge",
+          "accessed": "2026-10-22"
+        },
+        {
+          "url": "https://www.timolabs.dev/claude-certification-courses",
+          "supports": "Third-party: free, badge is not a certification",
+          "accessed": "2026-10-22"
+        }
+      ],
+      "verification": {
+        "last_verified": "2026-10-22",
+        "method": "web-search-of-official-pages",
+        "gaps": [
+          "Formal prerequisites",
+          "Exact practical content"
+        ],
+        "conflicts": [
+          "Duration: 1 hour (Claude Academy) vs about 4 hours (beri.net)"
+        ]
+      },
+      "user": {
+        "completion_status": "not-started",
+        "notes": ""
+      },
+      "history": [
+        {
+          "date": "2026-10-22",
+          "change": "Record created."
+        }
+      ]
+    },
+    {
+      "id": "deeplearningai-mcp-rich-context-apps",
+      "title": "MCP: Build Rich-Context AI Apps with Anthropic",
+      "provider": "DeepLearning.AI and Anthropic",
+      "platform": "DeepLearning.AI learning platform",
+      "official_url": "https://www.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic",
+      "offering_type": "short-course",
+      "categories": [
+        "generative-ai-agents"
+      ],
+      "audience": "Developers building LLM applications that use external tools and data",
+      "level": "intermediate",
+      "prerequisites": [
+        "Python",
+        "Familiarity with LLM applications (not verified as an official prerequisite)"
+      ],
+      "learning_outcomes": [
+        "Explain how MCP works under the hood",
+        "Make a chatbot MCP-compatible",
+        "Build and deploy an MCP server and connect it to Claude-powered applications locally or remotely"
+      ],
+      "practical_work": [
+        "Build an MCP-compatible chatbot",
+        "Build and deploy an MCP server; connect to open-source MCP servers",
+        "6 code examples"
+      ],
+      "assessment": {
+        "type": "graded-assignments",
+        "description": "1 graded assignment (DeepLearning.AI page)."
+      },
+      "credential": {
+        "type": "not verified",
+        "issuer": "not verified",
+        "academic_credit": "not applicable",
+        "renewal": "not applicable"
+      },
+      "delivery": {
+        "format": "self-paced-online",
+        "duration": "1h58m video; 11 lessons",
+        "study_hours": {
+          "min": 2,
+          "max": "not verified",
+          "basis": "DeepLearning.AI page: 1h58m of video; exercise time not published"
+        },
+        "access_period": "not verified",
+        "start_dates": "On demand"
+      },
+      "ireland_access": {
+        "status": "available",
+        "notes": "Online.",
+        "live_session_timezone": "not applicable"
+      },
+      "pricing": {
+        "model": "free-audit",
+        "advertised": "Course access free (DeepLearning.AI page snapshot: free for a limited time during the platform beta); a listing mentions a paid certificate",
+        "amount": 0,
+        "currency": "USD",
+        "eur_approx": 0,
+        "additional_costs": [
+          "Certificate may need a paid DeepLearning.AI plan (not verified)"
+        ],
+        "financial_aid": []
+      },
+      "learner_rating": {
+        "status": "not verified"
+      },
+      "rating_class": "credible-but-unrated",
+      "quality_evidence": [
+        "Taught by Elie Schoppik of Anthropic, the creator of MCP",
+        "Hands-on build with a graded assignment",
+        "Launched May 2025; the page shows later updates"
+      ],
+      "limitations": [
+        "Short course",
+        "Free access described as time-limited",
+        "Credential terms not verified"
+      ],
+      "relevance": "Hands-on practice in connecting an AI assistant to external tools and data, the core integration skill for an AI project manager that reads and reports on project status.",
+      "suitability": {
+        "score": 75,
+        "components": {
+          "relevance": 70,
+          "curriculum": 75,
+          "practical": 75,
+          "quality": 65,
+          "value": 95,
+          "accessibility": 95
+        },
+        "confidence": "medium",
+        "rationale": "Practical, current and free to access; short and credential unclear."
+      },
+      "status": "active",
+      "sources": [
+        {
+          "url": "https://www.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic",
+          "supports": "Level, duration, lessons, code examples, graded assignment, instructor, outcomes, free beta access",
+          "accessed": "2026-10-22"
+        },
+        {
+          "url": "https://www.classcentral.com/course/independent-mcp-build-rich-context-ai-apps-with-anthropic-565506",
+          "supports": "Secondary listing; paid-certificate note",
+          "accessed": "2026-10-22"
+        }
+      ],
+      "verification": {
+        "last_verified": "2026-10-22",
+        "method": "web-search-of-official-pages",
+        "gaps": [
+          "Certificate availability and cost",
+          "Learner rating"
+        ],
+        "conflicts": [
+          "Last-updated date differs between page snapshots (Oct 2025 vs Aug 2026)"
+        ]
+      },
+      "user": {
+        "completion_status": "not-started",
+        "notes": ""
+      },
+      "history": [
+        {
+          "date": "2026-10-22",
+          "change": "Record created."
+        }
+      ]
     }
   ]
 }

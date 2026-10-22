@@ -2,7 +2,7 @@
 
 # AI training catalogue
 
-Database updated 2026-10-22. 47 current offerings (16 free or free-to-audit, 31 paid), 0 archived.
+Database updated 2026-10-22. 51 current offerings (19 free or free-to-audit, 32 paid), 0 archived.
 
 EUR amounts are approximate, converted from the advertised currency using the European Central Bank euro foreign exchange reference rates dated 2026-10-21 (https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html). They exclude VAT and extra costs unless stated.
 
@@ -21,6 +21,7 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 | 77 (medium) | [Oxford AI Ethics, Regulation and Compliance Programme](https://www.sbs.ox.ac.uk/programmes/executive-education/online-learning/oxford-ai-ethics-regulation-and-compliance-programme)<br>[`oxford-sbs-ai-ethics-regulation-compliance`](#oxford-sbs-ai-ethics-regulation-compliance) | Saïd Business School, University of Oxford | Paid | intermediate | 40–50 h | completion certificate | ≈ EUR 2,088 (GBP 1,750 (November 2026 intake); GBP 1,950 listed for February 2027 intake) | Credible but unrated: Unrated (not verified) |
 | 77 (medium) | [Diploma in Artificial Intelligence and Business Analytics](https://www.smurfitschool.ie/executivedevelopment/programmesforindividuals/professionaldiplomas/artificialintelligenceandbusinessanalytics/)<br>[`ucd-smurfit-diploma-ai-business-analytics`](#ucd-smurfit-diploma-ai-business-analytics) | UCD Smurfit Graduate Business School (Executive Development) | Paid | intermediate | not verified | assessed academic qualification | €9,110 (5% discount for UCD alumni) | Credible but unrated: Unrated (not published) |
 | 75 (medium) | [Generative AI with Large Language Models](https://www.deeplearning.ai/courses/generative-ai-with-llms)<br>[`deeplearningai-generative-ai-with-llms`](#deeplearningai-generative-ai-with-llms) | DeepLearning.AI and Amazon Web Services | Free | intermediate | 13–20 h | assessed completion certificate | Free (Free to audit; certificate requires paid subscription (deeplearning.ai FAQ cites Coursera subscription at USD 49/month; DeepLearning.AI Pro route also offered)) | Highly rated: 4.8/5 from 3,613 ratings (Coursera) |
+| 75 (medium) | [MCP: Build Rich-Context AI Apps with Anthropic](https://www.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic)<br>[`deeplearningai-mcp-rich-context-apps`](#deeplearningai-mcp-rich-context-apps) | DeepLearning.AI and Anthropic | Free | intermediate | 2 h+ (upper estimate not verified) | not verified | Free (Course access free (DeepLearning.AI page snapshot: free for a limited time during the platform beta); a listing mentions a paid certificate) | Credible but unrated: Unrated (not verified) |
 | 75 (high) | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)<br>[`deeplearningai-ml-specialization`](#deeplearningai-ml-specialization) | DeepLearning.AI and Stanford Online (Andrew Ng) | Free | introductory-to-intermediate | 86–95 h | assessed completion certificate | Free (Free to audit; certificate requires Coursera subscription) | Highly rated: 4.9/5 from 39,421 reviews (Coursera) |
 | 75 (medium) | [Lead in AI](https://www.imi.ie/programme/lead-in-ai/)<br>[`imi-lead-in-ai`](#imi-lead-in-ai) | Irish Management Institute (IMI) | Paid | advanced | not verified | completion certificate | €4,775 | Credible but unrated: Unrated (not published) |
 | 75 (medium) | [PECB Certified ISO/IEC 42001 Lead Implementer](https://pecb.com/pdf/brochures/4/iso-iec-42001-lead%20implementer-4p.pdf)<br>[`pecb-iso42001-lead-implementer`](#pecb-iso42001-lead-implementer) | PECB (delivered by accredited training partners) | Paid | intermediate | not verified | professional certification | ≈ EUR 614 (Self-study packages from about USD 554 to USD 850 depending on partner (e.g. Mindset Cyber USD 554 incl. exam; SGS Academy USD 690); live 4-day e.g. USD 2,895 (TrainingCamp, incl. exam)) | Credible but unrated: Unrated (not verified) |
@@ -29,10 +30,12 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 | 74 (medium) | [Online Master of Science in Computer Science (OMSCS) - Machine Learning specialization](https://omscs.gatech.edu/specialization-machine-learning)<br>[`gatech-omscs-machine-learning`](#gatech-omscs-machine-learning) | Georgia Institute of Technology | Paid | advanced | not verified | assessed academic qualification | USD 225 per credit hour (Fall 2025 Bursar schedule); third-party reports Fall 2026 out-of-country rate USD 248/credit (EUR not verified) | Credible but unrated: Unrated (not published) |
 | 74 (low) | [AI Strategies for Business Transformation: Generative and Agentic Intelligence](https://www.kellogg.northwestern.edu/executive-education/individual-programs/online-programs/ais.aspx)<br>[`kellogg-ai-strategies-business-transformation`](#kellogg-ai-strategies-business-transformation) | Kellogg School of Management, Northwestern University | Paid | intermediate | 32–54 h | assessed completion certificate | not verified (official fee not shown in search results; third-party listings cite US$3,200) (EUR not verified) | Credible but unrated: Unrated (not published) |
 | 74 (medium) | [AI: Law, Policy and Governance online certificate course](https://www.lse.ac.uk/study-at-lse/executive-education/programmes/ai-law-policy-and-governance)<br>[`lse-ai-law-policy-governance`](#lse-ai-law-policy-governance) | London School of Economics and Political Science (LSE) | Paid | intermediate | 36–48 h | assessed completion certificate | ≈ EUR 2,851 (USD 3,203 (payment plan available)) | Credible but unrated: Unrated (not verified) |
+| 74 (medium) | [PMI Certified Professional in Managing AI (PMI-CPMAI)](https://www.pmi.org/certifications/ai-project-management-cpmai)<br>[`pmi-cpmai`](#pmi-cpmai) | Project Management Institute (PMI) | Paid | intermediate | 21 h+ (upper estimate not verified) | professional certification | Exam plus prep-course bundle; PMI states regional and membership pricing. Third-party guides report USD 899 non-member / USD 699 member (US, UK, Canada, UAE) (EUR not verified) | Credible but unrated: Unrated (not published) |
 | 73 (medium) | [LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp)<br>[`datatalksclub-llm-zoomcamp`](#datatalksclub-llm-zoomcamp) | DataTalks.Club | Free | intermediate | not verified | assessed completion certificate | Free | Credible but unrated: Unrated (not published) |
 | 72 (medium) | [AI Fluency: Framework and Foundations](https://academy.claude.com/courses/ai-fluency-framework-foundations)<br>[`anthropic-ai-fluency-framework-foundations`](#anthropic-ai-fluency-framework-foundations) | Anthropic | Free | introductory | 4 h | digital badge | Free | Credible but unrated: Unrated (not published) |
 | 72 (medium) | [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners)<br>[`microsoft-ai-agents-for-beginners`](#microsoft-ai-agents-for-beginners) | Microsoft | Free | introductory-to-intermediate | not verified | none | Free | Credible but unrated: Unrated (not published) |
 | 72 (medium) | [MSc Data Science (online, part-time)](https://www.ucd.ie/courses/msc-data-science)<br>[`ucd-msc-data-science-online`](#ucd-msc-data-science-online) | University College Dublin, School of Mathematics and Statistics | Paid | intermediate-to-advanced | not verified | assessed academic qualification | EUR 161.70 per credit (EU and non-EU), September 2026 intake; 90 credits = EUR 14,553 (calculated from published per-credit fee) | Credible but unrated: Unrated (not published) |
+| 71 (medium) | [Introduction to Model Context Protocol](https://academy.claude.com/courses/introduction-to-model-context-protocol)<br>[`anthropic-introduction-to-mcp`](#anthropic-introduction-to-mcp) | Anthropic | Free | intermediate | 1 h | digital badge | Free | Credible but unrated: Unrated (not published) |
 | 71 (high) | [AWS Certified Generative AI Developer - Professional (AIP-C01)](https://aws.amazon.com/certification/certified-generative-ai-developer-professional/)<br>[`aws-certified-generative-ai-developer-professional`](#aws-certified-generative-ai-developer-professional) | Amazon Web Services | Paid | advanced | not verified | professional certification | ≈ EUR 267 (USD 300 per exam attempt) | Credible but unrated: Unrated (not published) |
 | 71 (medium) | [Artificial Intelligence: Implications for Business Strategy](https://executive.mit.edu/course/artificial-intelligence/a056g00000URaa3AAD.html)<br>[`mit-sloan-ai-implications-business-strategy`](#mit-sloan-ai-implications-business-strategy) | MIT Sloan School of Management (with MIT CSAIL) | Paid | introductory-to-intermediate | 36–48 h | completion certificate | ≈ EUR 3,427 (Tuition $3,850 (USD); payment plan available) | Credible but unrated: Unrated (not published) |
 | 71 (medium) | [SEC545: GenAI and LLM Application Security (with GIAC GAIPS option)](https://www.sans.org/cyber-security-courses/genai-llm-application-security)<br>[`sans-sec545-genai-llm-security`](#sans-sec545-genai-llm-security) | SANS Institute | Paid | intermediate-to-advanced | 30 h | completion certificate | ≈ EUR 7,353 (USD 8,260) | Credible but unrated: Unrated (not verified) |
@@ -59,6 +62,7 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 | 61 (medium) | [Generative AI for Sales Professionals Specialization](https://www.coursera.org/specializations/generative-ai-for-sales-professionals)<br>[`ibm-generative-ai-for-sales-professionals`](#ibm-generative-ai-for-sales-professionals) | IBM | Paid | intermediate | 24 h | completion certificate | Coursera subscription or Coursera Plus; third-party sources cite USD 49/month (EUR not verified) | Highly rated: 4.7/5 from 12,100 reviews (Coursera) |
 | 60 (medium) | [Generative AI for Everyone](https://www.coursera.org/learn/generative-ai-for-everyone)<br>[`deeplearningai-generative-ai-for-everyone`](#deeplearningai-generative-ai-for-everyone) | DeepLearning.AI | Paid | introductory | 6 h | assessed completion certificate | Certificate via Coursera subscription; Coursera Plus snapshot showed $239/year (usually $399) (EUR not verified) | Highly rated: 4.8/5 from 5,356 reviews (Coursera) |
 | 60 (medium) | [Ethics of AI (MOOC)](https://studies.helsinki.fi/courses/course-implementation/otm-e6fbf97e-5bba-495a-9d3f-e7bbc4a36e89)<br>[`helsinki-ethics-of-ai`](#helsinki-ethics-of-ai) | University of Helsinki | Free | introductory | not verified | assessed completion certificate | Free | Rated (small sample): 4.7/5 from 46 reviews (Class Central) |
+| 60 (medium) | [Generative AI Overview for Project Managers](https://www.pmi.org/shop/p-/elearning/generative-ai-overview-for-project-managers/el083)<br>[`pmi-generative-ai-overview-for-project-managers`](#pmi-generative-ai-overview-for-project-managers) | Project Management Institute (PMI) | Free | introductory | 1 h | assessed completion certificate | Free | Credible but unrated: Unrated (not verified) |
 
 ## By subject
 
@@ -67,6 +71,7 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 - **77** [`ucd-smurfit-diploma-ai-business-analytics`](#ucd-smurfit-diploma-ai-business-analytics) [Diploma in Artificial Intelligence and Business Analytics](https://www.smurfitschool.ie/executivedevelopment/programmesforindividuals/professionaldiplomas/artificialintelligenceandbusinessanalytics/), UCD Smurfit Graduate Business School (Executive Development): paid, intermediate, not verified, assessed academic qualification
 - **75** [`imi-lead-in-ai`](#imi-lead-in-ai) [Lead in AI](https://www.imi.ie/programme/lead-in-ai/), Irish Management Institute (IMI): paid, advanced, not verified, completion certificate
 - **74** [`kellogg-ai-strategies-business-transformation`](#kellogg-ai-strategies-business-transformation) [AI Strategies for Business Transformation: Generative and Agentic Intelligence](https://www.kellogg.northwestern.edu/executive-education/individual-programs/online-programs/ais.aspx), Kellogg School of Management, Northwestern University: paid, intermediate, 32–54 h, assessed completion certificate
+- **74** [`pmi-cpmai`](#pmi-cpmai) [PMI Certified Professional in Managing AI (PMI-CPMAI)](https://www.pmi.org/certifications/ai-project-management-cpmai), Project Management Institute (PMI): paid, intermediate, 21 h+ (upper estimate not verified), professional certification
 - **72** [`anthropic-ai-fluency-framework-foundations`](#anthropic-ai-fluency-framework-foundations) [AI Fluency: Framework and Foundations](https://academy.claude.com/courses/ai-fluency-framework-foundations), Anthropic: free, introductory, 4 h, digital badge
 - **71** [`mit-sloan-ai-implications-business-strategy`](#mit-sloan-ai-implications-business-strategy) [Artificial Intelligence: Implications for Business Strategy](https://executive.mit.edu/course/artificial-intelligence/a056g00000URaa3AAD.html), MIT Sloan School of Management (with MIT CSAIL): paid, introductory-to-intermediate, 36–48 h, completion certificate
 - **70** [`google-cloud-generative-ai-leader`](#google-cloud-generative-ai-leader) [Google Cloud Certified Generative AI Leader](https://cloud.google.com/learn/certification/generative-ai-leader), Google Cloud: paid, introductory, not verified, professional certification
@@ -75,6 +80,7 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 - **66** [`tcd-mastering-ai-digital-marketing`](#tcd-mastering-ai-digital-marketing) [Mastering AI in Digital Marketing (Micro-credential)](https://www.tcd.ie/business/executive-education/leading-digital-marketing-strategy.php), Trinity Business School, Trinity College Dublin: paid, intermediate, 15 h, assessed academic qualification
 - **63** [`digitalskillnet-tcd-leading-ai-strategy`](#digitalskillnet-tcd-leading-ai-strategy) [Leading AI Strategy](https://digitalskillnet.ie/courses/leading-ai-strategy), Trinity College Dublin with Technology Ireland Digital Skillnet: free, intermediate, 15 h, not verified
 - **60** [`deeplearningai-generative-ai-for-everyone`](#deeplearningai-generative-ai-for-everyone) [Generative AI for Everyone](https://www.coursera.org/learn/generative-ai-for-everyone), DeepLearning.AI: paid, introductory, 6 h, assessed completion certificate
+- **60** [`pmi-generative-ai-overview-for-project-managers`](#pmi-generative-ai-overview-for-project-managers) [Generative AI Overview for Project Managers](https://www.pmi.org/shop/p-/elearning/generative-ai-overview-for-project-managers/el083), Project Management Institute (PMI): free, introductory, 1 h, assessed completion certificate
 
 ### Governance, regulation, responsible AI & risk
 
@@ -84,6 +90,7 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 - **75** [`pecb-iso42001-lead-implementer`](#pecb-iso42001-lead-implementer) [PECB Certified ISO/IEC 42001 Lead Implementer](https://pecb.com/pdf/brochures/4/iso-iec-42001-lead%20implementer-4p.pdf), PECB (delivered by accredited training partners): paid, intermediate, not verified, professional certification
 - **74** [`coursera-oxford-ai-governance`](#coursera-oxford-ai-governance) [AI Governance (AI Foundations for Business Professionals Specialization)](https://www.coursera.org/learn/ai-governance), Saïd Business School, University of Oxford: paid, introductory, 15–20 h, assessed completion certificate
 - **74** [`lse-ai-law-policy-governance`](#lse-ai-law-policy-governance) [AI: Law, Policy and Governance online certificate course](https://www.lse.ac.uk/study-at-lse/executive-education/programmes/ai-law-policy-and-governance), London School of Economics and Political Science (LSE): paid, intermediate, 36–48 h, assessed completion certificate
+- **74** [`pmi-cpmai`](#pmi-cpmai) [PMI Certified Professional in Managing AI (PMI-CPMAI)](https://www.pmi.org/certifications/ai-project-management-cpmai), Project Management Institute (PMI): paid, intermediate, 21 h+ (upper estimate not verified), professional certification
 - **68** [`aws-certified-ai-practitioner`](#aws-certified-ai-practitioner) [AWS Certified AI Practitioner (AIF-C01)](https://aws.amazon.com/certification/certified-ai-practitioner/), Amazon Web Services: paid, introductory, not verified, professional certification
 - **68** [`isaca-aaia`](#isaca-aaia) [ISACA Advanced in AI Audit (AAIA) certification](https://www.isaca.org/credentialing/aaia), ISACA: paid, advanced, not published, professional certification
 - **67** [`wharton-coursera-ai-for-business`](#wharton-coursera-ai-for-business) [AI For Business Specialization](https://www.coursera.org/specializations/ai-for-business-wharton), The Wharton School, University of Pennsylvania: paid, introductory, 44 h, assessed completion certificate
@@ -103,10 +110,12 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 - **78** [`parlance-labs-ai-evals-engineers-pms`](#parlance-labs-ai-evals-engineers-pms) [AI Evals For Engineers & PMs](https://maven.com/parlance-labs/evals), Parlance Labs (Hamel Husain and Shreya Shankar): paid, intermediate, not verified, not verified
 - **77** [`kaggle-google-5-day-ai-agents-intensive`](#kaggle-google-5-day-ai-agents-intensive) [5-Day AI Agents Intensive Course with Google (self-paced)](https://www.kaggle.com/learn-guide/5-day-agents), Google and Kaggle: free, intermediate, not verified, not verified
 - **75** [`deeplearningai-generative-ai-with-llms`](#deeplearningai-generative-ai-with-llms) [Generative AI with Large Language Models](https://www.deeplearning.ai/courses/generative-ai-with-llms), DeepLearning.AI and Amazon Web Services: free, intermediate, 13–20 h, assessed completion certificate
+- **75** [`deeplearningai-mcp-rich-context-apps`](#deeplearningai-mcp-rich-context-apps) [MCP: Build Rich-Context AI Apps with Anthropic](https://www.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic), DeepLearning.AI and Anthropic: free, intermediate, 2 h+ (upper estimate not verified), not verified
 - **74** [`anthropic-building-with-claude-api`](#anthropic-building-with-claude-api) [Building with the Claude API](https://academy.claude.com/courses/building-with-the-claude-api), Anthropic: free, intermediate, 9 h, digital badge
 - **73** [`datatalksclub-llm-zoomcamp`](#datatalksclub-llm-zoomcamp) [LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp), DataTalks.Club: free, intermediate, not verified, assessed completion certificate
 - **72** [`anthropic-ai-fluency-framework-foundations`](#anthropic-ai-fluency-framework-foundations) [AI Fluency: Framework and Foundations](https://academy.claude.com/courses/ai-fluency-framework-foundations), Anthropic: free, introductory, 4 h, digital badge
 - **72** [`microsoft-ai-agents-for-beginners`](#microsoft-ai-agents-for-beginners) [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners), Microsoft: free, introductory-to-intermediate, not verified, none
+- **71** [`anthropic-introduction-to-mcp`](#anthropic-introduction-to-mcp) [Introduction to Model Context Protocol](https://academy.claude.com/courses/introduction-to-model-context-protocol), Anthropic: free, intermediate, 1 h, digital badge
 - **71** [`aws-certified-generative-ai-developer-professional`](#aws-certified-generative-ai-developer-professional) [AWS Certified Generative AI Developer - Professional (AIP-C01)](https://aws.amazon.com/certification/certified-generative-ai-developer-professional/), Amazon Web Services: paid, advanced, not verified, professional certification
 - **71** [`sans-sec545-genai-llm-security`](#sans-sec545-genai-llm-security) [SEC545: GenAI and LLM Application Security (with GIAC GAIPS option)](https://www.sans.org/cyber-security-courses/genai-llm-application-security), SANS Institute: paid, intermediate-to-advanced, 30 h, completion certificate
 - **71** [`vanderbilt-prompt-engineering-specialization`](#vanderbilt-prompt-engineering-specialization) [Prompt Engineering Specialization](https://www.coursera.org/specializations/prompt-engineering), Vanderbilt University: paid, introductory, 39–40 h, completion certificate
@@ -117,6 +126,7 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 - **65** [`microsoft-azure-ai-fundamentals-ai-901`](#microsoft-azure-ai-fundamentals-ai-901) [Microsoft Certified: Azure AI Fundamentals (Exam AI-901)](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/), Microsoft: paid, introductory, not verified, professional certification
 - **61** [`ibm-generative-ai-for-sales-professionals`](#ibm-generative-ai-for-sales-professionals) [Generative AI for Sales Professionals Specialization](https://www.coursera.org/specializations/generative-ai-for-sales-professionals), IBM: paid, intermediate, 24 h, completion certificate
 - **60** [`deeplearningai-generative-ai-for-everyone`](#deeplearningai-generative-ai-for-everyone) [Generative AI for Everyone](https://www.coursera.org/learn/generative-ai-for-everyone), DeepLearning.AI: paid, introductory, 6 h, assessed completion certificate
+- **60** [`pmi-generative-ai-overview-for-project-managers`](#pmi-generative-ai-overview-for-project-managers) [Generative AI Overview for Project Managers](https://www.pmi.org/shop/p-/elearning/generative-ai-overview-for-project-managers/el083), Project Management Institute (PMI): free, introductory, 1 h, assessed completion certificate
 
 ### Python & data analysis
 
@@ -150,6 +160,7 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 - **78** [`parlance-labs-ai-evals-engineers-pms`](#parlance-labs-ai-evals-engineers-pms) [AI Evals For Engineers & PMs](https://maven.com/parlance-labs/evals), Parlance Labs (Hamel Husain and Shreya Shankar): paid, intermediate, not verified, not verified
 - **77** [`kaggle-google-5-day-ai-agents-intensive`](#kaggle-google-5-day-ai-agents-intensive) [5-Day AI Agents Intensive Course with Google (self-paced)](https://www.kaggle.com/learn-guide/5-day-agents), Google and Kaggle: free, intermediate, not verified, not verified
 - **74** [`anthropic-building-with-claude-api`](#anthropic-building-with-claude-api) [Building with the Claude API](https://academy.claude.com/courses/building-with-the-claude-api), Anthropic: free, intermediate, 9 h, digital badge
+- **74** [`pmi-cpmai`](#pmi-cpmai) [PMI Certified Professional in Managing AI (PMI-CPMAI)](https://www.pmi.org/certifications/ai-project-management-cpmai), Project Management Institute (PMI): paid, intermediate, 21 h+ (upper estimate not verified), professional certification
 - **73** [`datatalksclub-llm-zoomcamp`](#datatalksclub-llm-zoomcamp) [LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp), DataTalks.Club: free, intermediate, not verified, assessed completion certificate
 - **72** [`microsoft-ai-agents-for-beginners`](#microsoft-ai-agents-for-beginners) [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners), Microsoft: free, introductory-to-intermediate, not verified, none
 - **71** [`aws-certified-generative-ai-developer-professional`](#aws-certified-generative-ai-developer-professional) [AWS Certified Generative AI Developer - Professional (AIP-C01)](https://aws.amazon.com/certification/certified-generative-ai-developer-professional/), Amazon Web Services: paid, advanced, not verified, professional certification
@@ -319,6 +330,73 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 - <https://academy.claude.com/courses/building-with-the-claude-api/final-assessment>: Final assessment (accessed 2026-10-22)
 - <https://www.aiagentslibrary.com/blog/claude-academy/>: Free, sign-in required for quizzes and badges; badge not called certificate (accessed 2026-10-22)
 - <https://spectrumailab.com/blog/anthropic-academy-13-free-courses-ranked-2026>: Rename from Anthropic Academy (Skilljar) to Claude Academy (accessed 2026-10-22)
+
+**My status:** not-started
+
+---
+
+<a id="anthropic-introduction-to-mcp"></a>
+
+### Introduction to Model Context Protocol
+
+`anthropic-introduction-to-mcp` · Anthropic on Claude Academy · [official page](https://academy.claude.com/courses/introduction-to-model-context-protocol) · status: active
+
+**Subjects:** Generative AI, LLMs, prompting & agents  
+**Type:** short-course · **Level:** intermediate · **Audience:** Developers connecting AI applications to tools and data
+
+**Prerequisites**
+
+- Python (the course builds MCP servers and clients in Python, per third-party summaries)
+
+**Learning outcomes**
+
+- Understand the Model Context Protocol client-server architecture
+- Build MCP servers and clients that expose tools and data to an AI application
+
+**Practical work**
+
+- Build an MCP server and client (per third-party summaries)
+
+**Assessment:** auto-graded-quizzes: One quiz (Claude Academy listing).  
+**Credential:** digital badge, issued by Anthropic (Claude Academy completion badge). Academic credit: not applicable. Renewal: not applicable
+
+**Delivery:** self-paced-online; 10 lessons, about 1 hour (Claude Academy listing); study hours 1 h (Claude Academy listing; a third-party site estimates about 4 hours); access: not verified; starts: On demand  
+**From Ireland:** available. Free online course; needs a Claude Academy account. Live-session time zone: not applicable
+
+**Price:** free; advertised Free; approx. EUR 0
+
+**Additional costs**
+
+- API usage if you run the examples against a paid model (not verified)
+
+**Financial aid / discounts (verified)**
+
+- None verified
+
+**Learner rating:** Credible but unrated (rating not published)
+
+**Quality evidence**
+
+- Taught by Anthropic, which created the Model Context Protocol
+- Part of Claude Academy's developer learning paths
+
+**Limitations**
+
+- Short; covers the protocol, not full agent design
+- Badge only, not a certification
+
+**Relevance:** MCP is a standard way to connect an AI agent to project tools such as trackers, documents and chat, which an AI project manager needs in order to read status and report.
+
+**Suitability 71/100** (confidence medium). Components: relevance 70, curriculum 70, practical 60, quality 60, value 100, accessibility 95. Free, current, from the protocol's author; short, so pair it with a deeper agents course.
+
+**Verification:** 2026-10-22 via web-search-of-official-pages.
+ Gaps: Formal prerequisites; Exact practical content.
+ Conflicts: Duration: 1 hour (Claude Academy) vs about 4 hours (beri.net).
+
+**Sources**
+
+- <https://academy.claude.com/courses/introduction-to-model-context-protocol>: Title, 10 lessons, 1 hour, 1 quiz, completion badge (accessed 2026-10-22)
+- <https://www.timolabs.dev/claude-certification-courses>: Third-party: free, badge is not a certification (accessed 2026-10-22)
 
 **My status:** not-started
 
@@ -1126,6 +1204,79 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 - <https://www.classcentral.com/course/introduction-to-machine-learning-in-production-43546>: ~11 hours; rating cross-check (4.8 from 3,359) (accessed 2026-10-22)
 - <https://www.deeplearning.ai/courses/machine-learning-in-production>: DeepLearning.AI course page (accessed 2026-10-22)
 - <https://thepivotwave.com/blog/coursera-pricing/>: Coursera Plus pricing (third-party) (accessed 2026-10-22)
+
+**My status:** not-started
+
+---
+
+<a id="deeplearningai-mcp-rich-context-apps"></a>
+
+### MCP: Build Rich-Context AI Apps with Anthropic
+
+`deeplearningai-mcp-rich-context-apps` · DeepLearning.AI and Anthropic on DeepLearning.AI learning platform · [official page](https://www.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic) · status: active
+
+**Subjects:** Generative AI, LLMs, prompting & agents  
+**Type:** short-course · **Level:** intermediate · **Audience:** Developers building LLM applications that use external tools and data
+
+**Prerequisites**
+
+- Python
+- Familiarity with LLM applications (not verified as an official prerequisite)
+
+**Learning outcomes**
+
+- Explain how MCP works under the hood
+- Make a chatbot MCP-compatible
+- Build and deploy an MCP server and connect it to Claude-powered applications locally or remotely
+
+**Practical work**
+
+- Build an MCP-compatible chatbot
+- Build and deploy an MCP server; connect to open-source MCP servers
+- 6 code examples
+
+**Assessment:** graded-assignments: 1 graded assignment (DeepLearning.AI page).  
+**Credential:** not verified, issued by not verified. Academic credit: not applicable. Renewal: not applicable
+
+**Delivery:** self-paced-online; 1h58m video; 11 lessons; study hours 2 h+ (upper estimate not verified) (DeepLearning.AI page: 1h58m of video; exercise time not published); access: not verified; starts: On demand  
+**From Ireland:** available. Online. Live-session time zone: not applicable
+
+**Price:** free-audit; advertised Course access free (DeepLearning.AI page snapshot: free for a limited time during the platform beta); a listing mentions a paid certificate; approx. EUR 0
+
+**Additional costs**
+
+- Certificate may need a paid DeepLearning.AI plan (not verified)
+
+**Financial aid / discounts (verified)**
+
+- None verified
+
+**Learner rating:** Credible but unrated (rating not verified)
+
+**Quality evidence**
+
+- Taught by Elie Schoppik of Anthropic, the creator of MCP
+- Hands-on build with a graded assignment
+- Launched May 2025; the page shows later updates
+
+**Limitations**
+
+- Short course
+- Free access described as time-limited
+- Credential terms not verified
+
+**Relevance:** Hands-on practice in connecting an AI assistant to external tools and data, the core integration skill for an AI project manager that reads and reports on project status.
+
+**Suitability 75/100** (confidence medium). Components: relevance 70, curriculum 75, practical 75, quality 65, value 95, accessibility 95. Practical, current and free to access; short and credential unclear.
+
+**Verification:** 2026-10-22 via web-search-of-official-pages.
+ Gaps: Certificate availability and cost; Learner rating.
+ Conflicts: Last-updated date differs between page snapshots (Oct 2025 vs Aug 2026).
+
+**Sources**
+
+- <https://www.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic>: Level, duration, lessons, code examples, graded assignment, instructor, outcomes, free beta access (accessed 2026-10-22)
+- <https://www.classcentral.com/course/independent-mcp-build-rich-context-ai-apps-with-anthropic-565506>: Secondary listing; paid-certificate note (accessed 2026-10-22)
 
 **My status:** not-started
 
@@ -3022,6 +3173,149 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 - <https://mindsetcyber.com.au/professional-development/pecb-iso-42001-lead-implementer/>: USD 554 self-study incl. exam, two attempts, 12 months access (accessed 2026-10-22)
 - <https://learning.sgs.com/lmt/!clmsLink.dt?site=sgsssc&region=us&lang=en&type=O&id=151417357>: SGS Academy self-study USD 690 (accessed 2026-10-22)
 - <https://trainingcamp.com/training/pecb-iso-42001-lead-implementer/>: Exam format; 4-day live course USD 2,895 (accessed 2026-10-22)
+
+**My status:** not-started
+
+---
+
+<a id="pmi-cpmai"></a>
+
+### PMI Certified Professional in Managing AI (PMI-CPMAI)
+
+`pmi-cpmai` · Project Management Institute (PMI) on PMI online learning; exam via Pearson VUE (online proctored or test centre) · [official page](https://www.pmi.org/certifications/ai-project-management-cpmai) · status: active
+
+**Subjects:** AI strategy, operating models & ROI, Governance, regulation, responsible AI & risk, RAG, evaluation, deployment, MLOps & LLMOps  
+**Type:** professional-certification · **Level:** intermediate · **Audience:** Project, programme and product leaders who run AI and data projects
+
+**Prerequisites**
+
+- Completion of the 21-hour PMI-CPMAI Exam Prep Course (required to sit the exam)
+- No prior project management, technical or AI certification required (PMI exam content outline)
+
+**Learning outcomes**
+
+- Run AI projects through the six CPMAI phases, from business understanding to operationalisation
+- Scope AI projects, assess data needs and feasibility, and define success measures
+- Manage AI model evaluation, deployment, monitoring and trustworthy AI considerations
+
+**Practical work**
+
+- Scenario exercises and a downloadable workbook in the self-paced prep course
+
+**Assessment:** proctored-exam: PMI-CPMAI exam, proctored by Pearson VUE online or in a test centre; up to three attempts within a 365-day eligibility period (third-party guides).  
+**Credential:** professional certification, issued by PMI. Academic credit: not applicable. Renewal: 30 PDUs every 3 years
+
+**Delivery:** self-paced-online; 21-hour self-paced prep course, then exam; study hours 21 h+ (upper estimate not verified) (PMI: 21-hour exam prep course; extra exam study time not published); access: not verified; starts: On demand  
+**From Ireland:** available. Online course and online-proctored exam; regional pricing applies. Live-session time zone: not applicable
+
+**Price:** one-off; advertised Exam plus prep-course bundle; PMI states regional and membership pricing. Third-party guides report USD 899 non-member / USD 699 member (US, UK, Canada, UAE); approx. not verified
+
+**Additional costs**
+
+- Official practice exam reported at USD 99 (third-party)
+- Retake fees for later attempts (amount not verified)
+- Optional PMI membership, reported at about USD 129 plus USD 10 application fee (third-party)
+
+**Financial aid / discounts (verified)**
+
+- None verified
+
+**Learner rating:** Credible but unrated (rating not published)
+
+**Quality evidence**
+
+- Issued by PMI with a published exam content outline (September 2025)
+- Proctored exam via Pearson VUE and formal renewal (30 PDUs every 3 years)
+- Built on the CPMAI methodology for AI and data projects
+
+**Limitations**
+
+- Methodology and management focus; you will not build AI systems
+- Price not confirmed on an official PMI page
+- No public course-specific rating
+
+**Relevance:** The closest recognised credential to the AI project manager use case: it covers how AI projects are scoped, run and monitored, and adds credibility when advising on AI delivery.
+
+**Suitability 74/100** (confidence medium). Components: relevance 85, curriculum 75, practical 50, quality 80, value 65, accessibility 90. Directly relevant, recognised, proctored credential for managing AI projects; price unverified and little hands-on building.
+
+**Verification:** 2026-10-22 via web-search-of-official-pages.
+ Gaps: Official bundle price for Ireland; Exam length and question count; Practice exam and retake fees on PMI pages.
+ Conflicts: One third-party guide estimates a 30-hour prep course costing USD 500-1,500, against PMI's own 21-hour course.
+
+**Sources**
+
+- <https://www.pmi.org/certifications/ai-project-management-cpmai>: Credential, 21-hour self-paced prep course, six CPMAI phases, member savings (accessed 2026-10-22)
+- <https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pmicpmai-exam-content-outline2025-updated.pdf?rev=a88ceeb705ca45e4abb89b26c3a3cb1d>: Prep course required to sit exam, no prerequisites, regional/membership pricing, Pearson VUE, renewal (accessed 2026-10-22)
+- <https://www.spoclearn.com/blog/pmi-cpmai-certification-guide/>: Third-party price figures and retake rules (accessed 2026-10-22)
+
+**My status:** not-started
+
+---
+
+<a id="pmi-generative-ai-overview-for-project-managers"></a>
+
+### Generative AI Overview for Project Managers
+
+`pmi-generative-ai-overview-for-project-managers` · Project Management Institute (PMI) on PMI online learning · [official page](https://www.pmi.org/shop/p-/elearning/generative-ai-overview-for-project-managers/el083) · status: active
+
+**Subjects:** Generative AI, LLMs, prompting & agents, AI strategy, operating models & ROI  
+**Type:** short-course · **Level:** introductory · **Audience:** Project managers and leaders who want to apply generative AI to project work
+
+**Prerequisites**
+
+- None stated by the provider
+
+**Learning outcomes**
+
+- Understand what generative AI can and cannot do in project management
+- Identify uses of generative AI across project activities and ways of working
+- Recognise risks and responsible use considerations for generative AI on projects
+
+**Practical work**
+
+- None advertised
+
+**Assessment:** auto-graded-quizzes: End-of-course assessment; a third-party review reports a pass mark of 80/100 to earn the PDUs (not confirmed on the PMI page).  
+**Credential:** assessed completion certificate, issued by PMI. Academic credit: 5 PDUs (1 Business Acumen, 4 Ways of Working) per PMI listing. Renewal: not applicable
+
+**Delivery:** self-paced-online; About 1 hour (PMI listing); study hours 1 h (PMI listing: course duration 1 hour; a third-party guide estimates 2-4 hours); access: not verified; starts: On demand  
+**From Ireland:** available. Online PMI eLearning; a free PMI account is needed. Live-session time zone: not applicable
+
+**Price:** free; advertised Free (PMI listing; reviews describe it as free for now); approx. EUR 0
+
+**Additional costs**
+
+- None identified
+
+**Financial aid / discounts (verified)**
+
+- None verified
+
+**Learner rating:** Credible but unrated (rating not verified)
+
+**Quality evidence**
+
+- Issued by PMI, the main global project management professional body
+- Carries 5 pre-approved PDUs toward PMI certification maintenance
+
+**Limitations**
+
+- Very short awareness course; no hands-on building
+- Free pricing described by reviewers as temporary
+- No course-specific public rating found
+
+**Relevance:** Frames where generative AI fits into project scoping, planning and reporting from the project-management profession's own perspective; a quick first step for the AI project manager use case.
+
+**Suitability 60/100** (confidence medium). Components: relevance 70, curriculum 45, practical 25, quality 65, value 100, accessibility 95. Free, credible PMI framing of generative AI for project work, but shallow and non-technical.
+
+**Verification:** 2026-10-22 via web-search-of-official-pages.
+ Gaps: Assessment pass mark confirmed only by a third-party review; Access period; Whether the course remains free.
+ Conflicts: Duration: 1 hour (PMI) vs 2-4 hours (third-party guide).
+
+**Sources**
+
+- <https://www.pmi.org/shop/p-/elearning/generative-ai-overview-for-project-managers/el083>: Title, free price, 1-hour duration, 5 PDUs and their split (accessed 2026-10-22)
+- <https://medium.com/@laurabirdknight/an-overview-of-pmis-generative-ai-for-project-managers-micro-credential-f413ca6865bb>: Third-party review: assessment pass mark (accessed 2026-10-22)
 
 **My status:** not-started
 

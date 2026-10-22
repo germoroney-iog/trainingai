@@ -14,6 +14,7 @@ separate from published learner ratings. Nothing is guessed: missing facts are m
 | Browse everything, by subject or by score | [catalogue/CATALOGUE.md](catalogue/CATALOGUE.md) |
 | See the best options quickly | [catalogue/SHORTLISTS.md](catalogue/SHORTLISTS.md): best free, best-value paid, executive and governance, practical technical |
 | Follow a plan | [catalogue/LEARNING_PATH.md](catalogue/LEARNING_PATH.md): sequenced steps with prerequisites, hours and costs |
+| Find training for a specific use case | [catalogue/packs/](catalogue/packs/README.md): use-case packs, for example [build your own AI project manager](catalogue/packs/ai-project-manager.md) |
 | Filter in a spreadsheet | [catalogue/trainings.csv](catalogue/trainings.csv) |
 | Understand the scores and rating labels | [docs/SCORING.md](docs/SCORING.md) |
 | Understand the fields | [docs/SCHEMA.md](docs/SCHEMA.md) |
@@ -25,7 +26,8 @@ separate from published learner ratings. Nothing is guessed: missing facts are m
 data/trainings.json         authoritative database (records + FX table)       ← edit
 data/learning_path.json     suggested sequence (record ids + reasons)          ← edit
 data/excluded.json          offerings reviewed and deliberately left out       ← edit
-schema/training.schema.json JSON Schema for trainings.json
+data/packs/*.json           use-case training packs (see docs/PACKS.md)        ← edit
+schema/                     JSON Schemas for trainings.json and packs
 scripts/                    validate, search, upsert/archive, FX, build views
 catalogue/                  GENERATED Markdown and CSV views                   ← never edit by hand
 docs/                       schema guide, scoring method, dated research summaries
@@ -54,6 +56,13 @@ python scripts/search.py --status planned                            # your own 
 The categories are `strategy-operating-models`, `governance-regulation-risk`, `security`, `generative-ai-agents`,
 `python-data`, `machine-learning-deep-learning`, `rag-evals-llmops`, `cloud-platforms` and
 `sales-marketing-partnerships`.
+
+## Use-case packs
+
+A pack maps one use case, such as "create my own AI project manager", to the capabilities it needs, the courses that
+teach each one, coverage gaps, and build milestones. Packs refer to records by id, so they update with every refresh.
+To add one, copy `data/packs/ai-project-manager.json` to `data/packs/<new-id>.json` and follow
+[docs/PACKS.md](docs/PACKS.md).
 
 ## Tracking your own progress
 

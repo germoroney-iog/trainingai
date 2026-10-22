@@ -9,7 +9,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = ROOT / "data" / "trainings.json"
 PATH_PATH = ROOT / "data" / "learning_path.json"
+PACKS_DIR = ROOT / "data" / "packs"
 SCHEMA_PATH = ROOT / "schema" / "training.schema.json"
+PACK_SCHEMA_PATH = ROOT / "schema" / "pack.schema.json"
 CATALOGUE_DIR = ROOT / "catalogue"
 
 MISSING = ("not published", "not verified", "not applicable")
@@ -44,6 +46,12 @@ FREE_MODELS = ("free", "free-audit", "publicly-funded")
 def load_json(path: Path):
     with path.open(encoding="utf-8") as fh:
         return json.load(fh)
+
+
+def load_packs() -> list[dict]:
+    if not PACKS_DIR.exists():
+        return []
+    return [load_json(f) for f in sorted(PACKS_DIR.glob("*.json"))]
 
 
 def dump_json(path: Path, data) -> None:
