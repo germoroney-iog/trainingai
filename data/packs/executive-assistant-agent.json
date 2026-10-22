@@ -1,0 +1,112 @@
+{
+  "id": "executive-assistant-agent",
+  "title": "Build an executive assistant agent",
+  "use_case": "Build an executive assistant agent that helps me manage email, calendar, meetings, follow-ups and briefings.",
+  "outcome": "A personal assistant agent that triages your inbox, drafts replies in your style, proposes meeting times, prepares briefing notes before meetings, tracks follow-ups and actions, and remembers your preferences. It acts only with your approval, under access controls you set. You will also know when a ready-made assistant in your existing tools is the better choice.",
+  "assumptions": [
+    "You are willing to learn or refresh basic Python, or will use the low-code Microsoft route in capability 5.",
+    "Your email, calendar and documents live in Google Workspace or Microsoft 365.",
+    "The agent drafts and proposes; you approve anything sent, accepted or deleted, at least until it has proved reliable."
+  ],
+  "created_on": "2026-10-22",
+  "updated_on": "2026-10-22",
+  "capabilities": [
+    {
+      "name": "Decide what to delegate",
+      "why": "An assistant is only useful if it is clear which tasks it may do alone, which it drafts for approval, and which stay with you.",
+      "steps": [
+        { "id": "anthropic-ai-fluency-framework-foundations", "why": "Free, short framework for delegating to AI and checking its work; the basis of the assistant's job description." },
+        { "id": "deeplearningai-generative-ai-for-everyone", "optional": true, "why": "Highly rated non-technical primer on what generative AI can and cannot do reliably." }
+      ]
+    },
+    {
+      "name": "Python foundations",
+      "why": "Most agent frameworks and email or calendar APIs are used from Python.",
+      "steps": [
+        { "id": "umich-python-for-everybody", "optional": true, "why": "Skip if you already write Python, or if you take the low-code route in capability 5." }
+      ]
+    },
+    {
+      "name": "Prompting, structured output and tool use",
+      "why": "Triage, drafting in your voice and extracting actions from email all depend on reliable prompts and structured output; scheduling needs tool calls.",
+      "steps": [
+        { "id": "anthropic-building-with-claude-api", "why": "Hands-on course in prompt engineering, prompt evaluation and tool use with an LLM API." },
+        { "id": "vanderbilt-prompt-engineering-specialization", "optional": true, "why": "Highly rated, deeper prompt-engineering practice for drafting and summarising." }
+      ]
+    },
+    {
+      "name": "Agent design and memory",
+      "why": "The assistant must plan multi-step tasks and remember your preferences, key contacts, past decisions and standing rules.",
+      "steps": [
+        { "id": "deeplearningai-agentic-ai", "why": "Core agent design patterns: reflection, tool use, planning and multi-agent work." },
+        { "id": "deeplearningai-long-term-agentic-memory-langgraph", "why": "Builds an email assistant with semantic, episodic and procedural memory: very close to this use case." },
+        { "id": "huggingface-ai-agents-course", "optional": true, "why": "Deeper, project-based agent practice with an assessed certificate." }
+      ]
+    },
+    {
+      "name": "Connect to email, calendar and documents",
+      "why": "The assistant needs controlled access to your mailbox, calendar, contacts and files.",
+      "steps": [
+        { "id": "anthropic-introduction-to-mcp", "why": "One-hour introduction to MCP, the standard way to connect an assistant to tools and data." },
+        { "id": "deeplearningai-mcp-rich-context-apps", "why": "Build and connect MCP servers, so you can use or adapt existing email and calendar connectors." },
+        { "id": "microsoft-learn-create-agents-copilot-studio", "optional": true, "why": "Low-code route if you use Microsoft 365: build agents that already sit next to Outlook, Teams and SharePoint." }
+      ],
+      "gap": "No verified course yet teaches the Gmail and Google Calendar APIs, the Microsoft Graph API or OAuth permission scopes for a personal assistant. Use the official API documentation for now."
+    },
+    {
+      "name": "Search your own knowledge",
+      "why": "Meeting briefings need context from past email threads, notes, documents and decisions, retrieved accurately with sources.",
+      "steps": [
+        { "id": "datatalksclub-llm-zoomcamp", "why": "Free, project-based course in building and evaluating retrieval (RAG) systems." }
+      ]
+    },
+    {
+      "name": "Secure it against untrusted content",
+      "why": "Every incoming email is untrusted input. A malicious message can try to make the assistant leak data or take actions (prompt injection), so access and actions must be tightly limited.",
+      "steps": [
+        { "id": "deeplearningai-red-teaming-llm-applications", "why": "Short, hands-on introduction to prompt injection and red-teaming LLM applications." },
+        { "id": "sans-sec545-genai-llm-security", "optional": true, "why": "In-depth GenAI application security course with a GIAC exam option. Expensive; take it if the assistant will handle other people's data." }
+      ],
+      "gap": "No verified course yet focuses on securing tool-using agents that read email (least-privilege access, approval gates, data-loss controls)."
+    },
+    {
+      "name": "Privacy, oversight and accountability",
+      "why": "The assistant processes personal data of colleagues and contacts, so GDPR, retention and human oversight apply.",
+      "steps": [
+        { "id": "coursera-oxford-ai-governance", "optional": true, "why": "Short, highly rated overview of AI governance and oversight principles to apply to your assistant." }
+      ],
+      "gap": "No verified course yet covers GDPR obligations specifically for personal AI assistants."
+    },
+    {
+      "name": "Test it and run it daily",
+      "why": "Wrong triage or a bad draft costs trust quickly. The assistant needs test cases, then a reliable daily schedule with logs.",
+      "steps": [
+        { "id": "parlance-labs-ai-evals-engineers-pms", "optional": true, "why": "In-depth course on evaluating LLM products and analysing errors. Expensive; worth it if others will use the assistant." }
+      ],
+      "gap": "No verified course in the database yet teaches scheduling and hosting a small personal agent (cron jobs, serverless functions, secrets handling)."
+    }
+  ],
+  "milestones": [
+    { "name": "Write the assistant's job description", "after_capabilities": [1], "deliverable": "One-page spec: which tasks it does alone, drafts for approval, or never touches; the tone it writes in; who it may contact; what it may read." },
+    { "name": "Inbox triage on exported mail", "after_capabilities": [3], "deliverable": "A script that sorts a sample of your exported email into act, delegate, read later and ignore, extracts actions and deadlines, and drafts replies in your style. No live access yet." },
+    { "name": "Memory of you", "after_capabilities": [4], "deliverable": "Stored preferences, key contacts and standing rules that the assistant uses and updates, for example meeting-time preferences and who gets priority." },
+    { "name": "Read-only live connection", "after_capabilities": [5, 7], "deliverable": "The assistant reads your mailbox and calendar with the narrowest permissions available, cannot send or delete, and passes your own prompt-injection tests." },
+    { "name": "Daily briefing", "after_capabilities": [6], "deliverable": "Each morning: today's meetings with a briefing note per meeting (who, history, open items, sources), urgent emails, and overdue follow-ups." },
+    { "name": "Supervised actions and pilot", "after_capabilities": [8, 9], "deliverable": "Drafts and calendar proposals that you approve with one click, an audit log, a privacy note, accuracy measured over two weeks, and a buy-versus-build comparison with the assistants built into Microsoft 365 or Google Workspace." }
+  ],
+  "research_queue": [
+    "Courses on the Gmail, Google Calendar and Microsoft Graph APIs, and OAuth scopes for assistants.",
+    "Training on securing tool-using agents against prompt injection (least privilege, approval gates).",
+    "GDPR and data-protection training for AI assistants, preferably from Irish or EU bodies.",
+    "Google Workspace (Gemini) and Microsoft 365 Copilot agent-building training, to compare buy with build.",
+    "Deploying and scheduling small agents with course-specific evidence."
+  ],
+  "notes": [
+    "The AI project manager pack shares several capabilities (LLM API, agents, MCP, retrieval). Training taken for one counts for the other.",
+    "Your email and calendar provider probably already offers a built-in assistant. Compare it with your milestone 1 spec before building everything yourself.",
+    "Keep the assistant read-only and draft-only until testing shows it is reliable and resistant to prompt injection."
+  ],
+  "history": [
+    { "date": "2026-10-22", "change": "Pack created with 9 capabilities. Added 3 supporting records: deeplearningai-long-term-agentic-memory-langgraph, deeplearningai-red-teaming-llm-applications, microsoft-learn-create-agents-copilot-studio." }
+  ]
+}

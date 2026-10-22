@@ -6822,6 +6822,380 @@
           "change": "Record created."
         }
       ]
+    },
+    {
+      "id": "deeplearningai-long-term-agentic-memory-langgraph",
+      "title": "Long-Term Agentic Memory with LangGraph",
+      "provider": "DeepLearning.AI and LangChain",
+      "platform": "DeepLearning.AI learning platform",
+      "official_url": "https://www.deeplearning.ai/courses/long-term-agentic-memory-with-langgraph",
+      "offering_type": "short-course",
+      "categories": [
+        "generative-ai-agents"
+      ],
+      "audience": "Developers building personal-assistant and productivity agents",
+      "level": "intermediate",
+      "prerequisites": [
+        "Python",
+        "Basic familiarity with LLM agents (not verified as an official prerequisite)"
+      ],
+      "learning_outcomes": [
+        "Build a personal email agent that can respond to, ignore or flag incoming mail using writing, scheduling and memory tools",
+        "Add semantic memory (facts), episodic memory (past examples) and procedural memory (rules the agent follows)",
+        "Use LangMem with LangGraph to store and update an agent's memory"
+      ],
+      "practical_work": [
+        "Build an email assistant in four stages, adding one memory type at a time",
+        "5 code examples"
+      ],
+      "assessment": {
+        "type": "not verified",
+        "description": "not verified"
+      },
+      "credential": {
+        "type": "not verified",
+        "issuer": "not verified",
+        "academic_credit": "not applicable",
+        "renewal": "not applicable"
+      },
+      "delivery": {
+        "format": "self-paced-online",
+        "duration": "1h24m video; 7 lessons",
+        "study_hours": {
+          "min": 1.5,
+          "max": "not verified",
+          "basis": "DeepLearning.AI page: 1h24m of video; exercise time not published"
+        },
+        "access_period": "not verified",
+        "start_dates": "On demand"
+      },
+      "ireland_access": {
+        "status": "available",
+        "notes": "Online.",
+        "live_session_timezone": "not applicable"
+      },
+      "pricing": {
+        "model": "mixed",
+        "advertised": "Not verified for this course. DeepLearning.AI short courses vary between free access and a paid Pro plan.",
+        "amount": "not verified",
+        "currency": "USD",
+        "eur_approx": "not verified",
+        "additional_costs": [
+          "LLM API usage if you run the code outside the course notebooks (not verified)"
+        ],
+        "financial_aid": []
+      },
+      "learner_rating": {
+        "status": "not verified"
+      },
+      "rating_class": "credible-but-unrated",
+      "quality_evidence": [
+        "Taught by Harrison Chase, co-founder and CEO of LangChain",
+        "Builds a working email assistant, directly matching the executive-assistant use case",
+        "Course page shows an update in July 2026"
+      ],
+      "limitations": [
+        "Short course; tied to the LangGraph and LangMem libraries",
+        "Price and credential not verified",
+        "Update date seen in one page snapshot only"
+      ],
+      "relevance": "Teaches the memory an executive assistant needs: your preferences, past decisions and standing rules, built around an email-triage agent.",
+      "suitability": {
+        "score": 74,
+        "components": {
+          "relevance": 72,
+          "curriculum": 75,
+          "practical": 75,
+          "quality": 65,
+          "value": 80,
+          "accessibility": 95
+        },
+        "confidence": "medium",
+        "rationale": "Closely matched hands-on build; price and credential unverified."
+      },
+      "status": "active",
+      "sources": [
+        {
+          "url": "https://www.deeplearning.ai/courses/long-term-agentic-memory-with-langgraph",
+          "supports": "Title, level, duration, lessons, code examples, outcomes, instructor, July 2026 update",
+          "accessed": "2026-10-22"
+        },
+        {
+          "url": "https://hackmd.io/@YungHuiHsu/S1f1cyOnke",
+          "supports": "Third-party course notes: four-stage build",
+          "accessed": "2026-10-22"
+        }
+      ],
+      "verification": {
+        "last_verified": "2026-10-22",
+        "method": "web-search-of-official-pages",
+        "gaps": [
+          "Price and certificate",
+          "Assessment",
+          "Learner rating"
+        ],
+        "conflicts": []
+      },
+      "user": {
+        "completion_status": "not-started",
+        "notes": ""
+      },
+      "history": [
+        {
+          "date": "2026-10-22",
+          "change": "Record created."
+        }
+      ]
+    },
+    {
+      "id": "deeplearningai-red-teaming-llm-applications",
+      "title": "Red Teaming LLM Applications",
+      "provider": "DeepLearning.AI and Giskard",
+      "platform": "DeepLearning.AI learning platform (also a Coursera guided project)",
+      "official_url": "https://www.deeplearning.ai/courses/red-teaming-llm-applications",
+      "offering_type": "short-course",
+      "categories": [
+        "security",
+        "generative-ai-agents"
+      ],
+      "audience": "Builders and leaders who need to find security weaknesses in LLM applications",
+      "level": "introductory",
+      "prerequisites": [
+        "Basic Python (not verified as an official prerequisite)"
+      ],
+      "learning_outcomes": [
+        "Attack chatbot applications with prompt injection and see where their security fails",
+        "Use manual and automated LLM red-teaming methods",
+        "Use Giskard's open-source library to automate red-teaming"
+      ],
+      "practical_work": [
+        "Red-team sample chatbot applications in notebooks",
+        "Follow a full red-teaming assessment demonstration"
+      ],
+      "assessment": {
+        "type": "graded-assignments",
+        "description": "1 graded assignment (DeepLearning.AI listing)."
+      },
+      "credential": {
+        "type": "not verified",
+        "issuer": "not verified",
+        "academic_credit": "not applicable",
+        "renewal": "not applicable"
+      },
+      "delivery": {
+        "format": "self-paced-online",
+        "duration": "1h39m video; 7 lessons",
+        "study_hours": {
+          "min": 1.5,
+          "max": 2,
+          "basis": "DeepLearning.AI: 1h39m of video; Coursera guided project listed at 1-2 hours"
+        },
+        "access_period": "not verified",
+        "start_dates": "On demand"
+      },
+      "ireland_access": {
+        "status": "available",
+        "notes": "Online.",
+        "live_session_timezone": "not applicable"
+      },
+      "pricing": {
+        "model": "mixed",
+        "advertised": "Not verified on the DeepLearning.AI page; Class Central lists the Coursera version as free",
+        "amount": "not verified",
+        "currency": "USD",
+        "eur_approx": "not verified",
+        "additional_costs": [],
+        "financial_aid": []
+      },
+      "learner_rating": {
+        "status": "not verified"
+      },
+      "rating_class": "credible-but-unrated",
+      "quality_evidence": [
+        "Built with Giskard, an LLM testing and security company; taught by its staff",
+        "Hands-on attacks with a graded assignment"
+      ],
+      "limitations": [
+        "Released in 2024; does not focus on modern tool-using agents",
+        "Short; an introduction, not a security qualification",
+        "Price and credential not verified"
+      ],
+      "relevance": "An executive assistant reads untrusted email and documents, which can carry prompt-injection attacks. This course shows how such attacks work and how to test for them.",
+      "suitability": {
+        "score": 68,
+        "components": {
+          "relevance": 65,
+          "curriculum": 55,
+          "practical": 70,
+          "quality": 65,
+          "value": 85,
+          "accessibility": 95
+        },
+        "confidence": "medium",
+        "rationale": "Short, practical introduction to prompt-injection risk; somewhat dated for agents."
+      },
+      "status": "active",
+      "sources": [
+        {
+          "url": "https://www.deeplearning.ai/courses/red-teaming-llm-applications",
+          "supports": "Level, duration, lessons, graded assignment, instructors, outcomes",
+          "accessed": "2026-10-22"
+        },
+        {
+          "url": "https://community.deeplearning.ai/t/new-short-course-built-in-collaboration-with-giskard-red-teaming-llm-applications/603905",
+          "supports": "Launch announcement",
+          "accessed": "2026-10-22"
+        },
+        {
+          "url": "https://www.classcentral.com/course/coursera-red-teaming-llm-applications-293407",
+          "supports": "Secondary listing: Coursera version free",
+          "accessed": "2026-10-22"
+        }
+      ],
+      "verification": {
+        "last_verified": "2026-10-22",
+        "method": "web-search-of-official-pages",
+        "gaps": [
+          "Price on DeepLearning.AI",
+          "Certificate",
+          "Learner rating",
+          "Whether content has been updated since 2024"
+        ],
+        "conflicts": [
+          "Coursera guided project length listed as 1 hour on one page and 2 hours on another"
+        ]
+      },
+      "user": {
+        "completion_status": "not-started",
+        "notes": ""
+      },
+      "history": [
+        {
+          "date": "2026-10-22",
+          "change": "Record created."
+        }
+      ]
+    },
+    {
+      "id": "microsoft-learn-create-agents-copilot-studio",
+      "title": "Create agents in Microsoft Copilot Studio (learning path)",
+      "provider": "Microsoft",
+      "platform": "Microsoft Learn",
+      "official_url": "https://learn.microsoft.com/en-us/training/paths/create-extend-custom-copilots-microsoft-copilot-studio/",
+      "offering_type": "learning-path",
+      "categories": [
+        "generative-ai-agents",
+        "cloud-platforms"
+      ],
+      "audience": "Microsoft 365 users and makers building agents without heavy coding",
+      "level": "introductory-to-intermediate",
+      "prerequisites": [
+        "Access to a Copilot Studio environment with a licensed user for the exercises (per Microsoft Learn workshop pages)"
+      ],
+      "learning_outcomes": [
+        "Create agents in Copilot Studio using topics and trigger phrases",
+        "Build an autonomous agent step by step"
+      ],
+      "practical_work": [
+        "Step-by-step build of an autonomous agent in Copilot Studio"
+      ],
+      "assessment": {
+        "type": "not verified",
+        "description": "not verified"
+      },
+      "credential": {
+        "type": "not verified",
+        "issuer": "not verified",
+        "academic_credit": "not applicable",
+        "renewal": "not applicable"
+      },
+      "delivery": {
+        "format": "self-paced-online",
+        "duration": "not verified",
+        "study_hours": {
+          "min": "not verified",
+          "max": "not verified",
+          "basis": "Duration not captured in search results"
+        },
+        "access_period": "Ongoing (Microsoft Learn)",
+        "start_dates": "On demand"
+      },
+      "ireland_access": {
+        "status": "available",
+        "notes": "Free on Microsoft Learn; exercises need a Copilot Studio licence or trial.",
+        "live_session_timezone": "not applicable"
+      },
+      "pricing": {
+        "model": "free",
+        "advertised": "Free",
+        "amount": 0,
+        "currency": "USD",
+        "eur_approx": 0,
+        "additional_costs": [
+          "Copilot Studio or Microsoft 365 Copilot licence or trial to do the exercises (cost not verified)"
+        ],
+        "financial_aid": []
+      },
+      "learner_rating": {
+        "status": "not published"
+      },
+      "rating_class": "credible-but-unrated",
+      "quality_evidence": [
+        "Official Microsoft training for its own agent platform",
+        "Hands-on, step-by-step agent build"
+      ],
+      "limitations": [
+        "Platform-specific",
+        "Some related Microsoft Learn pages still reference the older Copilot Studio experience",
+        "Duration and assessment not verified"
+      ],
+      "relevance": "If your email, calendar and documents are in Microsoft 365, Copilot Studio is the low-code route to an executive assistant that already has access to them, and a useful buy-versus-build comparison.",
+      "suitability": {
+        "score": 66,
+        "components": {
+          "relevance": 65,
+          "curriculum": 60,
+          "practical": 60,
+          "quality": 60,
+          "value": 90,
+          "accessibility": 90
+        },
+        "confidence": "low",
+        "rationale": "Free, official and practical for Microsoft 365 users; duration, assessment and currency of content not verified."
+      },
+      "status": "active",
+      "sources": [
+        {
+          "url": "https://learn.microsoft.com/en-us/training/paths/create-extend-custom-copilots-microsoft-copilot-studio/",
+          "supports": "Title, level, content: topics, trigger phrases, autonomous agent",
+          "accessed": "2026-10-22"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/training/paths/power-virtual-agents-workshop/",
+          "supports": "Licensed environment needed for exercises",
+          "accessed": "2026-10-22"
+        }
+      ],
+      "verification": {
+        "last_verified": "2026-10-22",
+        "method": "web-search-of-official-pages",
+        "gaps": [
+          "Duration",
+          "Assessment and badge",
+          "Licence cost for exercises in Ireland"
+        ],
+        "conflicts": []
+      },
+      "user": {
+        "completion_status": "not-started",
+        "notes": ""
+      },
+      "history": [
+        {
+          "date": "2026-10-22",
+          "change": "Record created."
+        }
+      ]
     }
   ]
 }

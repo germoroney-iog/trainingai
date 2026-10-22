@@ -2,7 +2,7 @@
 
 # AI training catalogue
 
-Database updated 2026-10-22. 51 current offerings (19 free or free-to-audit, 32 paid), 0 archived.
+Database updated 2026-10-22. 54 current offerings (20 free or free-to-audit, 34 paid), 0 archived.
 
 EUR amounts are approximate, converted from the advertised currency using the European Central Bank euro foreign exchange reference rates dated 2026-10-21 (https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html). They exclude VAT and extra costs unless stated.
 
@@ -27,6 +27,7 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 | 75 (medium) | [PECB Certified ISO/IEC 42001 Lead Implementer](https://pecb.com/pdf/brochures/4/iso-iec-42001-lead%20implementer-4p.pdf)<br>[`pecb-iso42001-lead-implementer`](#pecb-iso42001-lead-implementer) | PECB (delivered by accredited training partners) | Paid | intermediate | not verified | professional certification | ≈ EUR 614 (Self-study packages from about USD 554 to USD 850 depending on partner (e.g. Mindset Cyber USD 554 incl. exam; SGS Academy USD 690); live 4-day e.g. USD 2,895 (TrainingCamp, incl. exam)) | Credible but unrated: Unrated (not verified) |
 | 74 (medium) | [Building with the Claude API](https://academy.claude.com/courses/building-with-the-claude-api)<br>[`anthropic-building-with-claude-api`](#anthropic-building-with-claude-api) | Anthropic | Free | intermediate | 9 h | digital badge | Free | Credible but unrated: Unrated (not published) |
 | 74 (medium) | [AI Governance (AI Foundations for Business Professionals Specialization)](https://www.coursera.org/learn/ai-governance)<br>[`coursera-oxford-ai-governance`](#coursera-oxford-ai-governance) | Saïd Business School, University of Oxford | Paid | introductory | 15–20 h | assessed completion certificate | Coursera subscription or course purchase; price not verified (EUR not verified) | Highly rated: 4.8/5 from 209 reviews (Coursera) |
+| 74 (medium) | [Long-Term Agentic Memory with LangGraph](https://www.deeplearning.ai/courses/long-term-agentic-memory-with-langgraph)<br>[`deeplearningai-long-term-agentic-memory-langgraph`](#deeplearningai-long-term-agentic-memory-langgraph) | DeepLearning.AI and LangChain | Paid | intermediate | 1.5 h+ (upper estimate not verified) | not verified | Not verified for this course. DeepLearning.AI short courses vary between free access and a paid Pro plan. (EUR not verified) | Credible but unrated: Unrated (not verified) |
 | 74 (medium) | [Online Master of Science in Computer Science (OMSCS) - Machine Learning specialization](https://omscs.gatech.edu/specialization-machine-learning)<br>[`gatech-omscs-machine-learning`](#gatech-omscs-machine-learning) | Georgia Institute of Technology | Paid | advanced | not verified | assessed academic qualification | USD 225 per credit hour (Fall 2025 Bursar schedule); third-party reports Fall 2026 out-of-country rate USD 248/credit (EUR not verified) | Credible but unrated: Unrated (not published) |
 | 74 (low) | [AI Strategies for Business Transformation: Generative and Agentic Intelligence](https://www.kellogg.northwestern.edu/executive-education/individual-programs/online-programs/ais.aspx)<br>[`kellogg-ai-strategies-business-transformation`](#kellogg-ai-strategies-business-transformation) | Kellogg School of Management, Northwestern University | Paid | intermediate | 32–54 h | assessed completion certificate | not verified (official fee not shown in search results; third-party listings cite US$3,200) (EUR not verified) | Credible but unrated: Unrated (not published) |
 | 74 (medium) | [AI: Law, Policy and Governance online certificate course](https://www.lse.ac.uk/study-at-lse/executive-education/programmes/ai-law-policy-and-governance)<br>[`lse-ai-law-policy-governance`](#lse-ai-law-policy-governance) | London School of Economics and Political Science (LSE) | Paid | intermediate | 36–48 h | assessed completion certificate | ≈ EUR 2,851 (USD 3,203 (payment plan available)) | Credible but unrated: Unrated (not verified) |
@@ -47,12 +48,14 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 | 68 (medium) | [Postgraduate Diploma in Computing in Big Data Analytics and Artificial Intelligence](https://www.atu.ie/courses/postgraduate-diploma-computing-in-big-data-analytics-and-artificial-intelligence)<br>[`atu-pgdip-big-data-analytics-ai`](#atu-pgdip-big-data-analytics-ai) | Atlantic Technological University (ATU Donegal, Letterkenny) | Free | intermediate-to-advanced | not verified | assessed academic qualification | EUR 670 (Springboard+ listing, employed participant 10% contribution) | Credible but unrated: Unrated (not published) |
 | 68 (high) | [AWS Certified AI Practitioner (AIF-C01)](https://aws.amazon.com/certification/certified-ai-practitioner/)<br>[`aws-certified-ai-practitioner`](#aws-certified-ai-practitioner) | Amazon Web Services | Paid | introductory | not verified | professional certification | ≈ EUR 89 (USD 100 per exam attempt) | Credible but unrated: Unrated (not published) |
 | 68 (medium) | [Databricks Certified Generative AI Engineer Associate](https://www.databricks.com/learn/certification/genai-engineer-associate)<br>[`databricks-generative-ai-engineer-associate`](#databricks-generative-ai-engineer-associate) | Databricks | Paid | intermediate | not verified | professional certification | ≈ EUR 178 (USD 200 per attempt) | Credible but unrated: Unrated (not published) |
+| 68 (medium) | [Red Teaming LLM Applications](https://www.deeplearning.ai/courses/red-teaming-llm-applications)<br>[`deeplearningai-red-teaming-llm-applications`](#deeplearningai-red-teaming-llm-applications) | DeepLearning.AI and Giskard | Paid | introductory | 1.5–2 h | not verified | Not verified on the DeepLearning.AI page; Class Central lists the Coursera version as free (EUR not verified) | Credible but unrated: Unrated (not verified) |
 | 68 (high) | [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)<br>[`google-ml-crash-course`](#google-ml-crash-course) | Google | Free | introductory-to-intermediate | 15 h | not verified | Free | Credible but unrated: Unrated (not published) |
 | 68 (medium) | [ISACA Advanced in AI Audit (AAIA) certification](https://www.isaca.org/credentialing/aaia)<br>[`isaca-aaia`](#isaca-aaia) | ISACA | Paid | advanced | not published | professional certification | ≈ EUR 533 (Exam USD 459 (member) / USD 599 (non-member)) | Credible but unrated: Unrated (not verified) |
 | 67 (medium) | [Practical Deep Learning for Coders (2022 edition)](https://course.fast.ai/)<br>[`fastai-practical-deep-learning`](#fastai-practical-deep-learning) | fast.ai (Jeremy Howard) | Free | intermediate | not verified | none | Free | Credible but unrated: Unrated (not published) |
 | 67 (low) | [Microsoft Certified: Azure AI Apps and Agents Developer Associate (Exam AI-103)](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103)<br>[`microsoft-azure-ai-apps-agents-developer-ai-103`](#microsoft-azure-ai-apps-agents-developer-ai-103) | Microsoft | Paid | intermediate | not verified | professional certification | USD 165 in the US (third-party reported); price varies by country (EUR not verified) | Credible but unrated: Unrated (not published) |
 | 67 (medium) | [AI For Business Specialization](https://www.coursera.org/specializations/ai-for-business-wharton)<br>[`wharton-coursera-ai-for-business`](#wharton-coursera-ai-for-business) | The Wharton School, University of Pennsylvania | Paid | introductory | 44 h | assessed completion certificate | Coursera subscription; reviews cite $49/month and $79/month (conflicting); Coursera Plus $399/year (EUR not verified) | Highly rated: 4.7/5 from 1,960 reviews (Coursera) |
 | 66 (low) | [AI Governance: Board Oversight and Accountability (CPD workshop)](https://www.iodireland.ie/workshops/ai-governance-sept-2026)<br>[`iod-ireland-ai-governance-board-oversight`](#iod-ireland-ai-governance-board-oversight) | Institute of Directors Ireland | Paid | intermediate | 3 h | attendance certificate | EUR 295 (member) to EUR 370 (non-member) | Credible but unrated: Unrated (not verified) |
+| 66 (low) | [Create agents in Microsoft Copilot Studio (learning path)](https://learn.microsoft.com/en-us/training/paths/create-extend-custom-copilots-microsoft-copilot-studio/)<br>[`microsoft-learn-create-agents-copilot-studio`](#microsoft-learn-create-agents-copilot-studio) | Microsoft | Free | introductory-to-intermediate | not verified | not verified | Free | Credible but unrated: Unrated (not published) |
 | 66 (low) | [Mastering AI in Digital Marketing (Micro-credential)](https://www.tcd.ie/business/executive-education/leading-digital-marketing-strategy.php)<br>[`tcd-mastering-ai-digital-marketing`](#tcd-mastering-ai-digital-marketing) | Trinity Business School, Trinity College Dublin | Paid | intermediate | 15 h | assessed academic qualification | €1,850 certificate of completion route; €2,000 micro-credential route | Credible but unrated: Unrated (not published) |
 | 66 (high) | [Python for Everybody Specialization](https://www.coursera.org/specializations/python)<br>[`umich-python-for-everybody`](#umich-python-for-everybody) | University of Michigan (Charles Severance) | Free | introductory | not verified | assessed completion certificate | Free (Free materials at py4e.com; paid Coursera certificate via subscription) | Highly rated: 4.8/5 from 280,793 reviews (Coursera) |
 | 65 (medium) | [Microsoft Certified: Azure AI Fundamentals (Exam AI-901)](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/)<br>[`microsoft-azure-ai-fundamentals-ai-901`](#microsoft-azure-ai-fundamentals-ai-901) | Microsoft | Paid | introductory | not verified | professional certification | Price by country/region excluding taxes (official); USD 99 in the US (third-party) (EUR not verified) | Credible but unrated: Unrated (not published) |
@@ -101,6 +104,7 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 ### AI security
 
 - **71** [`sans-sec545-genai-llm-security`](#sans-sec545-genai-llm-security) [SEC545: GenAI and LLM Application Security (with GIAC GAIPS option)](https://www.sans.org/cyber-security-courses/genai-llm-application-security), SANS Institute: paid, intermediate-to-advanced, 30 h, completion certificate
+- **68** [`deeplearningai-red-teaming-llm-applications`](#deeplearningai-red-teaming-llm-applications) [Red Teaming LLM Applications](https://www.deeplearning.ai/courses/red-teaming-llm-applications), DeepLearning.AI and Giskard: paid, introductory, 1.5–2 h, not verified
 
 ### Generative AI, LLMs, prompting & agents
 
@@ -112,6 +116,7 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 - **75** [`deeplearningai-generative-ai-with-llms`](#deeplearningai-generative-ai-with-llms) [Generative AI with Large Language Models](https://www.deeplearning.ai/courses/generative-ai-with-llms), DeepLearning.AI and Amazon Web Services: free, intermediate, 13–20 h, assessed completion certificate
 - **75** [`deeplearningai-mcp-rich-context-apps`](#deeplearningai-mcp-rich-context-apps) [MCP: Build Rich-Context AI Apps with Anthropic](https://www.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic), DeepLearning.AI and Anthropic: free, intermediate, 2 h+ (upper estimate not verified), not verified
 - **74** [`anthropic-building-with-claude-api`](#anthropic-building-with-claude-api) [Building with the Claude API](https://academy.claude.com/courses/building-with-the-claude-api), Anthropic: free, intermediate, 9 h, digital badge
+- **74** [`deeplearningai-long-term-agentic-memory-langgraph`](#deeplearningai-long-term-agentic-memory-langgraph) [Long-Term Agentic Memory with LangGraph](https://www.deeplearning.ai/courses/long-term-agentic-memory-with-langgraph), DeepLearning.AI and LangChain: paid, intermediate, 1.5 h+ (upper estimate not verified), not verified
 - **73** [`datatalksclub-llm-zoomcamp`](#datatalksclub-llm-zoomcamp) [LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp), DataTalks.Club: free, intermediate, not verified, assessed completion certificate
 - **72** [`anthropic-ai-fluency-framework-foundations`](#anthropic-ai-fluency-framework-foundations) [AI Fluency: Framework and Foundations](https://academy.claude.com/courses/ai-fluency-framework-foundations), Anthropic: free, introductory, 4 h, digital badge
 - **72** [`microsoft-ai-agents-for-beginners`](#microsoft-ai-agents-for-beginners) [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners), Microsoft: free, introductory-to-intermediate, not verified, none
@@ -122,7 +127,9 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 - **70** [`google-cloud-generative-ai-leader`](#google-cloud-generative-ai-leader) [Google Cloud Certified Generative AI Leader](https://cloud.google.com/learn/certification/generative-ai-leader), Google Cloud: paid, introductory, not verified, professional certification
 - **68** [`aws-certified-ai-practitioner`](#aws-certified-ai-practitioner) [AWS Certified AI Practitioner (AIF-C01)](https://aws.amazon.com/certification/certified-ai-practitioner/), Amazon Web Services: paid, introductory, not verified, professional certification
 - **68** [`databricks-generative-ai-engineer-associate`](#databricks-generative-ai-engineer-associate) [Databricks Certified Generative AI Engineer Associate](https://www.databricks.com/learn/certification/genai-engineer-associate), Databricks: paid, intermediate, not verified, professional certification
+- **68** [`deeplearningai-red-teaming-llm-applications`](#deeplearningai-red-teaming-llm-applications) [Red Teaming LLM Applications](https://www.deeplearning.ai/courses/red-teaming-llm-applications), DeepLearning.AI and Giskard: paid, introductory, 1.5–2 h, not verified
 - **67** [`microsoft-azure-ai-apps-agents-developer-ai-103`](#microsoft-azure-ai-apps-agents-developer-ai-103) [Microsoft Certified: Azure AI Apps and Agents Developer Associate (Exam AI-103)](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103), Microsoft: paid, intermediate, not verified, professional certification
+- **66** [`microsoft-learn-create-agents-copilot-studio`](#microsoft-learn-create-agents-copilot-studio) [Create agents in Microsoft Copilot Studio (learning path)](https://learn.microsoft.com/en-us/training/paths/create-extend-custom-copilots-microsoft-copilot-studio/), Microsoft: free, introductory-to-intermediate, not verified, not verified
 - **65** [`microsoft-azure-ai-fundamentals-ai-901`](#microsoft-azure-ai-fundamentals-ai-901) [Microsoft Certified: Azure AI Fundamentals (Exam AI-901)](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/), Microsoft: paid, introductory, not verified, professional certification
 - **61** [`ibm-generative-ai-for-sales-professionals`](#ibm-generative-ai-for-sales-professionals) [Generative AI for Sales Professionals Specialization](https://www.coursera.org/specializations/generative-ai-for-sales-professionals), IBM: paid, intermediate, 24 h, completion certificate
 - **60** [`deeplearningai-generative-ai-for-everyone`](#deeplearningai-generative-ai-for-everyone) [Generative AI for Everyone](https://www.coursera.org/learn/generative-ai-for-everyone), DeepLearning.AI: paid, introductory, 6 h, assessed completion certificate
@@ -176,6 +183,7 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 - **68** [`aws-certified-ai-practitioner`](#aws-certified-ai-practitioner) [AWS Certified AI Practitioner (AIF-C01)](https://aws.amazon.com/certification/certified-ai-practitioner/), Amazon Web Services: paid, introductory, not verified, professional certification
 - **68** [`databricks-generative-ai-engineer-associate`](#databricks-generative-ai-engineer-associate) [Databricks Certified Generative AI Engineer Associate](https://www.databricks.com/learn/certification/genai-engineer-associate), Databricks: paid, intermediate, not verified, professional certification
 - **67** [`microsoft-azure-ai-apps-agents-developer-ai-103`](#microsoft-azure-ai-apps-agents-developer-ai-103) [Microsoft Certified: Azure AI Apps and Agents Developer Associate (Exam AI-103)](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-103), Microsoft: paid, intermediate, not verified, professional certification
+- **66** [`microsoft-learn-create-agents-copilot-studio`](#microsoft-learn-create-agents-copilot-studio) [Create agents in Microsoft Copilot Studio (learning path)](https://learn.microsoft.com/en-us/training/paths/create-extend-custom-copilots-microsoft-copilot-studio/), Microsoft: free, introductory-to-intermediate, not verified, not verified
 - **65** [`microsoft-azure-ai-fundamentals-ai-901`](#microsoft-azure-ai-fundamentals-ai-901) [Microsoft Certified: Azure AI Fundamentals (Exam AI-901)](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/), Microsoft: paid, introductory, not verified, professional certification
 - **63** [`google-cloud-professional-ml-engineer`](#google-cloud-professional-ml-engineer) [Google Cloud Professional Machine Learning Engineer](https://cloud.google.com/learn/certification/machine-learning-engineer), Google Cloud: paid, advanced, not verified, professional certification
 
@@ -1138,6 +1146,77 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 
 ---
 
+<a id="deeplearningai-long-term-agentic-memory-langgraph"></a>
+
+### Long-Term Agentic Memory with LangGraph
+
+`deeplearningai-long-term-agentic-memory-langgraph` · DeepLearning.AI and LangChain on DeepLearning.AI learning platform · [official page](https://www.deeplearning.ai/courses/long-term-agentic-memory-with-langgraph) · status: active
+
+**Subjects:** Generative AI, LLMs, prompting & agents  
+**Type:** short-course · **Level:** intermediate · **Audience:** Developers building personal-assistant and productivity agents
+
+**Prerequisites**
+
+- Python
+- Basic familiarity with LLM agents (not verified as an official prerequisite)
+
+**Learning outcomes**
+
+- Build a personal email agent that can respond to, ignore or flag incoming mail using writing, scheduling and memory tools
+- Add semantic memory (facts), episodic memory (past examples) and procedural memory (rules the agent follows)
+- Use LangMem with LangGraph to store and update an agent's memory
+
+**Practical work**
+
+- Build an email assistant in four stages, adding one memory type at a time
+- 5 code examples
+
+**Assessment:** not verified: not verified  
+**Credential:** not verified, issued by not verified. Academic credit: not applicable. Renewal: not applicable
+
+**Delivery:** self-paced-online; 1h24m video; 7 lessons; study hours 1.5 h+ (upper estimate not verified) (DeepLearning.AI page: 1h24m of video; exercise time not published); access: not verified; starts: On demand  
+**From Ireland:** available. Online. Live-session time zone: not applicable
+
+**Price:** mixed; advertised Not verified for this course. DeepLearning.AI short courses vary between free access and a paid Pro plan.; approx. not verified
+
+**Additional costs**
+
+- LLM API usage if you run the code outside the course notebooks (not verified)
+
+**Financial aid / discounts (verified)**
+
+- None verified
+
+**Learner rating:** Credible but unrated (rating not verified)
+
+**Quality evidence**
+
+- Taught by Harrison Chase, co-founder and CEO of LangChain
+- Builds a working email assistant, directly matching the executive-assistant use case
+- Course page shows an update in July 2026
+
+**Limitations**
+
+- Short course; tied to the LangGraph and LangMem libraries
+- Price and credential not verified
+- Update date seen in one page snapshot only
+
+**Relevance:** Teaches the memory an executive assistant needs: your preferences, past decisions and standing rules, built around an email-triage agent.
+
+**Suitability 74/100** (confidence medium). Components: relevance 72, curriculum 75, practical 75, quality 65, value 80, accessibility 95. Closely matched hands-on build; price and credential unverified.
+
+**Verification:** 2026-10-22 via web-search-of-official-pages.
+ Gaps: Price and certificate; Assessment; Learner rating.
+
+**Sources**
+
+- <https://www.deeplearning.ai/courses/long-term-agentic-memory-with-langgraph>: Title, level, duration, lessons, code examples, outcomes, instructor, July 2026 update (accessed 2026-10-22)
+- <https://hackmd.io/@YungHuiHsu/S1f1cyOnke>: Third-party course notes: four-stage build (accessed 2026-10-22)
+
+**My status:** not-started
+
+---
+
 <a id="deeplearningai-machine-learning-in-production"></a>
 
 ### Machine Learning in Production
@@ -1351,6 +1430,77 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 
 - <https://www.coursera.org/specializations/machine-learning-introduction>: Rating 4.9 from 39,421 reviews; 3 courses; level; 2 months at 10 h/week; TensorFlow (accessed 2026-10-22)
 - <https://blog.theinterviewguys.com/coursera-machine-learning-specialization-review/>: Third-party: ~95 hours; critiques re depth and LLM era (accessed 2026-10-22)
+
+**My status:** not-started
+
+---
+
+<a id="deeplearningai-red-teaming-llm-applications"></a>
+
+### Red Teaming LLM Applications
+
+`deeplearningai-red-teaming-llm-applications` · DeepLearning.AI and Giskard on DeepLearning.AI learning platform (also a Coursera guided project) · [official page](https://www.deeplearning.ai/courses/red-teaming-llm-applications) · status: active
+
+**Subjects:** AI security, Generative AI, LLMs, prompting & agents  
+**Type:** short-course · **Level:** introductory · **Audience:** Builders and leaders who need to find security weaknesses in LLM applications
+
+**Prerequisites**
+
+- Basic Python (not verified as an official prerequisite)
+
+**Learning outcomes**
+
+- Attack chatbot applications with prompt injection and see where their security fails
+- Use manual and automated LLM red-teaming methods
+- Use Giskard's open-source library to automate red-teaming
+
+**Practical work**
+
+- Red-team sample chatbot applications in notebooks
+- Follow a full red-teaming assessment demonstration
+
+**Assessment:** graded-assignments: 1 graded assignment (DeepLearning.AI listing).  
+**Credential:** not verified, issued by not verified. Academic credit: not applicable. Renewal: not applicable
+
+**Delivery:** self-paced-online; 1h39m video; 7 lessons; study hours 1.5–2 h (DeepLearning.AI: 1h39m of video; Coursera guided project listed at 1-2 hours); access: not verified; starts: On demand  
+**From Ireland:** available. Online. Live-session time zone: not applicable
+
+**Price:** mixed; advertised Not verified on the DeepLearning.AI page; Class Central lists the Coursera version as free; approx. not verified
+
+**Additional costs**
+
+- None identified
+
+**Financial aid / discounts (verified)**
+
+- None verified
+
+**Learner rating:** Credible but unrated (rating not verified)
+
+**Quality evidence**
+
+- Built with Giskard, an LLM testing and security company; taught by its staff
+- Hands-on attacks with a graded assignment
+
+**Limitations**
+
+- Released in 2024; does not focus on modern tool-using agents
+- Short; an introduction, not a security qualification
+- Price and credential not verified
+
+**Relevance:** An executive assistant reads untrusted email and documents, which can carry prompt-injection attacks. This course shows how such attacks work and how to test for them.
+
+**Suitability 68/100** (confidence medium). Components: relevance 65, curriculum 55, practical 70, quality 65, value 85, accessibility 95. Short, practical introduction to prompt-injection risk; somewhat dated for agents.
+
+**Verification:** 2026-10-22 via web-search-of-official-pages.
+ Gaps: Price on DeepLearning.AI; Certificate; Learner rating; Whether content has been updated since 2024.
+ Conflicts: Coursera guided project length listed as 1 hour on one page and 2 hours on another.
+
+**Sources**
+
+- <https://www.deeplearning.ai/courses/red-teaming-llm-applications>: Level, duration, lessons, graded assignment, instructors, outcomes (accessed 2026-10-22)
+- <https://community.deeplearning.ai/t/new-short-course-built-in-collaboration-with-giskard-red-teaming-llm-applications/603905>: Launch announcement (accessed 2026-10-22)
+- <https://www.classcentral.com/course/coursera-red-teaming-llm-applications-293407>: Secondary listing: Coursera version free (accessed 2026-10-22)
 
 **My status:** not-started
 
@@ -2806,6 +2956,73 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 - <https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/>: Official credential page (accessed 2026-10-22)
 - <https://techcommunity.microsoft.com/blog/skills-hub-blog/evolving-the-microsoft-certified-azure-ai-fundamentals-certification/4494127>: AI-901 replaces AI-900 retiring 30 June 2026 (accessed 2026-10-22)
 - <https://howtoai.com/ai-900-vs-ai-901/>: USD 99 price and domain weights (third-party) (accessed 2026-10-22)
+
+**My status:** not-started
+
+---
+
+<a id="microsoft-learn-create-agents-copilot-studio"></a>
+
+### Create agents in Microsoft Copilot Studio (learning path)
+
+`microsoft-learn-create-agents-copilot-studio` · Microsoft on Microsoft Learn · [official page](https://learn.microsoft.com/en-us/training/paths/create-extend-custom-copilots-microsoft-copilot-studio/) · status: active
+
+**Subjects:** Generative AI, LLMs, prompting & agents, Cloud AI platforms & certifications  
+**Type:** learning-path · **Level:** introductory-to-intermediate · **Audience:** Microsoft 365 users and makers building agents without heavy coding
+
+**Prerequisites**
+
+- Access to a Copilot Studio environment with a licensed user for the exercises (per Microsoft Learn workshop pages)
+
+**Learning outcomes**
+
+- Create agents in Copilot Studio using topics and trigger phrases
+- Build an autonomous agent step by step
+
+**Practical work**
+
+- Step-by-step build of an autonomous agent in Copilot Studio
+
+**Assessment:** not verified: not verified  
+**Credential:** not verified, issued by not verified. Academic credit: not applicable. Renewal: not applicable
+
+**Delivery:** self-paced-online; not verified; study hours not verified (Duration not captured in search results); access: Ongoing (Microsoft Learn); starts: On demand  
+**From Ireland:** available. Free on Microsoft Learn; exercises need a Copilot Studio licence or trial. Live-session time zone: not applicable
+
+**Price:** free; advertised Free; approx. EUR 0
+
+**Additional costs**
+
+- Copilot Studio or Microsoft 365 Copilot licence or trial to do the exercises (cost not verified)
+
+**Financial aid / discounts (verified)**
+
+- None verified
+
+**Learner rating:** Credible but unrated (rating not published)
+
+**Quality evidence**
+
+- Official Microsoft training for its own agent platform
+- Hands-on, step-by-step agent build
+
+**Limitations**
+
+- Platform-specific
+- Some related Microsoft Learn pages still reference the older Copilot Studio experience
+- Duration and assessment not verified
+
+**Relevance:** If your email, calendar and documents are in Microsoft 365, Copilot Studio is the low-code route to an executive assistant that already has access to them, and a useful buy-versus-build comparison.
+
+**Suitability 66/100** (confidence low). Components: relevance 65, curriculum 60, practical 60, quality 60, value 90, accessibility 90. Free, official and practical for Microsoft 365 users; duration, assessment and currency of content not verified.
+
+**Verification:** 2026-10-22 via web-search-of-official-pages.
+ Gaps: Duration; Assessment and badge; Licence cost for exercises in Ireland.
+
+**Sources**
+
+- <https://learn.microsoft.com/en-us/training/paths/create-extend-custom-copilots-microsoft-copilot-studio/>: Title, level, content: topics, trigger phrases, autonomous agent (accessed 2026-10-22)
+- <https://learn.microsoft.com/en-us/training/paths/power-virtual-agents-workshop/>: Licensed environment needed for exercises (accessed 2026-10-22)
 
 **My status:** not-started
 
