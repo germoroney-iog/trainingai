@@ -4,7 +4,7 @@
 
 **Use case.** Create my own AI project manager that scopes a project, then monitors and reports on execution.
 
-**Outcome.** A working assistant that turns a project brief into a structured scope, then reads live project data such as tracker tasks, dates and meeting notes, flags slippage and risks, and drafts a weekly status report for human approval. You also gain the judgement to decide when to buy a tool instead of building one.
+**Outcome.** A working assistant that runs 24x7. It turns a project brief into a structured scope, continuously reads live project data such as tracker tasks, dates and meeting notes, flags slippage and risks, and drafts status reports for human approval. You can talk to it from Slack, Telegram and Google Meet. You also gain the judgement to decide when to buy a tool instead of building one.
 
 **Assumptions**
 
@@ -24,9 +24,10 @@ Pack last updated 2026-10-22. Hours and costs come from the database dated 2026-
 | 4 | [Design agents that plan, act and check their own work](#capability-4) | 3 | Covered |
 | 5 | [Connect to project tools and data](#capability-5) | 2 | Partial: see gap |
 | 6 | [Retrieve context from project documents](#capability-6) | 2 | Covered |
-| 7 | [Evaluate and trust the reports](#capability-7) | 1 | Partial: see gap |
+| 7 | [Evaluate and trust the reports](#capability-7) | 2 | Covered |
 | 8 | [Govern access, oversight and accountability](#capability-8) | 1 | Covered |
-| 9 | [Run it on a schedule, unattended](#capability-9) | 0 | Gap: see below |
+| 9 | [Run it 24x7: hosting, scheduling and monitoring](#capability-9) | 2 | Partial: see gap |
+| 10 | [Reach it from Slack, Telegram and Google Meet](#capability-10) | 2 | Partial: see gap |
 
 <a id="capability-1"></a>
 
@@ -104,9 +105,8 @@ A status report that invents progress or misses a slipped milestone is worse tha
 
 | Step | Offering | Prerequisites | Hours | Cost | Credential | Why |
 |---|---|---|---|---|---|---|
-| 7.1 (optional) | [AI Evals For Engineers & PMs](https://maven.com/parlance-labs/evals)<br>[`parlance-labs-ai-evals-engineers-pms`](../CATALOGUE.md#parlance-labs-ai-evals-engineers-pms) | None stated | not verified | ≈ EUR 3,739 (USD 4,200 (Maven page); third-party reported a 25%-off rate of USD 3,750 from USD 5,000 for an earlier promotion) | not verified | In-depth course on evaluating LLM products, including error analysis. Expensive; take it if the assistant will be used beyond your own projects. |
-
-> **Coverage gap:** Prompt evaluation (capability 3) and RAG evaluation (capability 6) cover the basics. No verified course yet covers monitoring agents in production (tracing and observability tools).
+| 7.1 | [Evaluating AI Agents](https://www.deeplearning.ai/courses/evaluating-ai-agents)<br>[`deeplearningai-evaluating-ai-agents`](../CATALOGUE.md#deeplearningai-evaluating-ai-agents) | Python (not verified as an official prerequisite) | 2.5 h+ (upper estimate not verified) | Not verified for this course. DeepLearning.AI short courses vary between free access and a paid Pro plan. (EUR not verified) | not verified | Tracing and evaluating an agent's steps, the basis for monitoring it once it runs unattended. |
+| 7.2 (optional) | [AI Evals For Engineers & PMs](https://maven.com/parlance-labs/evals)<br>[`parlance-labs-ai-evals-engineers-pms`](../CATALOGUE.md#parlance-labs-ai-evals-engineers-pms) | None stated | not verified | ≈ EUR 3,739 (USD 4,200 (Maven page); third-party reported a 25%-off rate of USD 3,750 from USD 5,000 for an earlier promotion) | not verified | In-depth course on evaluating LLM products, including error analysis. Expensive; take it if the assistant will be used beyond your own projects. |
 
 <a id="capability-8"></a>
 
@@ -120,18 +120,36 @@ The assistant reads sensitive project and people data and may influence decision
 
 <a id="capability-9"></a>
 
-## 9. Run it on a schedule, unattended
+## 9. Run it 24x7: hosting, scheduling and monitoring
 
-Monitoring only works if the assistant runs on its own, for example every morning or every Friday, with secrets, logs and failure alerts.
+The project manager must run continuously, not only when you start it. It needs a hosted service, scheduled and event-driven runs, stored secrets, logs, alerts when it fails, and cost limits.
 
-> **Coverage gap:** No verified course in the database yet teaches scheduling and hosting a small agent (cron jobs, serverless functions, workflow tools, secrets handling). Research candidates are listed below.
+| Step | Offering | Prerequisites | Hours | Cost | Credential | Why |
+|---|---|---|---|---|---|---|
+| 9.1 | [Deploy Production Ready Agents (learning path)](https://www.skills.google/paths/3802)<br>[`google-skills-deploy-production-ready-agents`](../CATALOGUE.md#google-skills-deploy-production-ready-agents) | Building agents with Google's Agent Development Kit (ADK); the related path 'Develop Agents with Agent Development Kit' covers this; Python | not verified | Listed as 'Partially Free' and 'Subscription'. Google's no-cost GEAR subscription gives 35 monthly credits for labs. (EUR not verified) | digital badge | Official hands-on path for deploying agents as always-on services on Cloud Run or Vertex AI Agent Engine, with a skill badge. Needs Agent Development Kit (ADK) basics first. |
+| 9.2 (optional) | [AWS Certified Generative AI Developer - Professional (AIP-C01)](https://aws.amazon.com/certification/certified-generative-ai-developer-professional/)<br>[`aws-certified-generative-ai-developer-professional`](../CATALOGUE.md#aws-certified-generative-ai-developer-professional) | AWS recommends 2+ years building production applications on AWS; General AI/ML or data engineering experience; At least 1 year hands-on implementing GenAI solutions | not verified | ≈ EUR 267 (USD 300 per exam attempt) | professional certification | Alternative if you host on AWS: a professional certification covering integration of foundation models into applications, cost and performance optimisation, testing and troubleshooting. |
+
+> **Coverage gap:** No verified vendor-neutral course yet covers always-on agent operations end to end: uptime, alerting, secrets management, cost limits and safe restarts. The Google path covers one cloud; use your cloud's own operations documentation for the rest.
+
+<a id="capability-10"></a>
+
+## 10. Reach it from Slack, Telegram and Google Meet
+
+You want to ask the project manager questions and receive its reports where you already work: chat apps and meetings.
+
+| Step | Offering | Prerequisites | Hours | Cost | Credential | Why |
+|---|---|---|---|---|---|---|
+| 10.1 | [Building AI Apps in Slack with Bolt JS (workshop)](https://slack.dev/workshops/build-ai-assistant-slack-boltjs/)<br>[`slack-building-ai-apps-bolt-js`](../CATALOGUE.md#slack-building-ai-apps-bolt-js) | JavaScript; A Slack workspace; the free Slack Developer Program sandbox is suggested | 0.5–1 h | Free | none | Official Slack workshop: put an AI assistant inside Slack with the Bolt framework (JavaScript). |
+| 10.2 (optional) | [Introduction to Model Context Protocol](https://academy.claude.com/courses/introduction-to-model-context-protocol)<br>[`anthropic-introduction-to-mcp`](../CATALOGUE.md#anthropic-introduction-to-mcp) | Python (the course builds MCP servers and clients in Python, per third-party summaries) | 1 h | Free | digital badge | Revisit if you take this capability on its own: MCP lets the same agent serve several chat front-ends through shared tools. |
+
+> **Coverage gap:** Telegram: no reputable course found; Telegram's Bot API documentation is the best source (the bot API is free). Google Meet: the API for live meeting audio and video is in restricted developer preview with no official training. The general Google Meet API can read transcripts and recordings after meetings, which suits post-meeting summaries.
 
 ## Totals
 
 | Path | Study hours (published estimates) | Headline cost (approx. EUR) |
 |---|---|---|
-| Core steps | 27–37 h | EUR 0 |
-| Core + optional | 87–102 h | EUR 3,739 |
+| Core steps | 30–40 h | EUR 0 |
+| Core + optional | 91–106 h | EUR 4,006 |
 
 Totals exclude VAT, exam retakes, renewals, memberships, subscriptions beyond the headline price, cloud usage and the other extra costs listed on each record.
 
@@ -146,8 +164,13 @@ Totals exclude VAT, exam retakes, renewals, memberships, subscriptions beyond th
 - `datatalksclub-llm-zoomcamp`: study hours not verified
 - `ibm-rag-and-agentic-ai-professional-certificate`: upper study-hour estimate not verified (minimum counted)
 - `ibm-rag-and-agentic-ai-professional-certificate`: EUR cost not verified
+- `deeplearningai-evaluating-ai-agents`: upper study-hour estimate not verified (minimum counted)
+- `deeplearningai-evaluating-ai-agents`: EUR cost not verified
 - `parlance-labs-ai-evals-engineers-pms`: study hours not verified
 - `coursera-oxford-ai-governance`: EUR cost not verified
+- `google-skills-deploy-production-ready-agents`: study hours not verified
+- `google-skills-deploy-production-ready-agents`: EUR cost not verified
+- `aws-certified-generative-ai-developer-professional`: study hours not verified
 
 ## Build milestones
 
@@ -155,19 +178,23 @@ Apply each capability as you go. Each milestone produces evidence you can show.
 
 | # | Milestone | After capability | What you produce |
 |---:|---|---|---|
-| 1 | Write the assistant's job description | 1 | One-page spec: inputs (tracker, documents, meetings), outputs (scope document, weekly status report), what it may decide versus escalate, and how you will judge success. |
+| 1 | Write the assistant's job description | 1 | One-page spec: inputs (tracker, documents, meetings), outputs (scope document, status reports), channels (Slack, Telegram, Meet), what it may decide versus escalate, and how you will judge success. |
 | 2 | Scoping assistant | 3 | A script that turns a project brief into a structured scope (objectives, deliverables, work breakdown, milestones, risks, assumptions) as JSON plus a readable document, reviewed by you. |
 | 3 | Read-only tracker connection | 5 | The assistant lists tasks, owners, due dates and status from your tracker through an existing or self-built MCP server, with no write access. |
-| 4 | Monitoring and status report | 4, 6 | Weekly report comparing plan with actuals, a red/amber/green status per workstream, flagged slippage and risks, and citations to the source tasks and notes. |
-| 5 | Evaluation set | 7 | 20 or more past weeks with your own correct status as the answer key, plus a scored comparison of the assistant's reports and a log of its errors. |
-| 6 | Supervised pilot | 8, 9 | Scheduled weekly run with human approval before sending, an access review, an audit log, and a short buy-versus-build note comparing it with your tracker's built-in AI features. |
+| 4 | Monitoring and status report | 4, 6 | Report comparing plan with actuals, a red/amber/green status per workstream, flagged slippage and risks, and citations to the source tasks and notes. |
+| 5 | Evaluation set and tracing | 7 | 20 or more past weeks with your own correct status as the answer key, a scored comparison of the assistant's reports, and tracing that shows each step it took. |
+| 6 | Always-on deployment | 9 | The agent hosted as a service that checks the tracker on a schedule and on events, with secrets stored securely, logs, a failure alert to you, and a monthly cost cap. |
+| 7 | Chat and meeting access | 10 | Ask the agent for status in Slack and Telegram and get answers with sources; after each Google Meet meeting it reads the transcript and updates risks and actions for your approval. |
+| 8 | Supervised pilot | 8, 9, 10 | Two weeks running 24x7 with human approval before anything is sent or changed, an access review, an audit log, and a buy-versus-build note comparing it with your tracker's built-in AI features. |
 
 ## To research next
 
 - Credible training on tracker APIs and automation: Atlassian (Jira, Rovo agents), Asana, monday.com, Microsoft Planner and Power Automate, n8n.
 - Microsoft Copilot Studio agent training, if your organisation uses Microsoft 365.
-- LLM observability and agent monitoring courses (tracing, cost and quality dashboards).
-- Deploying and scheduling small agents (serverless, cron, managed agent platforms) with course-specific evidence.
+- Vendor-neutral training on always-on agent operations: uptime, alerting, secrets, cost limits.
+- Reputable Telegram bot development training (Bot API with an LLM agent).
+- Google Meet API and Meet add-ons training, and any change to the Meet Media API's developer-preview status.
+- Microsoft Teams bot or agent training, if Teams is also needed.
 - Official PMI-CPMAI price for Ireland.
 
 ## Notes
@@ -175,8 +202,11 @@ Apply each capability as you go. Each milestone produces evidence you can show.
 - No single verified course teaches this use case end to end. The pack combines courses and fills the rest with build milestones.
 - Many tracker vendors now ship built-in AI features. Compare them with your milestone 1 spec before building everything yourself.
 - Start read-only. Give the assistant write access, such as updating tasks or sending reports, only after the evaluation set shows it is reliable.
+- Running 24x7 means ongoing hosting and model costs. Set a monthly budget cap and alert before going live.
+- Chat access widens who can reach the agent. Restrict it to named users and channels, and treat incoming messages as untrusted input.
 
 ## Change history
 
 - 2026-10-22: Pack created with 9 capabilities. Added 4 supporting records: pmi-generative-ai-overview-for-project-managers, pmi-cpmai, anthropic-introduction-to-mcp, deeplearningai-mcp-rich-context-apps.
+- 2026-10-22: Added 24x7 operation and chat/meeting access (Slack, Telegram, Google Meet): capability 9 rewritten as 'Run it 24x7', new capability 10, Evaluating AI Agents added to capability 7, milestones expanded to 8. New records: google-skills-deploy-production-ready-agents, deeplearningai-evaluating-ai-agents, slack-building-ai-apps-bolt-js. Telegram and live Google Meet remain gaps.
 

@@ -2,7 +2,7 @@
 
 # AI training catalogue
 
-Database updated 2026-10-22. 54 current offerings (20 free or free-to-audit, 34 paid), 0 archived.
+Database updated 2026-10-22. 57 current offerings (21 free or free-to-audit, 36 paid), 0 archived.
 
 EUR amounts are approximate, converted from the advertised currency using the European Central Bank euro foreign exchange reference rates dated 2026-10-21 (https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html). They exclude VAT and extra costs unless stated.
 
@@ -23,6 +23,7 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 | 75 (medium) | [Generative AI with Large Language Models](https://www.deeplearning.ai/courses/generative-ai-with-llms)<br>[`deeplearningai-generative-ai-with-llms`](#deeplearningai-generative-ai-with-llms) | DeepLearning.AI and Amazon Web Services | Free | intermediate | 13–20 h | assessed completion certificate | Free (Free to audit; certificate requires paid subscription (deeplearning.ai FAQ cites Coursera subscription at USD 49/month; DeepLearning.AI Pro route also offered)) | Highly rated: 4.8/5 from 3,613 ratings (Coursera) |
 | 75 (medium) | [MCP: Build Rich-Context AI Apps with Anthropic](https://www.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic)<br>[`deeplearningai-mcp-rich-context-apps`](#deeplearningai-mcp-rich-context-apps) | DeepLearning.AI and Anthropic | Free | intermediate | 2 h+ (upper estimate not verified) | not verified | Free (Course access free (DeepLearning.AI page snapshot: free for a limited time during the platform beta); a listing mentions a paid certificate) | Credible but unrated: Unrated (not verified) |
 | 75 (high) | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)<br>[`deeplearningai-ml-specialization`](#deeplearningai-ml-specialization) | DeepLearning.AI and Stanford Online (Andrew Ng) | Free | introductory-to-intermediate | 86–95 h | assessed completion certificate | Free (Free to audit; certificate requires Coursera subscription) | Highly rated: 4.9/5 from 39,421 reviews (Coursera) |
+| 75 (medium) | [Deploy Production Ready Agents (learning path)](https://www.skills.google/paths/3802)<br>[`google-skills-deploy-production-ready-agents`](#google-skills-deploy-production-ready-agents) | Google Cloud | Paid | intermediate | not verified | digital badge | Listed as 'Partially Free' and 'Subscription'. Google's no-cost GEAR subscription gives 35 monthly credits for labs. (EUR not verified) | Credible but unrated: Unrated (not published) |
 | 75 (medium) | [Lead in AI](https://www.imi.ie/programme/lead-in-ai/)<br>[`imi-lead-in-ai`](#imi-lead-in-ai) | Irish Management Institute (IMI) | Paid | advanced | not verified | completion certificate | €4,775 | Credible but unrated: Unrated (not published) |
 | 75 (medium) | [PECB Certified ISO/IEC 42001 Lead Implementer](https://pecb.com/pdf/brochures/4/iso-iec-42001-lead%20implementer-4p.pdf)<br>[`pecb-iso42001-lead-implementer`](#pecb-iso42001-lead-implementer) | PECB (delivered by accredited training partners) | Paid | intermediate | not verified | professional certification | ≈ EUR 614 (Self-study packages from about USD 554 to USD 850 depending on partner (e.g. Mindset Cyber USD 554 incl. exam; SGS Academy USD 690); live 4-day e.g. USD 2,895 (TrainingCamp, incl. exam)) | Credible but unrated: Unrated (not verified) |
 | 74 (medium) | [Building with the Claude API](https://academy.claude.com/courses/building-with-the-claude-api)<br>[`anthropic-building-with-claude-api`](#anthropic-building-with-claude-api) | Anthropic | Free | intermediate | 9 h | digital badge | Free | Credible but unrated: Unrated (not published) |
@@ -33,6 +34,7 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 | 74 (medium) | [AI: Law, Policy and Governance online certificate course](https://www.lse.ac.uk/study-at-lse/executive-education/programmes/ai-law-policy-and-governance)<br>[`lse-ai-law-policy-governance`](#lse-ai-law-policy-governance) | London School of Economics and Political Science (LSE) | Paid | intermediate | 36–48 h | assessed completion certificate | ≈ EUR 2,851 (USD 3,203 (payment plan available)) | Credible but unrated: Unrated (not verified) |
 | 74 (medium) | [PMI Certified Professional in Managing AI (PMI-CPMAI)](https://www.pmi.org/certifications/ai-project-management-cpmai)<br>[`pmi-cpmai`](#pmi-cpmai) | Project Management Institute (PMI) | Paid | intermediate | 21 h+ (upper estimate not verified) | professional certification | Exam plus prep-course bundle; PMI states regional and membership pricing. Third-party guides report USD 899 non-member / USD 699 member (US, UK, Canada, UAE) (EUR not verified) | Credible but unrated: Unrated (not published) |
 | 73 (medium) | [LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp)<br>[`datatalksclub-llm-zoomcamp`](#datatalksclub-llm-zoomcamp) | DataTalks.Club | Free | intermediate | not verified | assessed completion certificate | Free | Credible but unrated: Unrated (not published) |
+| 73 (medium) | [Evaluating AI Agents](https://www.deeplearning.ai/courses/evaluating-ai-agents)<br>[`deeplearningai-evaluating-ai-agents`](#deeplearningai-evaluating-ai-agents) | DeepLearning.AI and Arize AI | Paid | introductory | 2.5 h+ (upper estimate not verified) | not verified | Not verified for this course. DeepLearning.AI short courses vary between free access and a paid Pro plan. (EUR not verified) | Credible but unrated: Unrated (not verified) |
 | 72 (medium) | [AI Fluency: Framework and Foundations](https://academy.claude.com/courses/ai-fluency-framework-foundations)<br>[`anthropic-ai-fluency-framework-foundations`](#anthropic-ai-fluency-framework-foundations) | Anthropic | Free | introductory | 4 h | digital badge | Free | Credible but unrated: Unrated (not published) |
 | 72 (medium) | [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners)<br>[`microsoft-ai-agents-for-beginners`](#microsoft-ai-agents-for-beginners) | Microsoft | Free | introductory-to-intermediate | not verified | none | Free | Credible but unrated: Unrated (not published) |
 | 72 (medium) | [MSc Data Science (online, part-time)](https://www.ucd.ie/courses/msc-data-science)<br>[`ucd-msc-data-science-online`](#ucd-msc-data-science-online) | University College Dublin, School of Mathematics and Statistics | Paid | intermediate-to-advanced | not verified | assessed academic qualification | EUR 161.70 per credit (EU and non-EU), September 2026 intake; 90 credits = EUR 14,553 (calculated from published per-credit fee) | Credible but unrated: Unrated (not published) |
@@ -45,6 +47,7 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 | 70 (high) | [Google Cloud Certified Generative AI Leader](https://cloud.google.com/learn/certification/generative-ai-leader)<br>[`google-cloud-generative-ai-leader`](#google-cloud-generative-ai-leader) | Google Cloud | Paid | introductory | not verified | professional certification | ≈ EUR 88 (USD 99 plus tax where applicable) | Credible but unrated: Unrated (not published) |
 | 70 (medium) | [Artificial Intelligence Graduate Certificate](https://online.stanford.edu/programs/artificial-intelligence-graduate-certificate)<br>[`stanford-ai-graduate-certificate`](#stanford-ai-graduate-certificate) | Stanford University (Stanford Online / Stanford Engineering) | Paid | advanced | not verified | assessed academic qualification | ≈ EUR 18,221 (Tuition USD 20,470 - 26,775) | Credible but unrated: Unrated (not published) |
 | 69 (medium) | [Oxford Artificial Intelligence Programme](https://www.sbs.ox.ac.uk/programmes/online-learning/oxford-artificial-intelligence-programme)<br>[`oxford-sbs-artificial-intelligence-programme`](#oxford-sbs-artificial-intelligence-programme) | Saïd Business School, University of Oxford | Paid | introductory-to-intermediate | 60 h | attendance certificate | ≈ EUR 2,923 (£2,450 (Saïd Business School page); GetSmarter lists $3,280 USD for the same cohort) | Credible but unrated: Unrated (not published) |
+| 69 (medium) | [Building AI Apps in Slack with Bolt JS (workshop)](https://slack.dev/workshops/build-ai-assistant-slack-boltjs/)<br>[`slack-building-ai-apps-bolt-js`](#slack-building-ai-apps-bolt-js) | Slack (Salesforce) | Free | intermediate | 0.5–1 h | none | Free | Credible but unrated: Unrated (not published) |
 | 68 (medium) | [Postgraduate Diploma in Computing in Big Data Analytics and Artificial Intelligence](https://www.atu.ie/courses/postgraduate-diploma-computing-in-big-data-analytics-and-artificial-intelligence)<br>[`atu-pgdip-big-data-analytics-ai`](#atu-pgdip-big-data-analytics-ai) | Atlantic Technological University (ATU Donegal, Letterkenny) | Free | intermediate-to-advanced | not verified | assessed academic qualification | EUR 670 (Springboard+ listing, employed participant 10% contribution) | Credible but unrated: Unrated (not published) |
 | 68 (high) | [AWS Certified AI Practitioner (AIF-C01)](https://aws.amazon.com/certification/certified-ai-practitioner/)<br>[`aws-certified-ai-practitioner`](#aws-certified-ai-practitioner) | Amazon Web Services | Paid | introductory | not verified | professional certification | ≈ EUR 89 (USD 100 per exam attempt) | Credible but unrated: Unrated (not published) |
 | 68 (medium) | [Databricks Certified Generative AI Engineer Associate](https://www.databricks.com/learn/certification/genai-engineer-associate)<br>[`databricks-generative-ai-engineer-associate`](#databricks-generative-ai-engineer-associate) | Databricks | Paid | intermediate | not verified | professional certification | ≈ EUR 178 (USD 200 per attempt) | Credible but unrated: Unrated (not published) |
@@ -115,9 +118,11 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 - **77** [`kaggle-google-5-day-ai-agents-intensive`](#kaggle-google-5-day-ai-agents-intensive) [5-Day AI Agents Intensive Course with Google (self-paced)](https://www.kaggle.com/learn-guide/5-day-agents), Google and Kaggle: free, intermediate, not verified, not verified
 - **75** [`deeplearningai-generative-ai-with-llms`](#deeplearningai-generative-ai-with-llms) [Generative AI with Large Language Models](https://www.deeplearning.ai/courses/generative-ai-with-llms), DeepLearning.AI and Amazon Web Services: free, intermediate, 13–20 h, assessed completion certificate
 - **75** [`deeplearningai-mcp-rich-context-apps`](#deeplearningai-mcp-rich-context-apps) [MCP: Build Rich-Context AI Apps with Anthropic](https://www.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic), DeepLearning.AI and Anthropic: free, intermediate, 2 h+ (upper estimate not verified), not verified
+- **75** [`google-skills-deploy-production-ready-agents`](#google-skills-deploy-production-ready-agents) [Deploy Production Ready Agents (learning path)](https://www.skills.google/paths/3802), Google Cloud: paid, intermediate, not verified, digital badge
 - **74** [`anthropic-building-with-claude-api`](#anthropic-building-with-claude-api) [Building with the Claude API](https://academy.claude.com/courses/building-with-the-claude-api), Anthropic: free, intermediate, 9 h, digital badge
 - **74** [`deeplearningai-long-term-agentic-memory-langgraph`](#deeplearningai-long-term-agentic-memory-langgraph) [Long-Term Agentic Memory with LangGraph](https://www.deeplearning.ai/courses/long-term-agentic-memory-with-langgraph), DeepLearning.AI and LangChain: paid, intermediate, 1.5 h+ (upper estimate not verified), not verified
 - **73** [`datatalksclub-llm-zoomcamp`](#datatalksclub-llm-zoomcamp) [LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp), DataTalks.Club: free, intermediate, not verified, assessed completion certificate
+- **73** [`deeplearningai-evaluating-ai-agents`](#deeplearningai-evaluating-ai-agents) [Evaluating AI Agents](https://www.deeplearning.ai/courses/evaluating-ai-agents), DeepLearning.AI and Arize AI: paid, introductory, 2.5 h+ (upper estimate not verified), not verified
 - **72** [`anthropic-ai-fluency-framework-foundations`](#anthropic-ai-fluency-framework-foundations) [AI Fluency: Framework and Foundations](https://academy.claude.com/courses/ai-fluency-framework-foundations), Anthropic: free, introductory, 4 h, digital badge
 - **72** [`microsoft-ai-agents-for-beginners`](#microsoft-ai-agents-for-beginners) [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners), Microsoft: free, introductory-to-intermediate, not verified, none
 - **71** [`anthropic-introduction-to-mcp`](#anthropic-introduction-to-mcp) [Introduction to Model Context Protocol](https://academy.claude.com/courses/introduction-to-model-context-protocol), Anthropic: free, intermediate, 1 h, digital badge
@@ -125,6 +130,7 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 - **71** [`sans-sec545-genai-llm-security`](#sans-sec545-genai-llm-security) [SEC545: GenAI and LLM Application Security (with GIAC GAIPS option)](https://www.sans.org/cyber-security-courses/genai-llm-application-security), SANS Institute: paid, intermediate-to-advanced, 30 h, completion certificate
 - **71** [`vanderbilt-prompt-engineering-specialization`](#vanderbilt-prompt-engineering-specialization) [Prompt Engineering Specialization](https://www.coursera.org/specializations/prompt-engineering), Vanderbilt University: paid, introductory, 39–40 h, completion certificate
 - **70** [`google-cloud-generative-ai-leader`](#google-cloud-generative-ai-leader) [Google Cloud Certified Generative AI Leader](https://cloud.google.com/learn/certification/generative-ai-leader), Google Cloud: paid, introductory, not verified, professional certification
+- **69** [`slack-building-ai-apps-bolt-js`](#slack-building-ai-apps-bolt-js) [Building AI Apps in Slack with Bolt JS (workshop)](https://slack.dev/workshops/build-ai-assistant-slack-boltjs/), Slack (Salesforce): free, intermediate, 0.5–1 h, none
 - **68** [`aws-certified-ai-practitioner`](#aws-certified-ai-practitioner) [AWS Certified AI Practitioner (AIF-C01)](https://aws.amazon.com/certification/certified-ai-practitioner/), Amazon Web Services: paid, introductory, not verified, professional certification
 - **68** [`databricks-generative-ai-engineer-associate`](#databricks-generative-ai-engineer-associate) [Databricks Certified Generative AI Engineer Associate](https://www.databricks.com/learn/certification/genai-engineer-associate), Databricks: paid, intermediate, not verified, professional certification
 - **68** [`deeplearningai-red-teaming-llm-applications`](#deeplearningai-red-teaming-llm-applications) [Red Teaming LLM Applications](https://www.deeplearning.ai/courses/red-teaming-llm-applications), DeepLearning.AI and Giskard: paid, introductory, 1.5–2 h, not verified
@@ -166,9 +172,11 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 - **78** [`ibm-rag-and-agentic-ai-professional-certificate`](#ibm-rag-and-agentic-ai-professional-certificate) [IBM RAG and Agentic AI Professional Certificate](https://www.coursera.org/professional-certificates/ibm-rag-and-agentic-ai), IBM: paid, advanced, 24 h+ (upper estimate not verified), assessed completion certificate
 - **78** [`parlance-labs-ai-evals-engineers-pms`](#parlance-labs-ai-evals-engineers-pms) [AI Evals For Engineers & PMs](https://maven.com/parlance-labs/evals), Parlance Labs (Hamel Husain and Shreya Shankar): paid, intermediate, not verified, not verified
 - **77** [`kaggle-google-5-day-ai-agents-intensive`](#kaggle-google-5-day-ai-agents-intensive) [5-Day AI Agents Intensive Course with Google (self-paced)](https://www.kaggle.com/learn-guide/5-day-agents), Google and Kaggle: free, intermediate, not verified, not verified
+- **75** [`google-skills-deploy-production-ready-agents`](#google-skills-deploy-production-ready-agents) [Deploy Production Ready Agents (learning path)](https://www.skills.google/paths/3802), Google Cloud: paid, intermediate, not verified, digital badge
 - **74** [`anthropic-building-with-claude-api`](#anthropic-building-with-claude-api) [Building with the Claude API](https://academy.claude.com/courses/building-with-the-claude-api), Anthropic: free, intermediate, 9 h, digital badge
 - **74** [`pmi-cpmai`](#pmi-cpmai) [PMI Certified Professional in Managing AI (PMI-CPMAI)](https://www.pmi.org/certifications/ai-project-management-cpmai), Project Management Institute (PMI): paid, intermediate, 21 h+ (upper estimate not verified), professional certification
 - **73** [`datatalksclub-llm-zoomcamp`](#datatalksclub-llm-zoomcamp) [LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp), DataTalks.Club: free, intermediate, not verified, assessed completion certificate
+- **73** [`deeplearningai-evaluating-ai-agents`](#deeplearningai-evaluating-ai-agents) [Evaluating AI Agents](https://www.deeplearning.ai/courses/evaluating-ai-agents), DeepLearning.AI and Arize AI: paid, introductory, 2.5 h+ (upper estimate not verified), not verified
 - **72** [`microsoft-ai-agents-for-beginners`](#microsoft-ai-agents-for-beginners) [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners), Microsoft: free, introductory-to-intermediate, not verified, none
 - **71** [`aws-certified-generative-ai-developer-professional`](#aws-certified-generative-ai-developer-professional) [AWS Certified Generative AI Developer - Professional (AIP-C01)](https://aws.amazon.com/certification/certified-generative-ai-developer-professional/), Amazon Web Services: paid, advanced, not verified, professional certification
 - **68** [`databricks-generative-ai-engineer-associate`](#databricks-generative-ai-engineer-associate) [Databricks Certified Generative AI Engineer Associate](https://www.databricks.com/learn/certification/genai-engineer-associate), Databricks: paid, intermediate, not verified, professional certification
@@ -178,6 +186,7 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 
 ### Cloud AI platforms & certifications
 
+- **75** [`google-skills-deploy-production-ready-agents`](#google-skills-deploy-production-ready-agents) [Deploy Production Ready Agents (learning path)](https://www.skills.google/paths/3802), Google Cloud: paid, intermediate, not verified, digital badge
 - **71** [`aws-certified-generative-ai-developer-professional`](#aws-certified-generative-ai-developer-professional) [AWS Certified Generative AI Developer - Professional (AIP-C01)](https://aws.amazon.com/certification/certified-generative-ai-developer-professional/), Amazon Web Services: paid, advanced, not verified, professional certification
 - **70** [`google-cloud-generative-ai-leader`](#google-cloud-generative-ai-leader) [Google Cloud Certified Generative AI Leader](https://cloud.google.com/learn/certification/generative-ai-leader), Google Cloud: paid, introductory, not verified, professional certification
 - **68** [`aws-certified-ai-practitioner`](#aws-certified-ai-practitioner) [AWS Certified AI Practitioner (AIF-C01)](https://aws.amazon.com/certification/certified-ai-practitioner/), Amazon Web Services: paid, introductory, not verified, professional certification
@@ -998,6 +1007,75 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 - <https://www.coursera.org/specializations/deep-learning>: Rating 4.8 from 147,272 reviews; 3 months at 10 h/week (accessed 2026-10-22)
 - <https://www.deeplearning.ai/specializations/deep-learning>: Course list; 1M+ learners; 5 h/week pacing (accessed 2026-10-22)
 - <https://bestaicertifications.com/reviews/deep-learning-specialization/>: Third-party note on pre-LLM content (accessed 2026-10-22)
+
+**My status:** not-started
+
+---
+
+<a id="deeplearningai-evaluating-ai-agents"></a>
+
+### Evaluating AI Agents
+
+`deeplearningai-evaluating-ai-agents` · DeepLearning.AI and Arize AI on DeepLearning.AI learning platform · [official page](https://www.deeplearning.ai/courses/evaluating-ai-agents) · status: active
+
+**Subjects:** RAG, evaluation, deployment, MLOps & LLMOps, Generative AI, LLMs, prompting & agents  
+**Type:** short-course · **Level:** introductory · **Audience:** Developers and product owners responsible for agent quality before and after deployment
+
+**Prerequisites**
+
+- Python (not verified as an official prerequisite)
+
+**Learning outcomes**
+
+- Add observability (tracing) to an agent to see and debug each step it takes
+- Choose evaluators for each agent component, including code-based checks and LLM-as-a-judge
+- Measure whether an agent reaches answers in an efficient number of steps (convergence)
+- Run structured experiments to improve prompts, models and agent logic
+
+**Practical work**
+
+- Instrument and evaluate an agent with tracing tools in notebooks
+
+**Assessment:** not verified: not verified  
+**Credential:** not verified, issued by not verified. Academic credit: not applicable. Renewal: not applicable
+
+**Delivery:** self-paced-online; About 2h36m (DeepLearning.AI page); study hours 2.5 h+ (upper estimate not verified) (DeepLearning.AI page: about 2h36m; exercise time not published); access: not verified; starts: On demand  
+**From Ireland:** available. Online. Live-session time zone: not applicable
+
+**Price:** mixed; advertised Not verified for this course. DeepLearning.AI short courses vary between free access and a paid Pro plan.; approx. not verified
+
+**Additional costs**
+
+- None identified
+
+**Financial aid / discounts (verified)**
+
+- None verified
+
+**Learner rating:** Credible but unrated (rating not verified)
+
+**Quality evidence**
+
+- Built with Arize AI, an AI observability company; taught by its staff
+- Launched February 2025 and focused on agents, not just single prompts
+
+**Limitations**
+
+- Short course
+- Uses Arize tooling for examples
+- Price and credential not verified
+
+**Relevance:** Monitoring an always-on agent means tracing what it did and measuring quality continuously; this course covers both.
+
+**Suitability 73/100** (confidence medium). Components: relevance 72, curriculum 75, practical 70, quality 65, value 80, accessibility 95. Current, practical agent observability and evaluation; short with unverified price.
+
+**Verification:** 2026-10-22 via web-search-of-official-pages.
+ Gaps: Price and certificate; Assessment; Learner rating.
+
+**Sources**
+
+- <https://www.deeplearning.ai/courses/evaluating-ai-agents>: Title, level, duration, instructors, outcomes (accessed 2026-10-22)
+- <https://community.deeplearning.ai/t/new-course-enroll-in-evaluating-ai-agents/773080>: Launch announcement (accessed 2026-10-22)
 
 **My status:** not-started
 
@@ -1928,6 +2006,77 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 - <https://developers.google.com/machine-learning/crash-course>: Official course page; prerequisites (accessed 2026-10-22)
 - <https://blog.google/innovation-and-ai/technology/developers-tools/machine-learning-crash-course/>: Nov 2024 update: LLMs, AutoML, responsible AI, 15 hours, 130+ exercises (accessed 2026-10-22)
 - <https://support.google.com/machinelearningeducation/answer/15662815?hl=en>: Next generation MLCC (accessed 2026-10-22)
+
+**My status:** not-started
+
+---
+
+<a id="google-skills-deploy-production-ready-agents"></a>
+
+### Deploy Production Ready Agents (learning path)
+
+`google-skills-deploy-production-ready-agents` · Google Cloud on Google Skills (formerly Google Cloud Skills Boost) · [official page](https://www.skills.google/paths/3802) · status: active
+
+**Subjects:** Cloud AI platforms & certifications, RAG, evaluation, deployment, MLOps & LLMOps, Generative AI, LLMs, prompting & agents  
+**Type:** learning-path · **Level:** intermediate · **Audience:** Developers deploying AI agents to run in production on Google Cloud
+
+**Prerequisites**
+
+- Building agents with Google's Agent Development Kit (ADK); the related path 'Develop Agents with Agent Development Kit' covers this
+- Python
+
+**Learning outcomes**
+
+- Deploy ADK agents to Vertex AI Agent Engine
+- Deploy ADK agents to Cloud Run so they run continuously as a hosted service
+
+**Practical work**
+
+- Hands-on labs
+- 'Deploy an Agent with Agent Development Kit' challenge lab
+
+**Assessment:** graded-assignments: Challenge lab; completing it earns the skill badge.  
+**Credential:** digital badge, issued by Google Cloud (skill badge). Academic credit: not applicable. Renewal: not applicable
+
+**Delivery:** self-paced-online; not verified; study hours not verified (Duration not captured in search results); access: While credits or subscription last; starts: On demand  
+**From Ireland:** available. Online. Labs run in temporary Google Cloud projects provided by the platform. Live-session time zone: not applicable
+
+**Price:** mixed; advertised Listed as 'Partially Free' and 'Subscription'. Google's no-cost GEAR subscription gives 35 monthly credits for labs.; approx. not verified
+
+**Additional costs**
+
+- Labs beyond free monthly credits need a paid subscription or credits (price not verified)
+- Running your own agent 24x7 on Google Cloud incurs hosting and model costs (not verified)
+
+**Financial aid / discounts (verified)**
+
+- No-cost GEAR programme subscription with 35 monthly lab credits (InfoWorld report of Google announcement)
+
+**Learner rating:** Credible but unrated (rating not published)
+
+**Quality evidence**
+
+- Official Google Cloud training on its own agent hosting services
+- Assessed by a hands-on challenge lab for the skill badge
+
+**Limitations**
+
+- Google Cloud-specific
+- Duration and exact cost not verified
+- Needs ADK knowledge first
+
+**Relevance:** Teaches the hosting step that turns a prototype agent into an always-on service, such as an AI project manager running 24x7.
+
+**Suitability 75/100** (confidence medium). Components: relevance 70, curriculum 75, practical 80, quality 70, value 80, accessibility 90. Official, hands-on and assessed deployment training; platform-specific with unverified duration and cost.
+
+**Verification:** 2026-10-22 via web-search-of-official-pages.
+ Gaps: Duration; Whether the challenge lab fits within free monthly credits; Subscription price.
+
+**Sources**
+
+- <https://www.skills.google/paths/3802>: Title, Agent Engine and Cloud Run deployment, challenge lab and skill badge, 'Partially Free' and 'Subscription' tags (accessed 2026-10-22)
+- <https://www.infoworld.com/article/4130697/google-cloud-launches-gear-program-to-broaden-ai-agent-development-skills.html>: GEAR no-cost subscription with 35 monthly credits (accessed 2026-10-22)
+- <https://www.skills.google/paths/3545>: Related prerequisite path: Develop Agents with ADK (accessed 2026-10-22)
 
 **My status:** not-started
 
@@ -3607,6 +3756,74 @@ EUR amounts are approximate, converted from the advertised currency using the Eu
 - <https://www.sans.org/cyber-security-courses/genai-llm-application-security-5day>: Price USD 8,260, 5 days, 30 CPEs, 20 labs, OnDemand 4 months (accessed 2026-10-22)
 - <https://certmap.de/en/cert/gaips>: GAIPS exam cost (accessed 2026-10-22)
 - <https://assets.contentstack.io/v3/assets/bltabe50a4554f8e97f/bltc2ba871ffdbe866e/6945d8e9822153322b0e0649/SANS_Institute_SEC545_Brochure.pdf>: Five-section syllabus, lab environment (accessed 2026-10-22)
+
+**My status:** not-started
+
+---
+
+<a id="slack-building-ai-apps-bolt-js"></a>
+
+### Building AI Apps in Slack with Bolt JS (workshop)
+
+`slack-building-ai-apps-bolt-js` · Slack (Salesforce) on Slack developer site (slack.dev) · [official page](https://slack.dev/workshops/build-ai-assistant-slack-boltjs/) · status: active
+
+**Subjects:** Generative AI, LLMs, prompting & agents  
+**Type:** workshop · **Level:** intermediate · **Audience:** Developers adding an AI assistant to Slack
+
+**Prerequisites**
+
+- JavaScript
+- A Slack workspace; the free Slack Developer Program sandbox is suggested
+
+**Learning outcomes**
+
+- Build an AI assistant in Slack with the Bolt framework's Assistant class
+- Connect the Slack assistant to a model provider such as Anthropic, OpenAI, Amazon Bedrock or Einstein
+
+**Practical work**
+
+- Build a working AI assistant app in Slack
+
+**Assessment:** none: Self-guided workshop; no assessment advertised.  
+**Credential:** none, issued by not applicable. Academic credit: not applicable. Renewal: not applicable
+
+**Delivery:** self-paced-online; About 35 minutes (Slack listing); study hours 0.5–1 h (Slack listing: about 35 minutes); access: Ongoing; starts: On demand  
+**From Ireland:** available. Online; free developer sandbox. Live-session time zone: not applicable
+
+**Price:** free; advertised Free; approx. EUR 0
+
+**Additional costs**
+
+- Some Slack agent features need a paid Slack plan (per an October 2026 guide); the developer sandbox avoids this for learning
+- Model API costs (not verified)
+
+**Financial aid / discounts (verified)**
+
+- None verified
+
+**Learner rating:** Credible but unrated (rating not published)
+
+**Quality evidence**
+
+- Official Slack developer workshop for Slack's own assistant framework
+
+**Limitations**
+
+- Very short; JavaScript rather than Python
+- No credential
+- Listing about six months old at verification
+
+**Relevance:** Shows how to make an agent, such as an AI project manager, reachable and conversational inside Slack.
+
+**Suitability 69/100** (confidence medium). Components: relevance 70, curriculum 55, practical 70, quality 55, value 95, accessibility 95. Official and hands-on for the Slack channel; short with no credential.
+
+**Verification:** 2026-10-22 via web-search-of-official-pages.
+ Gaps: Whether the workshop has been updated in 2026.
+
+**Sources**
+
+- <https://slack.dev/workshops/build-ai-assistant-slack-boltjs/>: Title, level, about 35 minutes, Assistant class, supported model providers, developer sandbox (accessed 2026-10-22)
+- <https://slack.dev/learn/>: Slack developer learning hub (accessed 2026-10-22)
 
 **My status:** not-started
 

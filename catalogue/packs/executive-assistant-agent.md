@@ -26,7 +26,7 @@ Pack last updated 2026-10-22. Hours and costs come from the database dated 2026-
 | 6 | [Search your own knowledge](#capability-6) | 1 | Covered |
 | 7 | [Secure it against untrusted content](#capability-7) | 2 | Partial: see gap |
 | 8 | [Privacy, oversight and accountability](#capability-8) | 1 | Partial: see gap |
-| 9 | [Test it and run it daily](#capability-9) | 1 | Partial: see gap |
+| 9 | [Test it and run it daily](#capability-9) | 3 | Partial: see gap |
 
 <a id="capability-1"></a>
 
@@ -129,16 +129,18 @@ Wrong triage or a bad draft costs trust quickly. The assistant needs test cases,
 
 | Step | Offering | Prerequisites | Hours | Cost | Credential | Why |
 |---|---|---|---|---|---|---|
-| 9.1 (optional) | [AI Evals For Engineers & PMs](https://maven.com/parlance-labs/evals)<br>[`parlance-labs-ai-evals-engineers-pms`](../CATALOGUE.md#parlance-labs-ai-evals-engineers-pms) | None stated | not verified | ≈ EUR 3,739 (USD 4,200 (Maven page); third-party reported a 25%-off rate of USD 3,750 from USD 5,000 for an earlier promotion) | not verified | In-depth course on evaluating LLM products and analysing errors. Expensive; worth it if others will use the assistant. |
+| 9.1 | [Evaluating AI Agents](https://www.deeplearning.ai/courses/evaluating-ai-agents)<br>[`deeplearningai-evaluating-ai-agents`](../CATALOGUE.md#deeplearningai-evaluating-ai-agents) | Python (not verified as an official prerequisite) | 2.5 h+ (upper estimate not verified) | Not verified for this course. DeepLearning.AI short courses vary between free access and a paid Pro plan. (EUR not verified) | not verified | Tracing and evaluating the assistant's steps so you can see why it triaged or drafted as it did. |
+| 9.2 (optional) | [Deploy Production Ready Agents (learning path)](https://www.skills.google/paths/3802)<br>[`google-skills-deploy-production-ready-agents`](../CATALOGUE.md#google-skills-deploy-production-ready-agents) | Building agents with Google's Agent Development Kit (ADK); the related path 'Develop Agents with Agent Development Kit' covers this; Python | not verified | Listed as 'Partially Free' and 'Subscription'. Google's no-cost GEAR subscription gives 35 monthly credits for labs. (EUR not verified) | digital badge | Host the assistant as an always-on service on Google Cloud, with a skill badge. |
+| 9.3 (optional) | [AI Evals For Engineers & PMs](https://maven.com/parlance-labs/evals)<br>[`parlance-labs-ai-evals-engineers-pms`](../CATALOGUE.md#parlance-labs-ai-evals-engineers-pms) | None stated | not verified | ≈ EUR 3,739 (USD 4,200 (Maven page); third-party reported a 25%-off rate of USD 3,750 from USD 5,000 for an earlier promotion) | not verified | In-depth course on evaluating LLM products and analysing errors. Expensive; worth it if others will use the assistant. |
 
-> **Coverage gap:** No verified course in the database yet teaches scheduling and hosting a small personal agent (cron jobs, serverless functions, secrets handling).
+> **Coverage gap:** No verified vendor-neutral course yet covers scheduling and operating a small personal agent (alerts, secrets, cost limits). The Google path covers one cloud.
 
 ## Totals
 
 | Path | Study hours (published estimates) | Headline cost (approx. EUR) |
 |---|---|---|
-| Core steps | 29–40 h | EUR 0 |
-| Core + optional | 119–136 h | EUR 11,091 |
+| Core steps | 32–42 h | EUR 0 |
+| Core + optional | 122–138 h | EUR 11,091 |
 
 Totals exclude VAT, exam retakes, renewals, memberships, subscriptions beyond the headline price, cloud usage and the other extra costs listed on each record.
 
@@ -155,6 +157,10 @@ Totals exclude VAT, exam retakes, renewals, memberships, subscriptions beyond th
 - `datatalksclub-llm-zoomcamp`: study hours not verified
 - `deeplearningai-red-teaming-llm-applications`: EUR cost not verified
 - `coursera-oxford-ai-governance`: EUR cost not verified
+- `deeplearningai-evaluating-ai-agents`: upper study-hour estimate not verified (minimum counted)
+- `deeplearningai-evaluating-ai-agents`: EUR cost not verified
+- `google-skills-deploy-production-ready-agents`: study hours not verified
+- `google-skills-deploy-production-ready-agents`: EUR cost not verified
 - `parlance-labs-ai-evals-engineers-pms`: study hours not verified
 
 ## Build milestones
@@ -187,4 +193,5 @@ Apply each capability as you go. Each milestone produces evidence you can show.
 ## Change history
 
 - 2026-10-22: Pack created with 9 capabilities. Added 3 supporting records: deeplearningai-long-term-agentic-memory-langgraph, deeplearningai-red-teaming-llm-applications, microsoft-learn-create-agents-copilot-studio.
+- 2026-10-22: Capability 9: added deeplearningai-evaluating-ai-agents and google-skills-deploy-production-ready-agents; narrowed the gap.
 

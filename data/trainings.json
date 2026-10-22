@@ -7196,6 +7196,378 @@
           "change": "Record created."
         }
       ]
+    },
+    {
+      "id": "google-skills-deploy-production-ready-agents",
+      "title": "Deploy Production Ready Agents (learning path)",
+      "provider": "Google Cloud",
+      "platform": "Google Skills (formerly Google Cloud Skills Boost)",
+      "official_url": "https://www.skills.google/paths/3802",
+      "offering_type": "learning-path",
+      "categories": [
+        "cloud-platforms",
+        "rag-evals-llmops",
+        "generative-ai-agents"
+      ],
+      "audience": "Developers deploying AI agents to run in production on Google Cloud",
+      "level": "intermediate",
+      "prerequisites": [
+        "Building agents with Google's Agent Development Kit (ADK); the related path 'Develop Agents with Agent Development Kit' covers this",
+        "Python"
+      ],
+      "learning_outcomes": [
+        "Deploy ADK agents to Vertex AI Agent Engine",
+        "Deploy ADK agents to Cloud Run so they run continuously as a hosted service"
+      ],
+      "practical_work": [
+        "Hands-on labs",
+        "'Deploy an Agent with Agent Development Kit' challenge lab"
+      ],
+      "assessment": {
+        "type": "graded-assignments",
+        "description": "Challenge lab; completing it earns the skill badge."
+      },
+      "credential": {
+        "type": "digital-badge",
+        "issuer": "Google Cloud (skill badge)",
+        "academic_credit": "not applicable",
+        "renewal": "not applicable"
+      },
+      "delivery": {
+        "format": "self-paced-online",
+        "duration": "not verified",
+        "study_hours": {
+          "min": "not verified",
+          "max": "not verified",
+          "basis": "Duration not captured in search results"
+        },
+        "access_period": "While credits or subscription last",
+        "start_dates": "On demand"
+      },
+      "ireland_access": {
+        "status": "available",
+        "notes": "Online. Labs run in temporary Google Cloud projects provided by the platform.",
+        "live_session_timezone": "not applicable"
+      },
+      "pricing": {
+        "model": "mixed",
+        "advertised": "Listed as 'Partially Free' and 'Subscription'. Google's no-cost GEAR subscription gives 35 monthly credits for labs.",
+        "amount": "not verified",
+        "currency": "USD",
+        "eur_approx": "not verified",
+        "additional_costs": [
+          "Labs beyond free monthly credits need a paid subscription or credits (price not verified)",
+          "Running your own agent 24x7 on Google Cloud incurs hosting and model costs (not verified)"
+        ],
+        "financial_aid": [
+          "No-cost GEAR programme subscription with 35 monthly lab credits (InfoWorld report of Google announcement)"
+        ]
+      },
+      "learner_rating": {
+        "status": "not published"
+      },
+      "rating_class": "credible-but-unrated",
+      "quality_evidence": [
+        "Official Google Cloud training on its own agent hosting services",
+        "Assessed by a hands-on challenge lab for the skill badge"
+      ],
+      "limitations": [
+        "Google Cloud-specific",
+        "Duration and exact cost not verified",
+        "Needs ADK knowledge first"
+      ],
+      "relevance": "Teaches the hosting step that turns a prototype agent into an always-on service, such as an AI project manager running 24x7.",
+      "suitability": {
+        "score": 75,
+        "components": {
+          "relevance": 70,
+          "curriculum": 75,
+          "practical": 80,
+          "quality": 70,
+          "value": 80,
+          "accessibility": 90
+        },
+        "confidence": "medium",
+        "rationale": "Official, hands-on and assessed deployment training; platform-specific with unverified duration and cost."
+      },
+      "status": "active",
+      "sources": [
+        {
+          "url": "https://www.skills.google/paths/3802",
+          "supports": "Title, Agent Engine and Cloud Run deployment, challenge lab and skill badge, 'Partially Free' and 'Subscription' tags",
+          "accessed": "2026-10-22"
+        },
+        {
+          "url": "https://www.infoworld.com/article/4130697/google-cloud-launches-gear-program-to-broaden-ai-agent-development-skills.html",
+          "supports": "GEAR no-cost subscription with 35 monthly credits",
+          "accessed": "2026-10-22"
+        },
+        {
+          "url": "https://www.skills.google/paths/3545",
+          "supports": "Related prerequisite path: Develop Agents with ADK",
+          "accessed": "2026-10-22"
+        }
+      ],
+      "verification": {
+        "last_verified": "2026-10-22",
+        "method": "web-search-of-official-pages",
+        "gaps": [
+          "Duration",
+          "Whether the challenge lab fits within free monthly credits",
+          "Subscription price"
+        ],
+        "conflicts": []
+      },
+      "user": {
+        "completion_status": "not-started",
+        "notes": ""
+      },
+      "history": [
+        {
+          "date": "2026-10-22",
+          "change": "Record created."
+        }
+      ]
+    },
+    {
+      "id": "deeplearningai-evaluating-ai-agents",
+      "title": "Evaluating AI Agents",
+      "provider": "DeepLearning.AI and Arize AI",
+      "platform": "DeepLearning.AI learning platform",
+      "official_url": "https://www.deeplearning.ai/courses/evaluating-ai-agents",
+      "offering_type": "short-course",
+      "categories": [
+        "rag-evals-llmops",
+        "generative-ai-agents"
+      ],
+      "audience": "Developers and product owners responsible for agent quality before and after deployment",
+      "level": "introductory",
+      "prerequisites": [
+        "Python (not verified as an official prerequisite)"
+      ],
+      "learning_outcomes": [
+        "Add observability (tracing) to an agent to see and debug each step it takes",
+        "Choose evaluators for each agent component, including code-based checks and LLM-as-a-judge",
+        "Measure whether an agent reaches answers in an efficient number of steps (convergence)",
+        "Run structured experiments to improve prompts, models and agent logic"
+      ],
+      "practical_work": [
+        "Instrument and evaluate an agent with tracing tools in notebooks"
+      ],
+      "assessment": {
+        "type": "not verified",
+        "description": "not verified"
+      },
+      "credential": {
+        "type": "not verified",
+        "issuer": "not verified",
+        "academic_credit": "not applicable",
+        "renewal": "not applicable"
+      },
+      "delivery": {
+        "format": "self-paced-online",
+        "duration": "About 2h36m (DeepLearning.AI page)",
+        "study_hours": {
+          "min": 2.5,
+          "max": "not verified",
+          "basis": "DeepLearning.AI page: about 2h36m; exercise time not published"
+        },
+        "access_period": "not verified",
+        "start_dates": "On demand"
+      },
+      "ireland_access": {
+        "status": "available",
+        "notes": "Online.",
+        "live_session_timezone": "not applicable"
+      },
+      "pricing": {
+        "model": "mixed",
+        "advertised": "Not verified for this course. DeepLearning.AI short courses vary between free access and a paid Pro plan.",
+        "amount": "not verified",
+        "currency": "USD",
+        "eur_approx": "not verified",
+        "additional_costs": [],
+        "financial_aid": []
+      },
+      "learner_rating": {
+        "status": "not verified"
+      },
+      "rating_class": "credible-but-unrated",
+      "quality_evidence": [
+        "Built with Arize AI, an AI observability company; taught by its staff",
+        "Launched February 2025 and focused on agents, not just single prompts"
+      ],
+      "limitations": [
+        "Short course",
+        "Uses Arize tooling for examples",
+        "Price and credential not verified"
+      ],
+      "relevance": "Monitoring an always-on agent means tracing what it did and measuring quality continuously; this course covers both.",
+      "suitability": {
+        "score": 73,
+        "components": {
+          "relevance": 72,
+          "curriculum": 75,
+          "practical": 70,
+          "quality": 65,
+          "value": 80,
+          "accessibility": 95
+        },
+        "confidence": "medium",
+        "rationale": "Current, practical agent observability and evaluation; short with unverified price."
+      },
+      "status": "active",
+      "sources": [
+        {
+          "url": "https://www.deeplearning.ai/courses/evaluating-ai-agents",
+          "supports": "Title, level, duration, instructors, outcomes",
+          "accessed": "2026-10-22"
+        },
+        {
+          "url": "https://community.deeplearning.ai/t/new-course-enroll-in-evaluating-ai-agents/773080",
+          "supports": "Launch announcement",
+          "accessed": "2026-10-22"
+        }
+      ],
+      "verification": {
+        "last_verified": "2026-10-22",
+        "method": "web-search-of-official-pages",
+        "gaps": [
+          "Price and certificate",
+          "Assessment",
+          "Learner rating"
+        ],
+        "conflicts": []
+      },
+      "user": {
+        "completion_status": "not-started",
+        "notes": ""
+      },
+      "history": [
+        {
+          "date": "2026-10-22",
+          "change": "Record created."
+        }
+      ]
+    },
+    {
+      "id": "slack-building-ai-apps-bolt-js",
+      "title": "Building AI Apps in Slack with Bolt JS (workshop)",
+      "provider": "Slack (Salesforce)",
+      "platform": "Slack developer site (slack.dev)",
+      "official_url": "https://slack.dev/workshops/build-ai-assistant-slack-boltjs/",
+      "offering_type": "workshop",
+      "categories": [
+        "generative-ai-agents"
+      ],
+      "audience": "Developers adding an AI assistant to Slack",
+      "level": "intermediate",
+      "prerequisites": [
+        "JavaScript",
+        "A Slack workspace; the free Slack Developer Program sandbox is suggested"
+      ],
+      "learning_outcomes": [
+        "Build an AI assistant in Slack with the Bolt framework's Assistant class",
+        "Connect the Slack assistant to a model provider such as Anthropic, OpenAI, Amazon Bedrock or Einstein"
+      ],
+      "practical_work": [
+        "Build a working AI assistant app in Slack"
+      ],
+      "assessment": {
+        "type": "none",
+        "description": "Self-guided workshop; no assessment advertised."
+      },
+      "credential": {
+        "type": "none",
+        "issuer": "not applicable",
+        "academic_credit": "not applicable",
+        "renewal": "not applicable"
+      },
+      "delivery": {
+        "format": "self-paced-online",
+        "duration": "About 35 minutes (Slack listing)",
+        "study_hours": {
+          "min": 0.5,
+          "max": 1,
+          "basis": "Slack listing: about 35 minutes"
+        },
+        "access_period": "Ongoing",
+        "start_dates": "On demand"
+      },
+      "ireland_access": {
+        "status": "available",
+        "notes": "Online; free developer sandbox.",
+        "live_session_timezone": "not applicable"
+      },
+      "pricing": {
+        "model": "free",
+        "advertised": "Free",
+        "amount": 0,
+        "currency": "USD",
+        "eur_approx": 0,
+        "additional_costs": [
+          "Some Slack agent features need a paid Slack plan (per an October 2026 guide); the developer sandbox avoids this for learning",
+          "Model API costs (not verified)"
+        ],
+        "financial_aid": []
+      },
+      "learner_rating": {
+        "status": "not published"
+      },
+      "rating_class": "credible-but-unrated",
+      "quality_evidence": [
+        "Official Slack developer workshop for Slack's own assistant framework"
+      ],
+      "limitations": [
+        "Very short; JavaScript rather than Python",
+        "No credential",
+        "Listing about six months old at verification"
+      ],
+      "relevance": "Shows how to make an agent, such as an AI project manager, reachable and conversational inside Slack.",
+      "suitability": {
+        "score": 69,
+        "components": {
+          "relevance": 70,
+          "curriculum": 55,
+          "practical": 70,
+          "quality": 55,
+          "value": 95,
+          "accessibility": 95
+        },
+        "confidence": "medium",
+        "rationale": "Official and hands-on for the Slack channel; short with no credential."
+      },
+      "status": "active",
+      "sources": [
+        {
+          "url": "https://slack.dev/workshops/build-ai-assistant-slack-boltjs/",
+          "supports": "Title, level, about 35 minutes, Assistant class, supported model providers, developer sandbox",
+          "accessed": "2026-10-22"
+        },
+        {
+          "url": "https://slack.dev/learn/",
+          "supports": "Slack developer learning hub",
+          "accessed": "2026-10-22"
+        }
+      ],
+      "verification": {
+        "last_verified": "2026-10-22",
+        "method": "web-search-of-official-pages",
+        "gaps": [
+          "Whether the workshop has been updated in 2026"
+        ],
+        "conflicts": []
+      },
+      "user": {
+        "completion_status": "not-started",
+        "notes": ""
+      },
+      "history": [
+        {
+          "date": "2026-10-22",
+          "change": "Record created."
+        }
+      ]
     }
   ]
 }

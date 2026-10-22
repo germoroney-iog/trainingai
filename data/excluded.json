@@ -287,6 +287,20 @@
       "reason": "Could not verify content updates after 2023 or current cohort dates; classic MLOps with limited relevance to the executive.",
       "url": "https://madewithml.com/courses/mlops/",
       "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Serverless Agentic Workflows with Amazon Bedrock",
+      "provider": "DeepLearning.AI and AWS",
+      "reason": "Deprecated on the DeepLearning.AI platform: its Bedrock Agents content no longer reflects current best practice.",
+      "url": "https://community.deeplearning.ai/t/announcement-course-deprecation/891738",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Build a Telegram Bot with Python and ChatGPT Step by Step",
+      "provider": "Udemy (independent instructor)",
+      "reason": "Only 26 ratings and last updated May 2025; instructor credentials and currency not verifiable. No reputable Telegram bot course found.",
+      "url": "https://www.udemy.com/course/build-a-telegram-bot-with-python-and-chatgpt-step-by-step/",
+      "reviewed_on": "2026-10-22"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "id": "ai-project-manager",
   "title": "Build your own AI project manager",
   "use_case": "Create my own AI project manager that scopes a project, then monitors and reports on execution.",
-  "outcome": "A working assistant that turns a project brief into a structured scope, then reads live project data such as tracker tasks, dates and meeting notes, flags slippage and risks, and drafts a weekly status report for human approval. You also gain the judgement to decide when to buy a tool instead of building one.",
+  "outcome": "A working assistant that runs 24x7. It turns a project brief into a structured scope, continuously reads live project data such as tracker tasks, dates and meeting notes, flags slippage and risks, and drafts status reports for human approval. You can talk to it from Slack, Telegram and Google Meet. You also gain the judgement to decide when to buy a tool instead of building one.",
   "assumptions": [
     "You are willing to learn or refresh basic Python. Most building steps assume it.",
     "Your projects live in a tracker such as Jira, Asana, monday.com, Microsoft Planner or GitHub Projects, plus shared documents.",
@@ -15,40 +15,74 @@
       "name": "Frame AI for project management",
       "why": "Decide which project-management tasks the assistant should do, which it should only draft, and which stay with people, before writing any code.",
       "steps": [
-        { "id": "pmi-generative-ai-overview-for-project-managers", "why": "Free, one-hour PMI view of where generative AI helps and where it creates risk in project work." },
-        { "id": "anthropic-ai-fluency-framework-foundations", "why": "A practical framework for delegating to AI and checking its output, which is the core of the assistant's design." },
-        { "id": "pmi-cpmai", "optional": true, "why": "PMI's certification in scoping and running AI projects. Useful if you will also lead AI delivery for others; adds a recognised credential." }
+        {
+          "id": "pmi-generative-ai-overview-for-project-managers",
+          "why": "Free, one-hour PMI view of where generative AI helps and where it creates risk in project work."
+        },
+        {
+          "id": "anthropic-ai-fluency-framework-foundations",
+          "why": "A practical framework for delegating to AI and checking its output, which is the core of the assistant's design."
+        },
+        {
+          "id": "pmi-cpmai",
+          "optional": true,
+          "why": "PMI's certification in scoping and running AI projects. Useful if you will also lead AI delivery for others; adds a recognised credential."
+        }
       ]
     },
     {
       "name": "Python foundations",
       "why": "Agent frameworks, tracker APIs and MCP servers are mostly used from Python.",
       "steps": [
-        { "id": "umich-python-for-everybody", "optional": true, "why": "Skip if you already write Python. Otherwise take it before capability 3." }
+        {
+          "id": "umich-python-for-everybody",
+          "optional": true,
+          "why": "Skip if you already write Python. Otherwise take it before capability 3."
+        }
       ]
     },
     {
       "name": "Build with an LLM API: prompts, structured output and tool use",
       "why": "Scoping means turning a brief into consistent, structured output (objectives, deliverables, work breakdown, risks), and monitoring means calling tools to fetch data.",
       "steps": [
-        { "id": "anthropic-building-with-claude-api", "why": "Hands-on API course covering prompt engineering, prompt evaluation and tool use." }
+        {
+          "id": "anthropic-building-with-claude-api",
+          "why": "Hands-on API course covering prompt engineering, prompt evaluation and tool use."
+        }
       ]
     },
     {
       "name": "Design agents that plan, act and check their own work",
       "why": "A project manager agent must break goals into steps, decide which tool to call, and reflect on results before reporting.",
       "steps": [
-        { "id": "deeplearningai-agentic-ai", "why": "Agent design patterns (reflection, tool use, planning, multi-agent) from Andrew Ng, with practical exercises." },
-        { "id": "huggingface-ai-agents-course", "optional": true, "why": "Deeper, project-based practice with agent frameworks including LangGraph, with an assessed certificate." },
-        { "id": "microsoft-ai-agents-for-beginners", "optional": true, "why": "Free lessons on agent design patterns, planning and multi-agent systems; useful if you work in Microsoft tooling." }
+        {
+          "id": "deeplearningai-agentic-ai",
+          "why": "Agent design patterns (reflection, tool use, planning, multi-agent) from Andrew Ng, with practical exercises."
+        },
+        {
+          "id": "huggingface-ai-agents-course",
+          "optional": true,
+          "why": "Deeper, project-based practice with agent frameworks including LangGraph, with an assessed certificate."
+        },
+        {
+          "id": "microsoft-ai-agents-for-beginners",
+          "optional": true,
+          "why": "Free lessons on agent design patterns, planning and multi-agent systems; useful if you work in Microsoft tooling."
+        }
       ]
     },
     {
       "name": "Connect to project tools and data",
       "why": "The assistant needs read access, and later limited write access, to your tracker, documents and chat to see real progress.",
       "steps": [
-        { "id": "anthropic-introduction-to-mcp", "why": "One-hour introduction to the Model Context Protocol, the standard way to plug tools and data into an AI assistant." },
-        { "id": "deeplearningai-mcp-rich-context-apps", "why": "Build an MCP server and connect an assistant to it and to existing open-source servers." }
+        {
+          "id": "anthropic-introduction-to-mcp",
+          "why": "One-hour introduction to the Model Context Protocol, the standard way to plug tools and data into an AI assistant."
+        },
+        {
+          "id": "deeplearningai-mcp-rich-context-apps",
+          "why": "Build an MCP server and connect an assistant to it and to existing open-source servers."
+        }
       ],
       "gap": "No verified course yet teaches the specific tracker APIs (Jira, Asana, monday.com, Microsoft Planner) or workflow-automation platforms (for example n8n, Power Automate, Zapier) for this purpose. Use each vendor's API documentation for now."
     },
@@ -56,53 +90,161 @@
       "name": "Retrieve context from project documents",
       "why": "Status reports must draw on charters, RAID logs, decisions and meeting notes, not just task dates, so the assistant needs retrieval over documents (RAG).",
       "steps": [
-        { "id": "datatalksclub-llm-zoomcamp", "why": "Free, project-based course in building and evaluating RAG systems." },
-        { "id": "ibm-rag-and-agentic-ai-professional-certificate", "optional": true, "why": "A more structured, longer route through RAG and agentic AI, with a Coursera certificate." }
+        {
+          "id": "datatalksclub-llm-zoomcamp",
+          "why": "Free, project-based course in building and evaluating RAG systems."
+        },
+        {
+          "id": "ibm-rag-and-agentic-ai-professional-certificate",
+          "optional": true,
+          "why": "A more structured, longer route through RAG and agentic AI, with a Coursera certificate."
+        }
       ]
     },
     {
       "name": "Evaluate and trust the reports",
       "why": "A status report that invents progress or misses a slipped milestone is worse than none. You need test cases and measurable accuracy before relying on it.",
       "steps": [
-        { "id": "parlance-labs-ai-evals-engineers-pms", "optional": true, "why": "In-depth course on evaluating LLM products, including error analysis. Expensive; take it if the assistant will be used beyond your own projects." }
-      ],
-      "gap": "Prompt evaluation (capability 3) and RAG evaluation (capability 6) cover the basics. No verified course yet covers monitoring agents in production (tracing and observability tools)."
+        {
+          "id": "deeplearningai-evaluating-ai-agents",
+          "why": "Tracing and evaluating an agent's steps, the basis for monitoring it once it runs unattended."
+        },
+        {
+          "id": "parlance-labs-ai-evals-engineers-pms",
+          "optional": true,
+          "why": "In-depth course on evaluating LLM products, including error analysis. Expensive; take it if the assistant will be used beyond your own projects."
+        }
+      ]
     },
     {
       "name": "Govern access, oversight and accountability",
       "why": "The assistant reads sensitive project and people data and may influence decisions, so it needs clear permissions, human oversight and an audit trail.",
       "steps": [
-        { "id": "coursera-oxford-ai-governance", "optional": true, "why": "Short, highly rated overview of AI governance and oversight principles to apply to your own agent." }
+        {
+          "id": "coursera-oxford-ai-governance",
+          "optional": true,
+          "why": "Short, highly rated overview of AI governance and oversight principles to apply to your own agent."
+        }
       ]
     },
     {
-      "name": "Run it on a schedule, unattended",
-      "why": "Monitoring only works if the assistant runs on its own, for example every morning or every Friday, with secrets, logs and failure alerts.",
-      "steps": [],
-      "gap": "No verified course in the database yet teaches scheduling and hosting a small agent (cron jobs, serverless functions, workflow tools, secrets handling). Research candidates are listed below."
+      "name": "Run it 24x7: hosting, scheduling and monitoring",
+      "why": "The project manager must run continuously, not only when you start it. It needs a hosted service, scheduled and event-driven runs, stored secrets, logs, alerts when it fails, and cost limits.",
+      "steps": [
+        {
+          "id": "google-skills-deploy-production-ready-agents",
+          "why": "Official hands-on path for deploying agents as always-on services on Cloud Run or Vertex AI Agent Engine, with a skill badge. Needs Agent Development Kit (ADK) basics first."
+        },
+        {
+          "id": "aws-certified-generative-ai-developer-professional",
+          "optional": true,
+          "why": "Alternative if you host on AWS: a professional certification covering integration of foundation models into applications, cost and performance optimisation, testing and troubleshooting."
+        }
+      ],
+      "gap": "No verified vendor-neutral course yet covers always-on agent operations end to end: uptime, alerting, secrets management, cost limits and safe restarts. The Google path covers one cloud; use your cloud's own operations documentation for the rest."
+    },
+    {
+      "name": "Reach it from Slack, Telegram and Google Meet",
+      "why": "You want to ask the project manager questions and receive its reports where you already work: chat apps and meetings.",
+      "steps": [
+        {
+          "id": "slack-building-ai-apps-bolt-js",
+          "why": "Official Slack workshop: put an AI assistant inside Slack with the Bolt framework (JavaScript)."
+        },
+        {
+          "id": "anthropic-introduction-to-mcp",
+          "optional": true,
+          "why": "Revisit if you take this capability on its own: MCP lets the same agent serve several chat front-ends through shared tools."
+        }
+      ],
+      "gap": "Telegram: no reputable course found; Telegram's Bot API documentation is the best source (the bot API is free). Google Meet: the API for live meeting audio and video is in restricted developer preview with no official training. The general Google Meet API can read transcripts and recordings after meetings, which suits post-meeting summaries."
     }
   ],
   "milestones": [
-    { "name": "Write the assistant's job description", "after_capabilities": [1], "deliverable": "One-page spec: inputs (tracker, documents, meetings), outputs (scope document, weekly status report), what it may decide versus escalate, and how you will judge success." },
-    { "name": "Scoping assistant", "after_capabilities": [3], "deliverable": "A script that turns a project brief into a structured scope (objectives, deliverables, work breakdown, milestones, risks, assumptions) as JSON plus a readable document, reviewed by you." },
-    { "name": "Read-only tracker connection", "after_capabilities": [5], "deliverable": "The assistant lists tasks, owners, due dates and status from your tracker through an existing or self-built MCP server, with no write access." },
-    { "name": "Monitoring and status report", "after_capabilities": [4, 6], "deliverable": "Weekly report comparing plan with actuals, a red/amber/green status per workstream, flagged slippage and risks, and citations to the source tasks and notes." },
-    { "name": "Evaluation set", "after_capabilities": [7], "deliverable": "20 or more past weeks with your own correct status as the answer key, plus a scored comparison of the assistant's reports and a log of its errors." },
-    { "name": "Supervised pilot", "after_capabilities": [8, 9], "deliverable": "Scheduled weekly run with human approval before sending, an access review, an audit log, and a short buy-versus-build note comparing it with your tracker's built-in AI features." }
+    {
+      "name": "Write the assistant's job description",
+      "after_capabilities": [
+        1
+      ],
+      "deliverable": "One-page spec: inputs (tracker, documents, meetings), outputs (scope document, status reports), channels (Slack, Telegram, Meet), what it may decide versus escalate, and how you will judge success."
+    },
+    {
+      "name": "Scoping assistant",
+      "after_capabilities": [
+        3
+      ],
+      "deliverable": "A script that turns a project brief into a structured scope (objectives, deliverables, work breakdown, milestones, risks, assumptions) as JSON plus a readable document, reviewed by you."
+    },
+    {
+      "name": "Read-only tracker connection",
+      "after_capabilities": [
+        5
+      ],
+      "deliverable": "The assistant lists tasks, owners, due dates and status from your tracker through an existing or self-built MCP server, with no write access."
+    },
+    {
+      "name": "Monitoring and status report",
+      "after_capabilities": [
+        4,
+        6
+      ],
+      "deliverable": "Report comparing plan with actuals, a red/amber/green status per workstream, flagged slippage and risks, and citations to the source tasks and notes."
+    },
+    {
+      "name": "Evaluation set and tracing",
+      "after_capabilities": [
+        7
+      ],
+      "deliverable": "20 or more past weeks with your own correct status as the answer key, a scored comparison of the assistant's reports, and tracing that shows each step it took."
+    },
+    {
+      "name": "Always-on deployment",
+      "after_capabilities": [
+        9
+      ],
+      "deliverable": "The agent hosted as a service that checks the tracker on a schedule and on events, with secrets stored securely, logs, a failure alert to you, and a monthly cost cap."
+    },
+    {
+      "name": "Chat and meeting access",
+      "after_capabilities": [
+        10
+      ],
+      "deliverable": "Ask the agent for status in Slack and Telegram and get answers with sources; after each Google Meet meeting it reads the transcript and updates risks and actions for your approval."
+    },
+    {
+      "name": "Supervised pilot",
+      "after_capabilities": [
+        8,
+        9,
+        10
+      ],
+      "deliverable": "Two weeks running 24x7 with human approval before anything is sent or changed, an access review, an audit log, and a buy-versus-build note comparing it with your tracker's built-in AI features."
+    }
   ],
   "research_queue": [
     "Credible training on tracker APIs and automation: Atlassian (Jira, Rovo agents), Asana, monday.com, Microsoft Planner and Power Automate, n8n.",
     "Microsoft Copilot Studio agent training, if your organisation uses Microsoft 365.",
-    "LLM observability and agent monitoring courses (tracing, cost and quality dashboards).",
-    "Deploying and scheduling small agents (serverless, cron, managed agent platforms) with course-specific evidence.",
+    "Vendor-neutral training on always-on agent operations: uptime, alerting, secrets, cost limits.",
+    "Reputable Telegram bot development training (Bot API with an LLM agent).",
+    "Google Meet API and Meet add-ons training, and any change to the Meet Media API's developer-preview status.",
+    "Microsoft Teams bot or agent training, if Teams is also needed.",
     "Official PMI-CPMAI price for Ireland."
   ],
   "notes": [
     "No single verified course teaches this use case end to end. The pack combines courses and fills the rest with build milestones.",
     "Many tracker vendors now ship built-in AI features. Compare them with your milestone 1 spec before building everything yourself.",
-    "Start read-only. Give the assistant write access, such as updating tasks or sending reports, only after the evaluation set shows it is reliable."
+    "Start read-only. Give the assistant write access, such as updating tasks or sending reports, only after the evaluation set shows it is reliable.",
+    "Running 24x7 means ongoing hosting and model costs. Set a monthly budget cap and alert before going live.",
+    "Chat access widens who can reach the agent. Restrict it to named users and channels, and treat incoming messages as untrusted input."
   ],
   "history": [
-    { "date": "2026-10-22", "change": "Pack created with 9 capabilities. Added 4 supporting records: pmi-generative-ai-overview-for-project-managers, pmi-cpmai, anthropic-introduction-to-mcp, deeplearningai-mcp-rich-context-apps." }
+    {
+      "date": "2026-10-22",
+      "change": "Pack created with 9 capabilities. Added 4 supporting records: pmi-generative-ai-overview-for-project-managers, pmi-cpmai, anthropic-introduction-to-mcp, deeplearningai-mcp-rich-context-apps."
+    },
+    {
+      "date": "2026-10-22",
+      "change": "Added 24x7 operation and chat/meeting access (Slack, Telegram, Google Meet): capability 9 rewritten as 'Run it 24x7', new capability 10, Evaluating AI Agents added to capability 7, milestones expanded to 8. New records: google-skills-deploy-production-ready-agents, deeplearningai-evaluating-ai-agents, slack-building-ai-apps-bolt-js. Telegram and live Google Meet remain gaps."
+    }
   ]
 }

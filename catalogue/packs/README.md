@@ -6,6 +6,6 @@ Each pack maps one real-world use case to the skills it needs, the courses in th
 
 | Pack | Use case | Capabilities | Courses | Gaps |
 |---|---|---:|---:|---:|
-| [Build your own AI project manager](ai-project-manager.md) | Create my own AI project manager that scopes a project, then monitors and reports on execution. | 9 | 14 | 3 |
-| [Build an executive assistant agent](executive-assistant-agent.md) | Build an executive assistant agent that helps me manage email, calendar, meetings, follow-ups and briefings. | 9 | 16 | 4 |
+| [Build your own AI project manager](ai-project-manager.md) | Create my own AI project manager that scopes a project, then monitors and reports on execution. | 10 | 18 | 3 |
+| [Build an executive assistant agent](executive-assistant-agent.md) | Build an executive assistant agent that helps me manage email, calendar, meetings, follow-ups and briefings. | 9 | 18 | 4 |
 
