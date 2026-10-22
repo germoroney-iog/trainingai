@@ -75,7 +75,11 @@ def main() -> int:
 
     for r in sorted(rows, key=key):
         eur = r["pricing"]["eur_approx"]
-        cost = "free" if eur == 0 else (eur if eur in MISSING else f"EUR {eur:,.0f}")
+        model = r["pricing"]["model"]
+        if eur == 0:
+            cost = "free audit" if model == "free-audit" else "free"
+        else:
+            cost = eur if eur in MISSING else f"EUR {eur:,.0f}"
         print(f"{r['suitability']['score']:>3}  {r['id']:<48} {cost:<14} {r['level']:<28} {r['title']}")
     print(f"\n{len(rows)} match(es)")
     return 0

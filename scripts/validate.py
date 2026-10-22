@@ -108,6 +108,14 @@ def validate(db: dict, path: dict | None) -> tuple[list[str], list[str]]:
                     errors.append(f"learning_path: unknown record id {step['id']}")
                 elif step["id"] in archived:
                     warnings.append(f"learning_path: {step['id']} is archived")
+                for extra in step.get("extra_costs", []):
+                    ok = (
+                        isinstance(extra.get("amount"), (int, float))
+                        and (extra.get("currency") == "EUR" or extra.get("currency") in db["fx"]["rates"])
+                        and extra.get("description")
+                    )
+                    if not ok:
+                        errors.append(f"learning_path: bad extra_costs entry on {step['id']}: {extra}")
 
     return errors, warnings
 

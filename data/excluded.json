@@ -1,0 +1,292 @@
+{
+  "description": "Offerings reviewed and deliberately not added, with reasons. Re-check before re-researching; move to trainings.json via scripts/upsert.py if the reason no longer applies.",
+  "excluded": [
+    {
+      "title": "AI For Everyone",
+      "provider": "DeepLearning.AI (Coursera)",
+      "reason": "Highly rated (4.8 from 53,440 reviews) but 2019-era content with minimal generative AI; for this executive, Generative AI for Everyone is the current equivalent.",
+      "url": "https://www.coursera.org/learn/ai-for-everyone",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Salesforce Certified AI Associate",
+      "provider": "Salesforce Trailhead",
+      "reason": "Retired by Salesforce in February 2026.",
+      "url": "https://trailhead.salesforce.com/en/credentials/aiassociate",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Salesforce Certified Agentforce Specialist",
+      "provider": "Salesforce",
+      "reason": "Platform-administration certification (US$200 exam per third-party sources), not sales/strategy leadership; pass mark conflicts across sources. Consider only if working in the Salesforce ecosystem.",
+      "url": "https://trailhead.salesforce.com/",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "AI for Marketing (HubSpot Academy)",
+      "provider": "HubSpot Academy",
+      "reason": "Only 2-3 hours, vendor-oriented; certificate availability unconfirmed. Not substantial enough.",
+      "url": "https://www.classcentral.com/course/hubspot-academy-ai-for-marketing-course-433752",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Generative AI in Marketing Specialization",
+      "provider": "University of Virginia Darden (Coursera)",
+      "reason": "Mixed ratings on small samples (courses 4.0-4.3; specialization reported 4.1-4.2) and a reviewer noted tools already out of date.",
+      "url": "https://www.coursera.org/specializations/generative-ai-in-marketing",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Artificial Intelligence in Marketing",
+      "provider": "University of Virginia Darden (Coursera)",
+      "reason": "4.6 from 359 reviews, but launch/update date could not be verified and likely predates generative AI.",
+      "url": "https://www.coursera.org/learn/uva-darden-artificial-intelligence-marketing",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Google AI Essentials",
+      "provider": "Google (Coursera)",
+      "reason": "4.8 from 25,948 reviews but focused on personal AI productivity, not strategy or commercial leadership; out of scope for this area.",
+      "url": "https://www.coursera.org/specializations/ai-essentials-google",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "AI for Business (Wharton Executive Education online)",
+      "provider": "Wharton Executive Education",
+      "reason": "$850 self-paced course overlaps the cheaper Wharton Coursera specialization; little curriculum/assessment detail verified.",
+      "url": "https://executiveeducation.wharton.upenn.edu/for-individuals/all-programs/ai-for-business/",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "AI in Marketing: Creating Customer Value in an AI-Driven Enterprise",
+      "provider": "Wharton Executive Education",
+      "reason": "Blended programme at $9,350; only verified 2026 run (22 Sep - 8 Oct 2026) has passed; requires US travel.",
+      "url": "https://executiveeducation.wharton.upenn.edu/for-individuals/program-topics/ai-and-analytics-programs-for-executives/",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Mastering Sales: The Digital and AI Toolkit for Success",
+      "provider": "Kellogg Executive Education",
+      "reason": "Relaunched Feb 2026 with AI content (10 weeks, 4-6 h/week), but fee and assessment could not be verified; candidate for follow-up for the sales category.",
+      "url": "https://www.kellogg.northwestern.edu/executive-education/individual-programs/online-programs/sm.aspx",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Postgraduate Diploma in Science in AI for Business (Springboard+)",
+      "provider": "National College of Ireland",
+      "reason": "Springboard+ applications for this programme are closed; Springboard+ eligibility also limited (free for unemployed, ~10% fee for employed).",
+      "url": "https://www.ncirl.ie/Courses/NCI-Course-Details/course/PGDAIBUS",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "AI Strategy, Execution & Impact",
+      "provider": "Irish Management Institute",
+      "reason": "2-day (3-4 Dec 2026, €1,495) shorter alternative to Lead in AI; little curriculum detail verified. Noted as a lower-cost option.",
+      "url": "https://www.imi.ie/programme/leading-ai-strategy-and-execution/",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "AI for Real Business Impact",
+      "provider": "UCD Smurfit Executive Development",
+      "reason": "2-day in-person programme (€2,200); intake year not shown on page, so currency not verified.",
+      "url": "https://www.smurfitschool.ie/executivedevelopment/programmesforindividuals/shortprogrammes/aiforrealbusinessimpact/",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "ISACA Advanced in AI Security Management (AAISM)",
+      "provider": "ISACA",
+      "reason": "Requires active CISM or CISSP to sit; official ISACA page not surfaced in searches so fees/eligibility only third-party verified. Consider only if the executive holds CISM/CISSP (exam USD 459/599).",
+      "url": "https://destcert.com/aaism/certification-guide/",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "ISACA Artificial Intelligence Fundamentals Certificate",
+      "provider": "ISACA",
+      "reason": "Verified (exam USD 120 member / 144 non-member, online 2-hour exam) but entry-level and generic; noted as a cheap optional extra rather than a strong record.",
+      "url": "https://www.isaca.org/credentialing/artificial-intelligence-fundamentals-certificate",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Diploma in AI Governance",
+      "provider": "The Corporate Governance Institute (Dublin)",
+      "reason": "EUR 4,995, 30 hours; could not confirm that this specific diploma carries the Birkbeck accreditation claimed for some CGI diplomas; credential type inconsistent (diploma vs professional certificate); only company-level Trustpilot ratings.",
+      "url": "https://www.thecorporategovernanceinstitute.com/",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "BSI ISO/IEC 42001 Lead Auditor",
+      "provider": "BSI",
+      "reason": "Verified (live online 4 days, GBP 2,585 + VAT UK; USD 2,730 US) but overlaps with the PECB 42001 record; IRCA certification not confirmed. A good alternative if an auditor-track credential is preferred.",
+      "url": "https://www.bsigroup.com/en-GB/training-courses/isoiec-42001-lead-auditor-training-course/",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Elements of AI",
+      "provider": "University of Helsinki / MinnaLearn",
+      "reason": "Free AI literacy course; out of scope for governance/security area (general introduction).",
+      "url": "https://www.classcentral.com/course/independent-elements-of-ai-12469",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "EIPA EU AI Act course",
+      "provider": "European Institute of Public Administration",
+      "reason": "No current course or fee found in searches.",
+      "url": "https://www.classcentral.com/subject/eu-ai-act",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Certified AI Act, Governance & Ethics Officer",
+      "provider": "Capgemini Academy",
+      "reason": "One-day course (EUR 1,395); 'certified' claim from a commercial vendor without independent accreditation evidence.",
+      "url": "https://academy.capgemini.com/course/certified-ai-act-governance-ethics-officer-en",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Strategic AI Governance (Coursera specialization)",
+      "provider": "Coursera",
+      "reason": "Coursera page shows 3.5/5 from only 10 reviews; weaker than the Oxford AI Governance course.",
+      "url": "https://www.coursera.org/courses?query=governance",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Claude Certified Architect - Foundations (exam)",
+      "provider": "Anthropic",
+      "reason": "Proctored certification is restricted to employees of Claude Partner Network organisations (individuals cannot register); price (USD 99 -> 125) and details seen only via third-party sources. Revisit if the user's employer joins the partner network.",
+      "url": "https://www.datastudios.org/post/how-to-become-a-claude-certified-architect-current-access-path-partner-requirements-preparation",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Hugging Face LLM Course",
+      "provider": "Hugging Face",
+      "reason": "Free and current (now includes fine-tuning and reasoning/GRPO chapters) but focused on model training internals, low relevance to executive goals; certificate status per chapter only and partly conflicting. Good optional follow-on for deep technical learners.",
+      "url": "https://huggingface.co/learn/llm-course/chapter1/1",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "5-Day Gen AI Intensive Course with Google",
+      "provider": "Google and Kaggle",
+      "reason": "Self-paced guide exists but content is from the earlier GenAI intensive and is superseded for this user's needs by the AI Agents Intensive record; no credential in self-paced mode.",
+      "url": "https://www.kaggle.com/learn-guide/5-day-genai",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Generative AI Engineering with LLMs Specialization",
+      "provider": "IBM",
+      "reason": "Rated 4.6 from 1,118 reviews but overlaps heavily with the IBM RAG and Agentic AI certificate, which is more current on agents/MCP; kept one IBM record.",
+      "url": "https://www.coursera.org/specializations/generative-ai-engineering-with-llms",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Prompt Engineering for ChatGPT (standalone course)",
+      "provider": "Vanderbilt University",
+      "reason": "Included as course 1 of the Vanderbilt Prompt Engineering Specialization record to avoid duplication.",
+      "url": "https://www.coursera.org/learn/prompt-engineering",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Anthropic courses on Skilljar (anthropic.skilljar.com)",
+      "provider": "Anthropic",
+      "reason": "Platform superseded by Claude Academy (academy.claude.com); records use current Claude Academy URLs.",
+      "url": "https://anthropic.skilljar.com/claude-with-the-anthropic-api",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "IBM Data Science Professional Certificate",
+      "provider": "IBM (Coursera)",
+      "reason": "Introductory classical data science overlapping with other records; 4.6/5 (~151k reviews) seen only via third-party sites; conflicting evidence on GenAI currency and IBM-tool-specific outdated sections.",
+      "url": "https://www.coursera.org/professional-certificates/ibm-data-science",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Google Advanced Data Analytics Professional Certificate",
+      "provider": "Google (Coursera)",
+      "reason": "Not researched to verification standard in time available; overlaps with Python/ML records.",
+      "url": "https://www.coursera.org/professional-certificates/google-advanced-data-analytics",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Kaggle Learn micro-courses (Python, Pandas, Intro to ML)",
+      "provider": "Kaggle (Google)",
+      "reason": "Free and useful (~3-4 h each, completion certificate) but very shallow; official course list not verified; covered better by other records. Good optional supplement.",
+      "url": "https://www.kaggle.com/learn",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "University of London MSc Data Science (online)",
+      "provider": "University of London",
+      "reason": "Fees verified (2026-27 indicative GBP 11,010 Band A) but AI-specific online programme and curriculum not verified; insufficient evidence to record.",
+      "url": "https://www.london.ac.uk/study/courses/postgraduate/msc-data-science",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Practical Deep Learning for Coders 2020 edition",
+      "provider": "fast.ai",
+      "reason": "Superseded by 2022 rewrite.",
+      "url": "https://course20.fast.ai/",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Smurfit MSc in Business Analytics & AI (part-time)",
+      "provider": "UCD Smurfit",
+      "reason": "Not fully online: part-time students attend lectures with full-time cohort.",
+      "url": "https://www.smurfitschool.ie/programmes/masters/mscinbusinessanalytics/",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Springboard (US) Data Analytics / ML career tracks",
+      "provider": "Springboard Inc.",
+      "reason": "US commercial bootcamp unrelated to Irish Springboard+; ML track pivoted to university partner with unpublished tuition.",
+      "url": "https://www.springboard.com/courses/data-analytics-career-track/",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "UCD Professional Academy Diploma in AI for Business",
+      "provider": "UCD Professional Academy",
+      "reason": "Non-technical business course outside this area (python-data/ML); refer to strategy research area.",
+      "url": "https://www.ucd.ie/professionalacademy/",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "MLOps Zoomcamp",
+      "provider": "DataTalks.Club",
+      "reason": "No live cohort in 2026; self-paced only with no certificate. Content (MLflow, Evidently, Terraform) is classic MLOps with low relevance to the executive; LLM Zoomcamp covers the more relevant LLMOps material.",
+      "url": "https://github.com/DataTalksClub/mlops-zoomcamp",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Microsoft Azure AI Fundamentals Exam AI-900",
+      "provider": "Microsoft",
+      "reason": "Exam retired 30 June 2026; replaced by AI-901 (same credential) - recorded instead.",
+      "url": "https://techcommunity.microsoft.com/blog/skills-hub-blog/evolving-the-microsoft-certified-azure-ai-fundamentals-certification/4494127",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Microsoft Certified: Azure AI Engineer Associate (AI-102)",
+      "provider": "Microsoft",
+      "reason": "Exam and certification retired 30 June 2026; replaced by AI-103 / Azure AI Apps and Agents Developer Associate - recorded instead.",
+      "url": "https://learn.microsoft.com/en-us/answers/questions/6018370/request-for-clarification-on-ai-102-renewal-and-ai",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "AWS Certified Machine Learning Engineer - Associate (MLA-C01)",
+      "provider": "Amazon Web Services",
+      "reason": "English MLA-C01 exam last available 28 Sept 2026; replacement MLA-C02 is in beta (from 29 Sept 2026, USD 75) with GA reported for 14 Jan 2027 but listed TBD on the certification page. Re-evaluate once MLA-C02 is GA.",
+      "url": "https://aws.amazon.com/blogs/training-and-certification/updates-to-aws-certified-machine-learning-engineer-associate-mla-c02/",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Full Stack Deep Learning",
+      "provider": "Full Stack Deep Learning",
+      "reason": "No evidence of a current (2025-2026) course run or update; materially outdated for LLMOps.",
+      "url": "https://www.everydev.ai/tools/full-stack-deep-learning",
+      "reviewed_on": "2026-10-22"
+    },
+    {
+      "title": "Made With ML - MLOps Course",
+      "provider": "Made With ML (Goku Mohandas)",
+      "reason": "Could not verify content updates after 2023 or current cohort dates; classic MLOps with limited relevance to the executive.",
+      "url": "https://madewithml.com/courses/mlops/",
+      "reviewed_on": "2026-10-22"
+    }
+  ]
+}

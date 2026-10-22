@@ -1,0 +1,119 @@
+{
+  "title": "Suggested learning sequence",
+  "intro": "A sequence for an experienced senior executive in Ireland who wants to build credibility across AI transformation, strategy and advisory work, board-level governance, and practical implementation. It starts with low-cost literacy and a recognised governance credential, then moves to strategy, then hands-on building. Core steps cover all four objectives. Optional steps add depth or an alternative. Re-check dates and prices on the official page before enrolling.",
+  "stages": [
+    {
+      "name": "Shared vocabulary and executive framing",
+      "goal": "Build fluent, current understanding of generative AI and agents that you can use with boards and clients. About two to four weeks part-time.",
+      "steps": [
+        {
+          "id": "anthropic-ai-fluency-framework-foundations",
+          "why": "Free and short. Gives a practical framework for working with AI and for teaching teams to do so."
+        },
+        {
+          "id": "google-cloud-generative-ai-leader",
+          "why": "Low-cost, proctored, business-level certification. An external signal of generative AI literacy for leadership roles."
+        },
+        {
+          "id": "deeplearningai-generative-ai-for-everyone",
+          "optional": true,
+          "why": "A highly rated non-technical primer. Skip it if the first two steps feel comfortable."
+        }
+      ]
+    },
+    {
+      "name": "Governance, regulation and assurance",
+      "goal": "Gain a recognised AI governance credential that covers the EU AI Act and risk management. This is the strongest differentiator for board and advisory work in Ireland and the EU.",
+      "steps": [
+        {
+          "id": "coursera-oxford-ai-governance",
+          "why": "A highly rated, inexpensive overview of AI governance. It prepares you for the AIGP body of knowledge."
+        },
+        {
+          "id": "iapp-aigp",
+          "why": "Proctored professional certification from the IAPP, the main privacy and AI governance professional body. Directly relevant to board, risk and assurance roles.",
+          "extra_costs": [
+            {
+              "description": "AIGP exam fee, non-member (sold separately from training; IAPP candidate handbook)",
+              "amount": 799,
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "id": "pecb-iso42001-lead-implementer",
+          "optional": true,
+          "why": "Adds management-system skills (ISO/IEC 42001) if you expect to lead AI assurance programmes or audits."
+        },
+        {
+          "id": "oxford-sbs-ai-ethics-regulation-compliance",
+          "optional": true,
+          "why": "An alternative or complement to AIGP: a university-led programme on regulation and compliance with a strong institutional brand."
+        }
+      ]
+    },
+    {
+      "name": "Strategy, operating model and transformation",
+      "goal": "Structure AI strategy, business cases and operating-model change in a way you can apply to your own organisation or clients.",
+      "steps": [
+        {
+          "id": "mit-sloan-ai-implications-business-strategy",
+          "why": "Online executive programme with a verified fee and published weekly effort. Builds strategy and business-case framing."
+        },
+        {
+          "id": "imi-lead-in-ai",
+          "optional": true,
+          "why": "Dublin-based alternative. You build a strategy, roadmap and business case for your own organisation and join an Irish peer network. Check prerequisites; IMI suggests AI Build first."
+        },
+        {
+          "id": "ibm-generative-ai-for-sales-professionals",
+          "optional": true,
+          "why": "Low-cost practical view of generative AI in the sales cycle. Useful for commercial and partnership conversations."
+        }
+      ]
+    },
+    {
+      "name": "Hands-on implementation",
+      "goal": "Learn enough engineering to prototype, judge vendor claims and lead delivery teams credibly: Python, LLM application building, agents, RAG and evaluation.",
+      "steps": [
+        {
+          "id": "umich-python-for-everybody",
+          "optional": true,
+          "why": "Take this first if you do not already write Python. Most later steps assume it."
+        },
+        {
+          "id": "deeplearningai-generative-ai-with-llms",
+          "why": "Explains how LLMs are trained, fine-tuned and deployed. A highly rated technical foundation."
+        },
+        {
+          "id": "anthropic-building-with-claude-api",
+          "why": "Free, hands-on course in building applications with an LLM API, covering prompt engineering, prompt evaluation and tool use."
+        },
+        {
+          "id": "huggingface-ai-agents-course",
+          "why": "Free, project-based agents course with a certificate based on assessed work."
+        },
+        {
+          "id": "datatalksclub-llm-zoomcamp",
+          "why": "Free, project-based RAG and evaluation course. Join a live cohort if you want the certificate."
+        },
+        {
+          "id": "parlance-labs-ai-evals-engineers-pms",
+          "optional": true,
+          "why": "Highly rated, in-depth course on evaluating LLM products. Valuable if you will own AI product quality, but it is expensive."
+        },
+        {
+          "id": "aws-certified-ai-practitioner",
+          "optional": true,
+          "why": "Low-cost, proctored cloud credential if your clients or employer use AWS."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Order is a suggestion. Stages 2 and 4 can run in parallel if you prefer variety.",
+    "If you want an assessed university qualification instead of short courses, compare ucd-smurfit-diploma-ai-business-analytics (in person, NFQ Level 9) and atu-pgdip-big-data-analytics-ai (Springboard+ funded where eligible) in the catalogue.",
+    "Free audit options rarely include graded work or a certificate. Budget for a subscription if you want the credential.",
+    "No credential here guarantees employment or advancement. Pick steps that produce evidence you can show, such as a governance framework, business case or working prototype."
+  ]
+}
